@@ -12,5 +12,7 @@ class Player(models.Model):
     price = models.FloatField()
     gw_points = models.IntegerField()
     total_points = models.IntegerField()
+    selected_users = models.ManyToManyField('info.Info', related_name='selected_players')
+
     def __str__(self):
         return f'{self.name} - {self.price}'
