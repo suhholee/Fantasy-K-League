@@ -1,0 +1,122 @@
+[
+  {
+    "model": "teams.team",
+    "pk": 1,
+    "fields": {
+      "name": "Daegu FC",
+      "abb": "DG",
+      "shirt_image": "https://res.cloudinary.com/",
+      "next_match": "DCFC (H)"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 2,
+    "fields": {
+      "name": "Daejeon Citizen FC",
+      "abb": "DCFC",
+      "shirt_image": "https://res.cloudinary.com/",
+      "next_match": "DG (A)"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 3,
+    "fields": {
+      "name": "FC Seoul",
+      "abb": "FCS",
+      "shirt_image": "https://res.cloudinary.com/",
+      "next_match": "SWB (H)"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 4,
+    "fields": {
+      "name": "Gangwon FC",
+      "abb": "GWFC",
+      "shirt_image": "https://res.cloudinary.com/",
+      "next_match": "GJFC (A)"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 5,
+    "fields": {
+      "name": "Gwangju FC",
+      "abb": "GJFC",
+      "shirt_image": "https://res.cloudinary.com/",
+      "next_match": "GWFC (H)"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 6,
+    "fields": {
+      "name": "Incheon United",
+      "abb": "IU",
+      "shirt_image": "https://res.cloudinary.com/",
+      "next_match": "SWFC (H)"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 7,
+    "fields": {
+      "name": "Jeju United FC",
+      "abb": "JUFC",
+      "shirt_image": "https://res.cloudinary.com/",
+      "next_match": "JHM (H)"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 8,
+    "fields": {
+      "name": "Jeonbuk Hyundai",
+      "abb": "JHM",
+      "shirt_image": "https://res.cloudinary.com/",
+      "next_match": "JUFC (A)"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 9,
+    "fields": {
+      "name": "Pohang Steelers",
+      "abb": "PS",
+      "shirt_image": "https://res.cloudinary.com/",
+      "next_match": "UH (A)"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 10,
+    "fields": {
+      "name": "Suwon Bluewings",
+      "abb": "SWB",
+      "shirt_image": "https://res.cloudinary.com/",
+      "next_match": "FCS (A)"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 11,
+    "fields": {
+      "name": "Suwon FC",
+      "abb": "SWFC",
+      "shirt_image": "https://res.cloudinary.com/",
+      "next_match": "IH (A)"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 12,
+    "fields": {
+      "name": "Ulsan Hyundai",
+      "abb": "UH",
+      "shirt_image": "https://res.cloudinary.com/",
+      "next_match": "PS (H)"
+    }
+  }
+]

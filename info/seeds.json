@@ -1,0 +1,10 @@
+[
+{
+  "model": "info.info",
+  "pk": 3,
+  "fields": {
+    "user": 10,
+    "budget": 60.0
+  }
+}
+]
