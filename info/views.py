@@ -36,7 +36,7 @@ class InfoDetailView(APIView):
     @exceptions
     def put(self, request, pk):
         info = Info.objects.get(pk=pk)
-        serialized_info = PopulatedInfoSerializer(info, request.data, partial=True)
+        serialized_info = PopulatedInfoSerializer(info, data=request.data, partial=True)
         serialized_info.is_valid(raise_exception=True)
         serialized_info.save()
         return Response(serialized_info.data)

@@ -3,7 +3,7 @@
     "model": "players.Player",
     "pk": 1,
     "fields": {
-      "name": "Martin Ádám ",
+      "name": "Martin Ádám",
       "position": "FW",
       "team": 12,
       "price": 7,

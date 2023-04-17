@@ -3,6 +3,8 @@ from rest_framework.response import Response
 from rest_framework.exceptions import ValidationError, NotFound, PermissionDenied
 from django.core.exceptions import ImproperlyConfigured
 from rest_framework import status
+from players.models import Player
+from info.models import Info
 from django.contrib.auth import get_user_model
 User = get_user_model()
 
@@ -16,7 +18,7 @@ def exceptions(func):
             print(e.__class__.__name__)
             print(e)
             return Response({ 'detail': 'Unauthorized' }, status.HTTP_403_FORBIDDEN)
-        except (NotFound) as e:
+        except (NotFound, Player.DoesNotExist, Info.DoesNotExist) as e:
             print(e.__class__.__name__)
             print(e)
             return Response(e.__dict__ if e.__dict__ else { 'detail': str(e) }, status=status.HTTP_404_NOT_FOUND)
