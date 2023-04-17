@@ -305,7 +305,7 @@
     "fields": {
       "name": "Jung Jaeyun",
       "position": "FW",
-      "team": 12,
+      "team": 11,
       "price": 5,
       "gw_points": 1,
       "total_points": 2
@@ -353,7 +353,7 @@
     "fields": {
       "name": "Kim Hyun",
       "position": "FW",
-      "team": 12,
+      "team": 11,
       "price": 6,
       "gw_points": 0,
       "total_points": 1
@@ -413,7 +413,7 @@
     "fields": {
       "name": "Lars Veldwijk",
       "position": "FW",
-      "team": 12,
+      "team": 11,
       "price": 7.8,
       "gw_points": 6,
       "total_points": 34
@@ -437,7 +437,7 @@
     "fields": {
       "name": "Lee Daegwang",
       "position": "FW",
-      "team": 12,
+      "team": 11,
       "price": 5.1,
       "gw_points": 0,
       "total_points": 4
@@ -917,7 +917,7 @@
     "fields": {
       "name": "Hwang Soonmin",
       "position": "MF",
-      "team": 12,
+      "team": 11,
       "price": 5.1,
       "gw_points": 0,
       "total_points": 6
@@ -941,7 +941,7 @@
     "fields": {
       "name": "Jang Jaewoong",
       "position": "MF",
-      "team": 12,
+      "team": 11,
       "price": 5.1,
       "gw_points": 1,
       "total_points": 7
@@ -1193,7 +1193,7 @@
     "fields": {
       "name": "Kim Gyuhyeong",
       "position": "MF",
-      "team": 12,
+      "team": 11,
       "price": 5,
       "gw_points": 0,
       "total_points": 3
@@ -1337,7 +1337,7 @@
     "fields": {
       "name": "Kim Sun-min",
       "position": "MF",
-      "team": 12,
+      "team": 11,
       "price": 5,
       "gw_points": 1,
       "total_points": 2
@@ -1457,7 +1457,7 @@
     "fields": {
       "name": "Lee Gwang-hyuk",
       "position": "MF",
-      "team": 12,
+      "team": 11,
       "price": 5.6,
       "gw_points": 2,
       "total_points": 21
@@ -1589,7 +1589,7 @@
     "fields": {
       "name": "Lee Seung-woo",
       "position": "MF",
-      "team": 12,
+      "team": 11,
       "price": 7.5,
       "gw_points": 2,
       "total_points": 3
@@ -1757,7 +1757,7 @@
     "fields": {
       "name": "Murilo Henrique",
       "position": "MF",
-      "team": 12,
+      "team": 11,
       "price": 6.8,
       "gw_points": 2,
       "total_points": 25
@@ -1805,7 +1805,7 @@
     "fields": {
       "name": "Oh In-pyo",
       "position": "MF",
-      "team": 12,
+      "team": 11,
       "price": 5.1,
       "gw_points": 1,
       "total_points": 12
@@ -1841,7 +1841,7 @@
     "fields": {
       "name": "Park Joo-ho",
       "position": "MF",
-      "team": 12,
+      "team": 11,
       "price": 5.2,
       "gw_points": 1,
       "total_points": 5
@@ -2021,7 +2021,7 @@
     "fields": {
       "name": "Yoon Bit-garam",
       "position": "MF",
-      "team": 12,
+      "team": 11,
       "price": 5.8,
       "gw_points": 2,
       "total_points": 19
@@ -2345,7 +2345,7 @@
     "fields": {
       "name": "Jeong Dong-ho",
       "position": "DF",
-      "team": 12,
+      "team": 11,
       "price": 4,
       "gw_points": 5,
       "total_points": 8
@@ -2465,7 +2465,7 @@
     "fields": {
       "name": "Kim Hyun-hun",
       "position": "DF",
-      "team": 12,
+      "team": 11,
       "price": 4.2,
       "gw_points": 0,
       "total_points": 4
@@ -2717,7 +2717,7 @@
     "fields": {
       "name": "Lachlan Jackson",
       "position": "DF",
-      "team": 12,
+      "team": 11,
       "price": 5,
       "gw_points": 1,
       "total_points": 6
@@ -2729,7 +2729,7 @@
     "fields": {
       "name": "Lee Jae-sung",
       "position": "DF",
-      "team": 12,
+      "team": 11,
       "price": 4.4,
       "gw_points": 6,
       "total_points": 12
@@ -2801,7 +2801,7 @@
     "fields": {
       "name": "Lee Yong",
       "position": "DF",
-      "team": 12,
+      "team": 11,
       "price": 5.2,
       "gw_points": 6,
       "total_points": 21
@@ -2885,7 +2885,7 @@
     "fields": {
       "name": "Park Byunghyun",
       "position": "DF",
-      "team": 12,
+      "team": 11,
       "price": 4.3,
       "gw_points": 0,
       "total_points": 9
@@ -2909,7 +2909,7 @@
     "fields": {
       "name": "Park Cheolwoo",
       "position": "DF",
-      "team": 12,
+      "team": 11,
       "price": 4.4,
       "gw_points": 0,
       "total_points": 8
@@ -3017,7 +3017,7 @@
     "fields": {
       "name": "Shin Se-gye",
       "position": "DF",
-      "team": 12,
+      "team": 11,
       "price": 4.5,
       "gw_points": 6,
       "total_points": 17
@@ -3175,8 +3175,8 @@
       "position": "GK",
       "team": 8,
       "price": 4.5,
-      "gw_points": 2,
-      "total_points": 10
+      "gw_points": 3,
+      "total_points": 11
     }
   },
   {
@@ -3197,7 +3197,7 @@
     "fields": {
       "name": "Lee Bum-young",
       "position": "GK",
-      "team": 12,
+      "team": 11,
       "price": 5,
       "gw_points": 0,
       "total_points": 15
@@ -3211,8 +3211,8 @@
       "position": "GK",
       "team": 2,
       "price": 4.6,
-      "gw_points": 2,
-      "total_points": 24
+      "gw_points": 4,
+      "total_points": 26
     }
   },
   {
@@ -3233,10 +3233,10 @@
     "fields": {
       "name": "No Dong-geon",
       "position": "GK",
-      "team": 12,
+      "team": 11,
       "price": 4.4,
-      "gw_points": 6,
-      "total_points": 20
+      "gw_points": 7,
+      "total_points": 21
     }
   },
   {
@@ -3247,8 +3247,8 @@
       "position": "GK",
       "team": 1,
       "price": 5,
-      "gw_points": 1,
-      "total_points": 19
+      "gw_points": 3,
+      "total_points": 21
     }
   },
   {
@@ -3355,8 +3355,8 @@
       "position": "GK",
       "team": 1,
       "price": 4,
-      "gw_points": 1,
-      "total_points": 1
+      "gw_points": 0,
+      "total_points": 0
     }
   },
   {

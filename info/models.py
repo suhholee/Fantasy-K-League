@@ -8,4 +8,6 @@ class Info(models.Model):
         on_delete=models.CASCADE, 
         related_name='info'
     )
-    budget = models.FloatField(default=60)
+    budget = models.FloatField(default=65)
+    gw_points = models.IntegerField(default=0)
+    total_points = models.IntegerField(default=0)
