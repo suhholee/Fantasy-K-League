@@ -24,7 +24,7 @@ class RegisterView(APIView):
         user_to_add.is_valid(raise_exception=True)
         user = user_to_add.save()
 
-        info = Info(user=user, budget=60)
+        info = Info(user=user, budget=65)
         info.save()
 
         return Response(user_to_add.data, status.HTTP_201_CREATED)

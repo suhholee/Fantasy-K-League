@@ -1,7 +1,6 @@
 from .common import InfoSerializer
 from players.models import Player
 from players.serializers.populated import PopulatedPlayerSerializer
-from rest_framework.response import Response
 from collections import Counter
 
 class PopulatedInfoSerializer(InfoSerializer):
@@ -43,3 +42,4 @@ class PopulatedInfoSerializer(InfoSerializer):
 
         instance.save()
         return instance
+

@@ -6,7 +6,7 @@ from django.core.validators import URLValidator
 class Team(models.Model):
     name = models.CharField(max_length=100)
     abb = models.CharField(max_length=4)
-    shirt_image = models.URLField(validators=[URLValidator()])
+    logo = models.URLField(validators=[URLValidator()])
     next_match = models.CharField(max_length=8)
 
     def __str__(self):
