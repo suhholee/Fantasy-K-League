@@ -22,12 +22,7 @@
   },
   "rules": {
     "brace-style": "error",
-    "camelcase": [
-      "error",
-      {
-        "properties": "never"
-      }
-    ],
+    "camelcase": "off",
     "func-call-spacing": [
       "error",
       "never"
@@ -86,6 +81,6 @@
     "react/prop-types": [
       0
     ],
-    "no-unused-vars": 0
+    "no-unused-vars": 0,
   }
 }

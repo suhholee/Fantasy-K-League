@@ -1,0 +1,11 @@
+$light-red:	rgb(238, 50, 36);
+$red: rgb(157, 10, 15);
+$light-blue: rgb(0, 103, 172);
+$blue: rgb(0, 28, 72);
+$grey: rgb(198, 200, 202);
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

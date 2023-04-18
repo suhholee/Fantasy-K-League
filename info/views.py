@@ -24,7 +24,7 @@ class InfoDetailView(APIView):
     permission_classes = (IsAuthenticated,)
 
     # GET SINGLE INFO
-    # Endpoint: GET /api/info/:pk/
+    # Endpoint: GET /api/info/:userId/
     @exceptions
     def get(self, request, user):
         info = Info.objects.get(user=user)
@@ -32,10 +32,11 @@ class InfoDetailView(APIView):
         return Response(serialized_info.data)
     
     # PUT SINGLE INFO
-    # Endpoint: PUT /api/info/:pk
+    # Endpoint: PUT /api/info/:userId/
     @exceptions
     def put(self, request, user):
         info = Info.objects.get(user=user)
+        print(request.data)
         serialized_info = PopulatedInfoSerializer(info, data=request.data, partial=True)
         serialized_info.is_valid(raise_exception=True)
         serialized_info.save()

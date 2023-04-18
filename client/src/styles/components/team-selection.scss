@@ -1,0 +1,40 @@
+.team-selection {
+  @extend %flex-center;
+  flex-direction: column;
+
+  .team-selection-container {
+    @extend %flex-center;
+    align-items: flex-start;
+
+    .selection-container {
+      @extend %flex-center;
+      flex-direction: column;
+      width: 70vw;
+
+      .formation {
+        width: 100%;
+
+        .selected_player {
+          @extend %flex-center;
+          justify-content: space-between;
+        }
+      }
+    }
+
+    .players-container {
+      .player-table {
+        width: 30vw;
+
+        td {
+          cursor: pointer;
+        }
+
+        .logo {
+          max-width: 30px;
+          width: calc(2rem + 6vw);
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}

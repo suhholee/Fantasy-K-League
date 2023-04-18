@@ -15,22 +15,25 @@ class PopulatedInfoSerializer(InfoSerializer):
         # position_counts = Counter(existing_player.position for existing_player in existing_players)
 
         # When there is players in the selected_players list
-        for existing_player in existing_players:
-            if existing_player.id in [player_data['id'] for player_data in players_data] and existing_players:
-                instance.selected_players.remove(existing_player)
-                instance.budget = round(instance.budget + existing_player.price, 1)
-            else:
-                for player_data in players_data:
-                    player_id = player_data.get('id')
-                    player = Player.objects.get(id=player_id)
-
-                    if instance.budget - player.price < 0 or team_counts[player.team.name] == 3 or len(existing_players) == 11: 
-                    # or position_counts['FW'] == 2 or position_counts['MF'] == 4 or position_counts['DF'] == 4 or position_counts['GK'] == 1:
-                        instance.budget = round(instance.budget, 1)
-                        continue
+        if existing_players:
+            for player_data in players_data:
+                player_id = player_data.get('id')
+                player = Player.objects.get(id=player_id)
+                if instance.budget - player.price >= 0:
+                    if player in existing_players:
+                        instance.selected_players.remove(player)
+                        instance.budget = round(instance.budget + player.price, 1)
                     else:
                         instance.selected_players.add(player)
                         instance.budget = round(instance.budget - player.price, 1)
+                elif instance.budget - player.price < 0:
+                    if player in existing_players:
+                        instance.selected_players.remove(player)
+                        instance.budget = round(instance.budget + player.price, 1)
+                    else:
+                        continue
+                elif team_counts[player.team.name] == 3 or len(existing_players) == 11:
+                    continue
 
         # When the list is empty, add the player straight in
         if not existing_players:
