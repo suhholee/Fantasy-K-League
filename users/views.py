@@ -23,11 +23,14 @@ class RegisterView(APIView):
         user_to_add = UserSerializer(data=request.data)
         user_to_add.is_valid(raise_exception=True)
         user = user_to_add.save()
+        dt = datetime.now() + timedelta(days=28)
+        token = jwt.encode({ 'sub':  user.id, 'exp': int(dt.strftime('%s')) }, settings.SECRET_KEY, algorithm='HS256')
+        print('TOKEN ->', token)
 
         info = Info(user=user, budget=65)
         info.save()
 
-        return Response(user_to_add.data, status.HTTP_201_CREATED)
+        return Response({ 'data': user_to_add.data, 'token': token}, status.HTTP_201_CREATED)
     
 
 class LoginView(APIView):
@@ -42,7 +45,7 @@ class LoginView(APIView):
         if not user_to_login.check_password(password):
             print('PASSWORDS DONT MATCH')
             raise PermissionDenied('Unauthorized')
-        dt = datetime.now() + timedelta(days=7)
+        dt = datetime.now() + timedelta(days=28)
         token = jwt.encode({ 'sub':  user_to_login.id, 'exp': int(dt.strftime('%s')) }, settings.SECRET_KEY, algorithm='HS256')
         print('TOKEN ->', token)
         return Response({ 'message': f"Welcome back, {user_to_login.username}", 'token': token })

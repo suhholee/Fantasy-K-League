@@ -3,5 +3,5 @@ from .views import InfoListView, InfoDetailView
 
 urlpatterns = [
     path('', InfoListView.as_view()),
-    path('<int:pk>/', InfoDetailView.as_view())
+    path('<int:user>/', InfoDetailView.as_view())
 ]

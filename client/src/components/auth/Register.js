@@ -7,6 +7,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+// Components
+import { loggedInUser } from '../../helpers/auth'
+
 const Register = () => {
 
   // ! Location variables
@@ -32,7 +35,9 @@ const Register = () => {
     e.preventDefault()
     try {
       const { data } = await axios.post('/api/auth/register/', formFields)
-      navigate('/teamselection')
+      console.log(data)
+      localStorage.setItem('Fantasy-K-League', data.token)
+      navigate(`/teamselection/${data.data.id}`)
     } catch (err) {
       console.log(err.response.request.responseText)
       const errorMessage = err.response.request.responseText.replace('{"detail":{"non_field_errors":["', '').replace('"]}}', '').replace('{"detail":{"username":["', '')

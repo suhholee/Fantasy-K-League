@@ -4,9 +4,12 @@ from rest_framework.response import Response
 from .models import Player
 from .serializers.populated import PopulatedPlayerSerializer
 
+from rest_framework.permissions import IsAuthenticated
+
 from lib.exceptions import exceptions
 
 class PlayerListView(APIView):
+    permission_classes = (IsAuthenticated,)
     
     @exceptions
     def get(self, request):
