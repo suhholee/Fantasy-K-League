@@ -9,3 +9,9 @@ $grey: rgb(198, 200, 202);
   justify-content: center;
   align-items: center;
 }
+
+%background-center {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -23,6 +23,8 @@ const TeamSelection = ({ getUserInfo }) => {
   const [playersError, setPlayersError] = useState('')
   const [showModal, setShowModal] = useState(false)
   const [selectedPosition, setSelectedPosition] = useState('')
+  const [sortOrder, setSortOrder] = useState(1)
+  const [sortField, setSortField] = useState('price')
 
   // ! On Mount
   const getInfo = useCallback(async () => {
@@ -87,6 +89,24 @@ const TeamSelection = ({ getUserInfo }) => {
     }
   }
 
+  const togglePrice = () => {
+    if (sortField === 'price') {
+      setSortOrder(sortOrder * -1)
+    } else {
+      setSortField('price')
+      setSortOrder(-1)
+    }
+  }
+
+  const togglePoints = () => {
+    if (sortField === 'total_points') {
+      setSortOrder(sortOrder * -1)
+    } else {
+      setSortField('total_points')
+      setSortOrder(-1)
+    }
+  }
+
   return (
     <main className='team-selection'>
       <h1>Select Your Team</h1>
@@ -113,37 +133,46 @@ const TeamSelection = ({ getUserInfo }) => {
                       <tr className='text-center'>
                         <th>Player</th>
                         <th>Position</th>
-                        <th>Price</th>
-                        <th>Total Points</th>
+                        <th className='price' onClick={togglePrice}>Price<img className='toggle-arrow' src='https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681893221/shirts/toggle_arrow_v2ejm3.png' /></th>
+                        <th className='points' onClick={togglePoints}>Total Points<img className='toggle-arrow' src='https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681893221/shirts/toggle_arrow_v2ejm3.png' /></th>
                       </tr>
                     </thead>
                     {/* Body */}
-                    {players.sort((a, b) => a.price < b.price ? 1 : -1).filter((player) => player.position === selectedPosition).map(player => {
-                      const { id, name, position, price, total_points, team: { logo: logo } } = player
-                      if (selectedPlayers.some(selectedPlayer => selectedPlayer.id === player.id)) {
-                        return (
-                          <tbody key={id}>
-                            <tr className='text-center selected' value={id} onClick={() => selectPlayer(player)}>
-                              <td className='text-start'><img className='logo' src={logo}></img>{name}</td>
-                              <td>{position}</td>
-                              <td>{price}</td>
-                              <td>{total_points}</td>
-                            </tr>
-                          </tbody>
-                        )
-                      } else {
-                        return (
-                          <tbody key={id}>
-                            <tr className='text-center' value={id} onClick={() => selectPlayer(player)}>
-                              <td className='text-start name'><img className='logo' src={logo}></img>{name}</td>
-                              <td>{position}</td>
-                              <td>{price}</td>
-                              <td>{total_points}</td>
-                            </tr>
-                          </tbody>
-                        )
-                      }
-                    })}
+                    {players.filter((player) => player.position === selectedPosition)
+                      .sort((a, b) => {
+                        if (sortField === 'price') {
+                          return (b.price - a.price) * sortOrder
+                        } else if (sortField === 'total_points') {
+                          return (b.total_points - a.total_points) * sortOrder
+                        }
+                        return 0
+                      })
+                      .map(player => {
+                        const { id, name, position, price, total_points, team: { logo: logo } } = player
+                        if (selectedPlayers.some(selectedPlayer => selectedPlayer.id === player.id)) {
+                          return (
+                            <tbody key={id}>
+                              <tr className='text-center selected' value={id} onClick={() => selectPlayer(player)}>
+                                <td className='text-start'><img className='logo' src={logo}></img>{name}</td>
+                                <td>{position}</td>
+                                <td>{price}</td>
+                                <td>{total_points}</td>
+                              </tr>
+                            </tbody>
+                          )
+                        } else {
+                          return (
+                            <tbody key={id}>
+                              <tr className='text-center' value={id} onClick={() => selectPlayer(player)}>
+                                <td className='text-start name'><img className='logo' src={logo}></img>{name}</td>
+                                <td>{position}</td>
+                                <td>{price}</td>
+                                <td>{total_points}</td>
+                              </tr>
+                            </tbody>
+                          )
+                        }
+                      })}
                   </Table>
                 </>
                 :
@@ -169,12 +198,12 @@ const TeamSelection = ({ getUserInfo }) => {
                       {selectedPlayers
                         .filter(player => player.position === position)
                         .map(player => {
-                          const { id, name, position, team: { team: teamName, logo, next_match } } = player
+                          const { id, name, team: { team: teamName, logo, next_match } } = player
                           return (
                             <div key={id} className='player-single'>
                               <img className='logo' src={logo} alt={`${teamName}`} />
-                              <p>{name}</p>
-                              <p>{next_match}</p>
+                              <p className='name'>{name}</p>
+                              <p className='next-match'>{next_match}</p>
                             </div>
                           )
                         })}
