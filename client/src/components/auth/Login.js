@@ -7,6 +7,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+// Custom Components
+import { loggedInUser } from '../../helpers/auth'
+
 const Login = () => {
 
   // ! Location variables
@@ -31,7 +34,7 @@ const Login = () => {
       const { data } = await axios.post('/api/auth/login/', formFields)
       localStorage.setItem('Fantasy-K-League', data.token)
       console.log(data)
-      navigate('/myteam')
+      navigate(`/myteam/${loggedInUser}`)
     } catch (err) {
       console.log(err.message)
       setLoginError('Invalid Email or Password. Try again.')

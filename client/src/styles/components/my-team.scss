@@ -1,0 +1,66 @@
+.my-team {
+  @extend %flex-center;
+  flex-direction: column;
+
+  .selected-container {
+    @extend %flex-center;
+    flex-direction: column;
+
+    .selected-player {
+      @extend %flex-center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1000px;
+      height: 1000px;
+      padding: 30px 0;
+      background-image: url('../../images/field.jpeg');
+      @extend %background-center;
+      border-radius: 8px;
+
+      .position-players {
+        @extend %flex-center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 1000px;
+      }
+
+      .player-single {
+        @extend %flex-center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        text-align: center;
+
+        .logo {
+          max-width: 80px;
+          max-height: 80px;
+          margin-bottom: 10px;
+        }
+
+        .name {
+          background-color: $blue;
+          color: white;
+          width: 10vw;
+          margin-bottom: 0;
+          font-weight: bold;
+        }
+
+        .gw-points {
+          background-color: $light-blue;
+          color: white;
+          width: 10vw;
+          margin-bottom: 0;
+          font-weight: bold;
+        }
+
+        .next-match {
+          background-color: $grey;
+          font-weight: bold;
+          width: 10vw;
+        }
+
+      }
+    }
+  }
+}

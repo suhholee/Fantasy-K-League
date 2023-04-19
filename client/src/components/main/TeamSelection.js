@@ -112,13 +112,16 @@ const TeamSelection = ({ getUserInfo }) => {
       <h1>Select Your Team</h1>
       <h4>Budget: {info.budget}m</h4>
       <p>You are allowed to select 11 players: 1 goalkeeper, max 5 defenders, max 5 midfielders, and max 3 forwards within the budget.</p>
-      <p>No more than three players are allowed to be in the same team.</p>
+      <p>No more than 3 players are allowed to be in the same team.</p>
+      <p>If you want to undo a selection, remove a player first by clicking on the player in the player list pop-up, then add a new player to your team.</p>
       <div className='container'>
         <div className='player-selection'>
-          {positions.map((position, i) => (
-            <Button key={i} value={position} onClick={() => handlePositionClick(position)}>Select {position}</Button>
-          ))}
-          <Modal show={showModal} onHide={handleClose}>
+          <div className='select-buttons'>
+            {positions.map((position, i) => (
+              <Button key={i} className='modal-button' value={position} onClick={() => handlePositionClick(position)}>Select {position}</Button>
+            ))}
+          </div>
+          <Modal show={showModal} onHide={handleClose} className='pop-up'>
             <Modal.Header closeButton className='custom-modal'>
               <Modal.Title>{selectedPosition}</Modal.Title>
             </Modal.Header>
@@ -135,6 +138,7 @@ const TeamSelection = ({ getUserInfo }) => {
                         <th>Position</th>
                         <th className='price' onClick={togglePrice}>Price<img className='toggle-arrow' src='https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681893221/shirts/toggle_arrow_v2ejm3.png' /></th>
                         <th className='points' onClick={togglePoints}>Total Points<img className='toggle-arrow' src='https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681893221/shirts/toggle_arrow_v2ejm3.png' /></th>
+                        <th>Next Match</th>
                       </tr>
                     </thead>
                     {/* Body */}
@@ -148,7 +152,7 @@ const TeamSelection = ({ getUserInfo }) => {
                         return 0
                       })
                       .map(player => {
-                        const { id, name, position, price, total_points, team: { logo: logo } } = player
+                        const { id, name, position, price, total_points, team: { logo, next_match } } = player
                         if (selectedPlayers.some(selectedPlayer => selectedPlayer.id === player.id)) {
                           return (
                             <tbody key={id}>
@@ -157,6 +161,7 @@ const TeamSelection = ({ getUserInfo }) => {
                                 <td>{position}</td>
                                 <td>{price}</td>
                                 <td>{total_points}</td>
+                                <td>{next_match}</td>
                               </tr>
                             </tbody>
                           )
@@ -168,6 +173,7 @@ const TeamSelection = ({ getUserInfo }) => {
                                 <td>{position}</td>
                                 <td>{price}</td>
                                 <td>{total_points}</td>
+                                <td>{next_match}</td>
                               </tr>
                             </tbody>
                           )
@@ -189,7 +195,6 @@ const TeamSelection = ({ getUserInfo }) => {
         </div>
         {info ?
           <Container className='selected-container'>
-            <h4>You have selected {selectedPlayers.length} players.</h4>
             <div className='selected-player'>
               {selectedPlayers &&
                 positions.map(position => {
