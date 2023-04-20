@@ -1,33 +1,21 @@
 .nav-bar {
-  background: linear-gradient(to bottom right, $blue, $red);
   position: relative;
   background-size: cover;
   z-index: 1;
   min-height: 100px;
-  color: white;
 }
 
 .container {
   max-width: 90vw;
 }
 
-.navbar {
-  --bs-navbar-brand-hover-color: rgba(255, 255, 255, 0.8);
-  --bs-navbar-color: rgba(255, 255, 255, 0.8);
-  --bs-navbar-active-color: rgba(255, 255, 255, 0.8);
-  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.8);
-  --bs-navbar-toggler-icon-bg: url('../../images/toggle.webp');
-  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.8);
-  --bs-navbar-toggler-border-radius: 0.800rem;
-}
-
 .navbar-home {
-  color: white;
+  color: $blue;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 36px;
   .navbar-logo {
-    height: 50px;
-    margin-right: 20px;
+    height: 80px;
+    margin-bottom: 3px;
   }
 }
 
@@ -36,11 +24,35 @@
 }
 
 .navbar-text a {
-  color: white;
+  color: $blue;
   font-size: 25px;
   font-weight: bold;
 }
 
 .navbar-link, .nav-item {
   margin: 0 20px 0 0;
+}
+
+@media (max-width: 576px) {
+  .navbar-home {
+    color: $blue;
+    font-weight: bold;
+    font-size: 20px;
+    .navbar-logo {
+      height: 40px;
+      margin-bottom: 3px;
+    }
+  }
+
+  .navbar-text a {
+    color: $blue;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .navbar-toggler {
+    .navbar-toggler-icon {
+      width: 20px;
+    }
+  }
 }

@@ -40,8 +40,16 @@ const MyTeam = ({ getUserInfo }) => {
   return (
     <main className='my-team'>
       <h1>My Team</h1>
-      <h2>Gameweek Points: {info.gw_points}</h2>
-      <h2>Total Points: {info.total_points}</h2>
+      <div className='points'>
+        <div className='points-section'>
+          <h3 className='point'>{info.gw_points}</h3>
+          <p>GW Points</p>
+        </div>
+        <div className='points-section'>
+          <h3 className='point'>{info.total_points}</h3>
+          <p>Total Points</p>
+        </div>
+      </div>
       {info ?
         <Container className='selected-container'>
           <div className='selected-player'>

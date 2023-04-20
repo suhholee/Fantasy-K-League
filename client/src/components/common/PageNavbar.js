@@ -21,7 +21,7 @@ const PageNavbar = () => {
       {!noNav.includes(location.pathname) &&
         <Navbar className='nav-bar' expand="md">
           <Container>
-            <Navbar.Brand to={`/myteam/${loggedInUser()}`} as={Link} className='navbar-home'><img src='https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681912719/shirts/kleague_white_siod3w.png' className='navbar-logo'/>FANTASY K-LEAGUE</Navbar.Brand>
+            <Navbar.Brand to={`/myteam/${loggedInUser()}`} as={Link} className='navbar-home'><img src='https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681917188/shirts/logo_40_b1ub3z.png' className='navbar-logo'/>FANTASY K-LEAGUE</Navbar.Brand>
             <Navbar.Toggle aria-controls="fantasy-nav" />
             <Navbar.Collapse id="fantasy-nav" className='justify-content-end'>
               <Nav className='navbar-text'>
