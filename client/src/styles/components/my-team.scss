@@ -158,7 +158,7 @@
     .selected-container {
       .selected-player {
         height: 60vh;
-        justify-content: center;
+        justify-content: space-around;
 
         .position-players {
           width: 556px;
@@ -226,24 +226,24 @@
     .selected-container {
 
       .selected-player {
-        height: 50vh;
+        height: 60vh;
         width: 95vw;
         background-image: url('../../images/field_mobile.png');
 
         .position-players {
-          width: 80vw;
+          width: 90vw;
 
           .player-single {
 
             .logo {
-              max-width: 20px;
+              max-width: 30px;
               margin: 0;
             }
 
             .name,
             .gw-points,
             .next-match {
-              width: 15vw;
+              width: 17vw;
               font-size: 8px;
             }
           }
