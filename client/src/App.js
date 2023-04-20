@@ -2,7 +2,6 @@ import { useEffect, useState, useCallback } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // Components
-import Home from './components/Home'
 import PageNavbar from './components/common/PageNavbar'
 import PageNotFound from './components/common/PageNotFound'
 import Register from './components/auth/Register'
@@ -13,9 +12,11 @@ import { authenticated, loggedInUser } from './helpers/auth'
 
 const App = () => {
 
+  // ! State
   const [ user, setUser ] = useState([])
   const [ userError, setUserError ] = useState('')
 
+  // ! On Mount
   const getUserInfo = useCallback(async () => {
     try {
       const { data } = await authenticated.get(`/api/info/${loggedInUser()}/`)
@@ -26,18 +27,13 @@ const App = () => {
     }
   }, [])
 
-  useEffect(() => {
-    getUserInfo()
-  }, [])
-
   return (
     <div className='site-wrapper'>
       <BrowserRouter>
         <PageNavbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
           <Route path="/teamselection/:id" element={<TeamSelection getUserInfo={getUserInfo} />} />
           <Route path="/myteam/:id" element={<MyTeam getUserInfo={getUserInfo} />} />
           {/* Below route is rendered when nothing matches */}

@@ -1,0 +1,239 @@
+.home {
+  background: linear-gradient(to bottom right, $blue, $red);
+  color: white;
+  @extend %flex-center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top-container {
+  @extend %flex-center;
+  flex-direction: column;
+  margin: 0 0 50px 0;
+
+  h1 {
+    font-size: 120px;
+    text-shadow: 0 0 5px $light-blue, 0 0 10px $light-blue, 0 0 15px $light-blue, 0 0 20px $light-blue;
+    margin-bottom: 20px;
+    .logo {
+      margin: 0 20px 30px 0;
+      max-width: 120px;
+    }
+  }
+
+  .form-page {
+    @extend %flex-center;
+    flex-direction: column;
+    font-family: $sub-font;
+    background-color: hsla(0, 0%, 100%, 1);
+    box-shadow: 8px 8px 8px rgb(0 0 0 / 60%);
+    color: black;
+    border-radius: 20px;
+    padding: 30px 200px 30px 200px;
+    max-width: 400px;
+    h3 {
+      font-family: $main-font;
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .inputs {
+      width: 300px;
+      height: 150px;
+      margin: 30px 0 15px 0;
+      .email, .password {
+        @extend %flex-center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+      }
+      input {
+        border: none;
+        border-bottom: 2px solid $grey;
+        width: 300px;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .btn {
+    font-family: $sub-font;
+    width: 100%;
+  }
+
+  .btn-primary {
+    --bs-btn-color: #fff;
+    background: linear-gradient(to bottom right, $light-red, $light-blue);
+    --bs-btn-border-color: black;
+
+    &:hover,
+    &:active {
+      background: linear-gradient(to bottom right, $blue, $red);
+      color: white;
+      border: 1px solid black;
+    }
+  }
+
+  p {
+    font-size: 20px;
+    font-family: $sub-font;
+  }
+
+  .home-button {
+    @extend %flex-center;
+    width: 400px;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.6);
+    p {
+      margin-right: 10px;
+    }
+    a {
+      color: $blue;
+    }
+  }
+}
+
+.teams {
+  @extend %flex-center;
+  width: 100%;
+  flex-wrap: wrap;
+
+  .team-logos {
+    text-align: center;
+    margin: 20px 30px 0 30px;
+
+    .team-logo {
+      max-width: 60px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .teams {
+    .team-logos {
+      margin: 20px 20px 0 20px;
+
+      .team-logo {
+        max-width: 60px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .top-container {
+    h1 {
+      font-size: 100px;
+    }
+  }
+
+  .teams {
+    .team-logos {
+      margin: 20px 40px 0 40px;
+
+      .team-logo {
+        max-width: 60px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .top-container {
+    h1 {
+      font-size: 90px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .teams {
+    .team-logos {
+      margin: 20px 30px 0 30px;
+
+      .team-logo {
+        max-width: 55px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .top-container {
+    h1 {
+      font-size: 80px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .teams {
+    .team-logos {
+      margin: 20px 30px 0 30px;
+
+      .team-logo {
+        max-width: 50px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .top-container {
+    h1 {
+      font-size: 70px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .teams {
+    .team-logos {
+      margin: 20px 30px 0 30px;
+
+      .team-logo {
+        max-width: 45px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .top-container {
+    h1 {
+      font-size: 60px;
+
+      .logo {
+        margin: 0 20px 30px 0;
+        max-width: 60px;
+      }
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .teams {
+    .team-logos {
+      margin: 20px 30px 0 30px;
+
+      .team-logo {
+        max-width: 45px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
