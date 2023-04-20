@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import { Button } from 'react-bootstrap'
 
 const Register = () => {
 
@@ -19,7 +20,7 @@ const Register = () => {
     password: '',
     password_confirmation: '',
   })
-  const [ registerError, setRegisterError ] = useState('')
+  const [registerError, setRegisterError] = useState('')
 
   // ! Executions
 
@@ -43,28 +44,38 @@ const Register = () => {
   }
 
   return (
-    <main className='form-page text-center'>
-      <Container>
-        <Row>
-          <Col as='form' xs={{ span: 10, offset: 1 }} md={{ span: 6, offset: 3 }} lg={{ span: 4, offset: 4 }} onSubmit={handleSubmit} >
-            <h1>Register to Play</h1>
-            {/* Username */}
-            <label htmlFor='username'>Username</label>
-            <input type='text' name='username' placeholder='Username' onChange={handleChange} value={formFields.username}/>
-            {/* Email */}
-            <label htmlFor='email'>Email</label>
-            <input type='text' name='email' placeholder='Email' onChange={handleChange} value={formFields.email}/>
-            {/* Password */}
-            <label htmlFor='password'>Password</label>
-            <input type='password' name='password' placeholder='Password' onChange={handleChange} value={formFields.password}/>
-            {/* Password Confirmation */}
-            <label htmlFor='password_confirmation'>Password Confirmation</label>
-            <input type='password' name='password_confirmation' placeholder='Password Confirmation' onChange={handleChange} value={formFields.password_confirmation}/>
-            <button className='btn btn-primary'>To Team Selection →</button>
+    <main className='home'>
+      <div className='top-container'>
+        <div className='form-page-register'>
+          <Col as='form'>
+            <h3 className='login-register-header'>Sign Up</h3>
+            <div className='inputs'>
+              {/* Username */}
+              <div className='input-row'>
+                <label htmlFor='username'>Username</label>
+                <input type='text' name='username' placeholder='Type your username' onChange={handleChange} value={formFields.username} />
+              </div>
+              {/* Email */}
+              <div className='input-row'>
+                <label htmlFor='email'>Email</label>
+                <input type='text' name='email' placeholder='Type your email' onChange={handleChange} value={formFields.email} />
+              </div>
+              {/* Password */}
+              <div className='input-row'>
+                <label htmlFor='password'>Password</label>
+                <input type='password' name='password' placeholder='Type your password' onChange={handleChange} value={formFields.password} />
+              </div>
+              {/* Password Confirmation */}
+              <div className='input-row'>
+                <label htmlFor='password_confirmation'>Password Confirmation</label>
+                <input type='password' name='password_confirmation' placeholder='Confirm your password' onChange={handleChange} value={formFields.password_confirmation} />
+              </div>
+            </div>
+            <Button className='btn' onClick={handleSubmit}>Sign up and select your team ➡️</Button>
             {registerError && <p className='text-danger text-center'>{registerError}</p>}
           </Col>
-        </Row>
-      </Container>
+        </div>
+      </div>
     </main>
   )
 }

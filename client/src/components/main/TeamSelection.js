@@ -6,7 +6,7 @@ import { Container, Button, Modal, Table, Col, Card } from 'react-bootstrap'
 // Custom Components
 import Error from '../common/Error'
 import Spinner from '../common/Spinner'
-import { isAuthenticated, authenticated, loggedInUser } from '../../helpers/auth'
+import { isAuthenticated, authenticated, loggedInUser, cannotEnterTeamSelection } from '../../helpers/auth'
 
 const TeamSelection = ({ getUserInfo }) => {
 
@@ -41,6 +41,7 @@ const TeamSelection = ({ getUserInfo }) => {
 
   useEffect(() => {
     !isAuthenticated() && navigate('/')
+    cannotEnterTeamSelection() && navigate(`/myteam/${loggedInUser()}`)
     const getPlayers = async () => {
       try {
         const { data } = await authenticated.get('/api/players/')
@@ -86,6 +87,7 @@ const TeamSelection = ({ getUserInfo }) => {
   const handleSubmit = () => {
     if (selectedPlayers.length === 11) {
       navigate(`/myteam/${loggedInUser()}`)
+      localStorage.setItem('User', loggedInUser())
     }
   }
 
@@ -110,15 +112,20 @@ const TeamSelection = ({ getUserInfo }) => {
   return (
     <main className='team-selection'>
       <h1>Select Your Team</h1>
-      <h4>Budget: {info.budget}m</h4>
-      <p>You are allowed to select 11 players: 1 goalkeeper, max 5 defenders, max 5 midfielders, and max 3 forwards within the budget.</p>
-      <p>No more than 3 players are allowed to be in the same team.</p>
-      <p>If you want to undo a selection, remove a player first by clicking on the player in the player list pop-up, then add a new player to your team.</p>
+      <div className='how-to-play'>
+        <h4>How To Play</h4>
+        <ul>
+          <li>You are allowed to select 11 players: 1 GK, max 5 DFs, max 5 MFs, and max 3 FWs within the budget.</li>
+          <li>No more than 3 players are allowed to be in the same team.</li>
+          <li>If you want to undo a selection, remove a player first by clicking on the player in the player list pop-up, then add a new player to your team.</li>
+          <li>You cannot change your team after submittion, so please think it through!</li>
+        </ul>
+      </div>
       <div className='container'>
         <div className='player-selection'>
           <div className='select-buttons'>
             {positions.map((position, i) => (
-              <Button key={i} className='modal-button' value={position} onClick={() => handlePositionClick(position)}>Select {position}</Button>
+              <Button key={i} className={position} value={position} onClick={() => handlePositionClick(position)}>Select {position}</Button>
             ))}
           </div>
           <Modal show={showModal} onHide={handleClose} className='pop-up'>
@@ -128,7 +135,7 @@ const TeamSelection = ({ getUserInfo }) => {
             <Modal.Body>
               {players ?
                 <>
-                  <p className='howto'>Click the player to purchase.</p>
+                  <p className='howto'>Click the player to purchase.<br></br>Click again to deselect.</p>
                   <p className='howto'>Budget: {info.budget}m</p>
                   <Table hover className='player-table'>
                     {/* Headers */}
@@ -195,6 +202,13 @@ const TeamSelection = ({ getUserInfo }) => {
         </div>
         {info ?
           <Container className='selected-container'>
+            <div className='budget'>
+              <h4>Current Budget: {info.budget >= 10 ? 
+                <span className='current-budget'>{info.budget}m</span>
+                : info.budget < 10 && info.budget > 0 ? 
+                  <span className='almost-no-budget'>{info.budget}m</span>
+                  : <span className='no-budget'>{info.budget}m</span>}</h4>
+            </div>
             <div className='selected-player'>
               {selectedPlayers &&
                 positions.map(position => {
@@ -228,7 +242,7 @@ const TeamSelection = ({ getUserInfo }) => {
           </>
         }
       </div>
-      <Button onClick={handleSubmit}>Submit your team to play!</Button>
+      <Button className='submit-button' onClick={handleSubmit}>Submit your team to play!</Button>
     </main>
   )
 }

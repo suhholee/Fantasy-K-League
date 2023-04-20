@@ -29,7 +29,7 @@
     box-shadow: 8px 8px 8px rgb(0 0 0 / 60%);
     color: black;
     border-radius: 20px;
-    padding: 30px 200px 30px 200px;
+    padding: 30px 200px;
     max-width: 400px;
     h3 {
       font-family: $main-font;
@@ -41,7 +41,43 @@
       width: 300px;
       height: 150px;
       margin: 30px 0 15px 0;
-      .email, .password {
+      .input-row {
+        @extend %flex-center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+      }
+      input {
+        border: none;
+        border-bottom: 2px solid $grey;
+        width: 300px;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .form-page-register {
+    @extend %flex-center;
+    flex-direction: column;
+    font-family: $sub-font;
+    background-color: hsla(0, 0%, 100%, 1);
+    box-shadow: 8px 8px 8px rgb(0 0 0 / 60%);
+    color: black;
+    border-radius: 20px;
+    padding: 30px 200px 50px 200px;
+    max-width: 400px;
+    text-align: center;
+    h3 {
+      font-family: $main-font;
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .inputs {
+      width: 300px;
+      height: 350px;
+      margin: 30px 0 0 0;
+      .input-row {
         @extend %flex-center;
         flex-direction: column;
         align-items: flex-start;
@@ -68,7 +104,7 @@
 
     &:hover,
     &:active {
-      background: linear-gradient(to bottom right, $blue, $red);
+      background: linear-gradient(to bottom right, $red, $blue);
       color: white;
       border: 1px solid black;
     }
@@ -177,7 +213,7 @@
 
   .teams {
     .team-logos {
-      margin: 20px 30px 0 30px;
+      margin: 0 20px;
 
       .team-logo {
         max-width: 50px;
@@ -200,10 +236,10 @@
 
   .teams {
     .team-logos {
-      margin: 20px 30px 0 30px;
+      margin: 0 10px;
 
       .team-logo {
-        max-width: 45px;
+        max-width: 40px;
         margin-bottom: 20px;
       }
     }
@@ -216,8 +252,16 @@
       font-size: 60px;
 
       .logo {
-        margin: 0 20px 30px 0;
+        margin: 0 20px 20px 0;
         max-width: 60px;
+      }
+    }
+
+    .form-page, .form-page-register {
+      padding: 30px 140px 50px 140px;
+      max-width: 360px;
+      .btn {
+        margin-top: 20px;
       }
     }
 
@@ -228,10 +272,10 @@
 
   .teams {
     .team-logos {
-      margin: 20px 30px 0 30px;
+      margin: 0 10px;
 
       .team-logo {
-        max-width: 45px;
+        max-width: 30px;
         margin-bottom: 20px;
       }
     }

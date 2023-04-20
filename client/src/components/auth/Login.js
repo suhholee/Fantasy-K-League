@@ -50,8 +50,9 @@ const Login = () => {
     try {
       const { data } = await axios.post('/api/auth/login/', formFields)
       localStorage.setItem('Fantasy-K-League', data.token)
+      localStorage.setItem('User', loggedInUser())
       console.log(data)
-      navigate(`/myteam/${loggedInUser}`)
+      navigate(`/myteam/${loggedInUser()}`)
     } catch (err) {
       console.log(err.message)
       setLoginError('Invalid Email or Password. Try again.')
@@ -64,13 +65,13 @@ const Login = () => {
         <h1><img className='logo' src='https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681912719/shirts/kleague_white_siod3w.png' />FANTASY</h1>
         <div className="form-page text-center">
           <Col as="form">
-            <h3 className='login-header'>Login</h3>
+            <h3 className='login-register-header'>Login</h3>
             <div className='inputs'>
-              <div className='email'>
+              <div className='input-row'>
                 <label htmlFor="email">Email</label>
                 <input type="email" name="email" placeholder='Type your email' onChange={handleChange} value={formFields.email} />
               </div>
-              <div className='password'>
+              <div className='input-row'>
                 <label htmlFor="password">Password</label>
                 <input type="password" name="password" placeholder='Type your password' onChange={handleChange} value={formFields.password} />
               </div>

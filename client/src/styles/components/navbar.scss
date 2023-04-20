@@ -1,5 +1,5 @@
 .nav-bar {
-  background-image: url('../../images/navbar.png');
+  background: linear-gradient(to bottom right, $blue, $red);
   position: relative;
   background-size: cover;
   z-index: 1;

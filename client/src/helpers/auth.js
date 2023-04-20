@@ -2,6 +2,7 @@ import { Buffer } from 'buffer'
 import axios from 'axios'
 
 const tokenName = 'Fantasy-K-League'
+const userId = 'User'
 
 // ! Get token
 export const getPayload = () => {
@@ -22,6 +23,7 @@ export const isAuthenticated = () => {
 
 export const removeToken = () => {
   localStorage.removeItem(tokenName)
+  localStorage.removeItem(userId)
 }
 
 export const getToken = () => {
@@ -38,4 +40,13 @@ export const loggedInUser = () => {
   const payload = getPayload()
   if (!payload) return
   return payload.sub
+}
+
+export const cannotEnterTeamSelection = () => {
+  const id = localStorage.getItem(userId)
+  if (!id) return false
+  if (id === loggedInUser().toString()) {
+    console.log('false')
+    return true
+  }
 }
