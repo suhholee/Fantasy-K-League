@@ -37,6 +37,8 @@ const Login = () => {
       }
     }
     getTeams()
+    localStorage.setItem('Fantasy-K-League', '')
+    localStorage.setItem('User', '')
   }, [])
 
   // ! Executions

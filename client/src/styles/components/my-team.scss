@@ -1,33 +1,41 @@
 .my-team {
   @extend %flex-center;
   flex-direction: column;
-  background: linear-gradient(to bottom right, $blue, $red);
   color: white;
 
-  h1 {
-    font-size: 60px;
-    text-shadow: 0 0 5px $light-blue, 0 0 7px $light-blue, 0 0 9px $light-blue, 0 0 11px $light-blue;
-    margin-bottom: 20px;
-  }
-
-  .points {
+  .header {
+    background: linear-gradient(to bottom right, $blue, $red);
+    width: 100vw;
     @extend %flex-center;
-    width: 400px;
-    justify-content: space-around;
-
-    .points-section {
+    flex-direction: column;
+    padding: 1.5% 0;
+    margin-bottom: 30px;
+    h1 {
+      font-size: 60px;
+      text-shadow: 0 0 5px $light-blue, 0 0 7px $light-blue, 0 0 9px $light-blue, 0 0 11px $light-blue;
+      margin-bottom: 2%;
+    }
+  
+    .points {
       @extend %flex-center;
-      flex-direction: column;
-
-      .point {
-        background-color: rgb(100, 237, 100);
-        color: black;
-        padding: 20px 40px 20px 40px;
-        border-radius: 10px;
-        border: 3px solid white;
+      width: 400px;
+      justify-content: space-around;
+  
+      .points-section {
+        @extend %flex-center;
+        flex-direction: column;
+  
+        .point {
+          background-color: rgb(100, 237, 100);
+          color: black;
+          padding: 20px 40px 20px 40px;
+          border-radius: 10px;
+          border: 3px solid white;
+        }
       }
     }
   }
+
 
   .selected-container {
     @extend %flex-center;
@@ -118,8 +126,10 @@
 
 @media (max-width: 992px) {
   .my-team {
-    h1 {
-      font-size: 50px;
+    .header {
+      h1 {
+        font-size: 50px;
+      }
     }
 
     .selected-container {
@@ -153,8 +163,10 @@
 
 @media (max-width: 768px) {
   .my-team {
-    h1 {
-      font-size: 45px;
+    .header {
+      h1 {
+        font-size: 45px;
+      }
     }
 
     .selected-container {
@@ -186,9 +198,20 @@
 }
 
 @media (max-width: 576px) {
+
   .my-team {
-    h1 {
-      font-size: 40px;
+    .header {
+      h1 {
+        font-size: 40px;
+      }
+
+      .points {
+        width: 250px;
+        .points-section {
+          width: 100px;
+          font-size: 14px;
+        }
+      }
     }
 
     .selected-container {
@@ -219,10 +242,22 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 515px) {
   .my-team {
-    h1 {
-      font-size: 30px;
+    .header {
+      h1 {
+        font-size: 30px;
+      }
+      .points {
+        .points-section {
+          width: 60px;
+          font-size: 12px;
+          p {
+            width: 100px;
+            text-align: center;
+          }
+        }
+      }
     }
 
 

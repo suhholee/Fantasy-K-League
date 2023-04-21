@@ -1,4 +1,7 @@
 .home {
+  flex-grow: 1;
+  padding: 2em 0;
+  @extend %flex-center;
   background: linear-gradient(to bottom right, $blue, $red);
   color: white;
   @extend %flex-center;

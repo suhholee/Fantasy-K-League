@@ -9,12 +9,6 @@
   font-family: $main-font;
 }
 
-main {
-  flex-grow: 1;
-  padding: 2em 0;
-  @extend %flex-center;
-}
-
 .spinner {
   img {
     width: 30px;

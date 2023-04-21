@@ -14,7 +14,8 @@ const MyTeam = ({ getUserInfo }) => {
   // ! State
   const [info, setInfo] = useState([])
   const [selectedPlayers, setSelectedPlayers] = useState([])
-  const [infoError, setInfoError] = useState('')
+  const [userInfo, setUserInfo] = useState([])
+  const [infoError, setInfoError] = useState()
 
   // ! On Mount
   useEffect(() => {
@@ -24,10 +25,11 @@ const MyTeam = ({ getUserInfo }) => {
         const { data } = await authenticated.get(`/api/info/${loggedInUser()}/`)
         setInfo(data)
         setSelectedPlayers(data.selected_players)
+        setUserInfo(data.user)
         console.log(data)
       } catch (err) {
         console.log(err)
-        setInfoError(err.response.statusText)
+        setInfoError(err.data)
       }
     }
     getInfo()
@@ -36,15 +38,17 @@ const MyTeam = ({ getUserInfo }) => {
 
   return (
     <main className='my-team'>
-      <h1>My Team</h1>
-      <div className='points'>
-        <div className='points-section'>
-          <h3 className='point'>{info.gw_points}</h3>
-          <p>GW Points</p>
-        </div>
-        <div className='points-section'>
-          <h3 className='point'>{info.total_points}</h3>
-          <p>Total Points</p>
+      <div className='header'>
+        <h1>My Team - {userInfo.username}</h1>
+        <div className='points'>
+          <div className='points-section'>
+            <h3 className='point'>{info.gw_points}</h3>
+            <p>GW Points</p>
+          </div>
+          <div className='points-section'>
+            <h3 className='point'>{info.total_points}</h3>
+            <p>Total Points</p>
+          </div>
         </div>
       </div>
       <MyTeamPlayers info={info} selectedPlayers={selectedPlayers} infoError={infoError} />

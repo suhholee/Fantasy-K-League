@@ -40,7 +40,7 @@ const MyTeamPlayers = ({ info, selectedPlayers, infoError }) => {
         :
         <>
           {infoError ?
-            <Error error={infoError} />
+            <Error error={infoError.response.statusText} />
             :
             <Spinner />
           }

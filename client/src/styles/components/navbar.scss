@@ -37,11 +37,24 @@
   color: $red;
 }
 
+@media (max-width: 992px) {
+  .navbar-home {
+    color: $blue;
+    font-weight: bold;
+    font-size: 32px;
+    .navbar-logo {
+      height: 60px;
+      margin-bottom: 3px;
+    }
+  }
+
+}
+
 @media (max-width: 576px) {
   .navbar-home {
     color: $blue;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     .navbar-logo {
       height: 40px;
       margin-bottom: 3px;

@@ -42,7 +42,7 @@ const PlayerSelectModal = ({ positions, info, setInfo, selectedPlayers, setSelec
                 : info.budget < 10 && info.budget > 0 ?
                   <span className='almost-no-budget'>{info.budget}m</span>
                   : <span className='no-budget'>{info.budget}m</span>}</p>
-              {infoError && <p className='error'>Player Selection is {infoError}.</p>}
+              {infoError && <p className='error'>{infoError}: You have selected 3 players of the same team or reached the limit for each position.</p>}
             </>
             :
             <>
