@@ -7,6 +7,7 @@ import PageNotFound from './components/common/PageNotFound'
 import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 import TeamSelection from './components/main/TeamSelection'
+import Rankings from './components/main/Rankings'
 import MyTeam from './components/main/MyTeam'
 import { authenticated, loggedInUser } from './helpers/auth'
 
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/teamselection/:id" element={<TeamSelection getUserInfo={getUserInfo} />} />
           <Route path="/myteam/:id" element={<MyTeam getUserInfo={getUserInfo} />} />
+          <Route path="/rankings/:id" element={<Rankings getUserInfo={getUserInfo} />} />
           {/* Below route is rendered when nothing matches */}
           <Route path="*" element={<PageNotFound />} />
         </Routes>

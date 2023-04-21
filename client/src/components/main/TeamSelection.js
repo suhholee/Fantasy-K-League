@@ -44,7 +44,7 @@ const TeamSelection = ({ getUserInfo }) => {
         console.log(data)
       } catch (err) {
         console.log(err)
-        setPlayersError(err.responseText)
+        setPlayersError(err.response.statusText)
       }
     }
     getInfo()
@@ -73,7 +73,7 @@ const TeamSelection = ({ getUserInfo }) => {
         </ul>
       </div>
       <div className='container'>
-        <PlayerSelectModal positions={positions} info={info} setInfo={setInfo} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} getUserInfo={getUserInfo} setInfoError={setInfoError} players={players} playersError={playersError} />
+        <PlayerSelectModal positions={positions} info={info} setInfo={setInfo} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} getUserInfo={getUserInfo} infoError={infoError} setInfoError={setInfoError} players={players} playersError={playersError} />
         <SelectedPlayers info={info} selectedPlayers={selectedPlayers} positions={positions} infoError={infoError} />
       </div>
       <Button className='submit-button' onClick={handleSubmit}>Submit your team to play!</Button>

@@ -20,13 +20,14 @@ const PlayerTable = ({ players, setInfo, selectedPlayers, setSelectedPlayers, ge
       console.log(player)
       const { data } = await authenticated.put(`/api/info/${loggedInUser()}/`, updatedInfo)
       setInfo(data)
+      setInfoError('')
       setSelectedPlayers(data.selected_players)
-      console.log('SELECTED PLAYERS ->', data.selected_players)
+      console.log('Total data ->', data)
       getUserInfo()
       setShowModal(false)
     } catch (err) {
       console.log(err.response)
-      setInfoError(err.response.request.responseText)
+      setInfoError(err.response.statusText)
     }
   }
 

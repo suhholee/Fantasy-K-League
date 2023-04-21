@@ -1,0 +1,108 @@
+.rankings-container {
+  @extend %flex-center;
+  flex-direction: column;
+
+  .header {
+    background: linear-gradient(to bottom right, $blue, $red);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 15% 2% 10%;
+    width: 100vw;
+    h1 {
+      font-size: 70px;
+      color: white;
+      text-shadow: 0 0 5px $light-blue, 0 0 7px $light-blue, 0 0 9px $light-blue, 0 0 11px $light-blue;
+      font-family: $sub-font;
+      text-align: left;
+    }
+
+    .trophy {
+      width: 15vw;
+      height: 15.3vw;
+    }
+  }
+
+  .rankings-table {
+    margin-top: 30px;
+
+    .user {
+      background: linear-gradient(to right, $light-blue, $light-red);
+      color: white;
+      --bs-table-hover-color: white;
+    }
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .rankings-container {
+    .header {
+      h1 {
+        font-size: 60px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .rankings-container {
+    .header {
+      h1 {
+        font-size: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .rankings-container {
+    .header {
+      h1 {
+        font-size: 45px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .rankings-container {
+    .header {
+      h1 {
+        font-size: 36px;
+      }
+    }
+
+    .rankings-table {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .rankings-container {
+    .header {
+      h1 {
+        font-size: 32px;
+      }
+    }
+
+    .rankings-table {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .rankings-container {
+    .header {
+      h1 {
+        font-size: 28px;
+      }
+    }
+
+    .rankings-table {
+      font-size: 11px;
+    }
+  }
+}

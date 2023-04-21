@@ -6,7 +6,7 @@ import PlayerTable from './PlayerTable'
 import Error from '../common/Error'
 import Spinner from '../common/Spinner'
 
-const PlayerSelectModal = ({ positions, info, setInfo, selectedPlayers, setSelectedPlayers, getUserInfo, setInfoError, players, playersError }) => {
+const PlayerSelectModal = ({ positions, info, setInfo, selectedPlayers, setSelectedPlayers, getUserInfo, infoError, setInfoError, players, playersError }) => {
 
   // ! State
   const [selectedPosition, setSelectedPosition] = useState('')
@@ -21,7 +21,6 @@ const PlayerSelectModal = ({ positions, info, setInfo, selectedPlayers, setSelec
   const handleClose = () => {
     setShowModal(false)
   }
-
 
   return (
     <div className='player-selection'>
@@ -43,6 +42,7 @@ const PlayerSelectModal = ({ positions, info, setInfo, selectedPlayers, setSelec
                 : info.budget < 10 && info.budget > 0 ?
                   <span className='almost-no-budget'>{info.budget}m</span>
                   : <span className='no-budget'>{info.budget}m</span>}</p>
+              {infoError && <p className='error'>Player Selection is {infoError}.</p>}
             </>
             :
             <>

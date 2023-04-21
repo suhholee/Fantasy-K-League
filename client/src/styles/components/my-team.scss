@@ -14,9 +14,11 @@
     @extend %flex-center;
     width: 400px;
     justify-content: space-around;
+
     .points-section {
       @extend %flex-center;
       flex-direction: column;
+
       .point {
         background-color: rgb(100, 237, 100);
         color: black;
@@ -193,6 +195,7 @@
       .selected-player {
         height: 50vh;
         background-image: url('../../images/field_mobile.png');
+
         .position-players {
           width: 400px;
 
@@ -256,17 +259,29 @@
 }
 
 @media (max-width: 375px) {
-  .my-team .player-single .logo {
-    max-width: 10px;
-  }
+  .my-team {
+    .selected-container {
+      .selected-player {
+        .position-players {
+          .player-single {
+            .logo {
+              max-width: 10px;
+            }
 
-  .my-team .player-single .name,
-  .my-team .player-single .next-match,
-  .my-team .player-single .gw-points {
-    width: 10vw;
-  }
+            .name, .next-match, .gw-points {
+              width: 10vw;
+            }
 
-  .my-team .player-single .next-match {
-    margin-bottom: 0;
+            .next-match {
+              margin-bottom: 0;
+            }
+
+          }
+
+        }
+      }
+
+    }
+
   }
 }

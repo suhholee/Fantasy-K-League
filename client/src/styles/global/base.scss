@@ -13,12 +13,6 @@ main {
   flex-grow: 1;
   padding: 2em 0;
   @extend %flex-center;
-  h1 {
-    img {
-      max-width: 80px;
-      width: calc(2rem + 6vw);
-    }
-  }
 }
 
 .spinner {

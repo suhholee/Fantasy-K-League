@@ -32,8 +32,8 @@ const Login = () => {
         setTeams(data)
         console.log(data)
       } catch (err) {
-        console.log(err)
-        setTeamsError(err.responseText)
+        console.log(err.response.statusText)
+        setTeamsError(err.response.statusText)
       }
     }
     getTeams()
