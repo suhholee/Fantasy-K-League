@@ -16,8 +16,6 @@ def update_points():
         info.total_points += total_gw_points
         info.save()
 
-    Player.objects.update(gw_points=0)
-
 if __name__ == '__main__':
     update_points()
-    print("Points updated and reset successfully.")
+    print("Points updated successfully.")

@@ -40,6 +40,7 @@
   .selected-container {
     @extend %flex-center;
     flex-direction: column;
+    margin-bottom: 2%;
 
     .selected-player {
       @extend %flex-center;
