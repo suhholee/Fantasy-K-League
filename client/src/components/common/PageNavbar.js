@@ -7,9 +7,7 @@ const PageNavbar = () => {
 
   // ! Location variables
   const location = useLocation()
-  const noNav = ['/', '/login', '/register', `/teamselection/${loggedInUser()}`]
-
-  // ! On Mount
+  const noNav = ['/', '/register', `/teamselection/${loggedInUser()}`]
 
   // ! Executions
   const handleLogout = () => {
@@ -25,6 +23,7 @@ const PageNavbar = () => {
             <Navbar.Toggle aria-controls="fantasy-nav" />
             <Navbar.Collapse id="fantasy-nav" className='justify-content-end'>
               <Nav className='navbar-text'>
+                <Nav.Link to={`/myteam/${loggedInUser()}`} as={Link} className={location.pathname === `/myteam/${loggedInUser()}` ? 'active navbar-link border-bottom' : 'navbar-link'}>My Team</Nav.Link>
                 <Nav.Link to={`/rankings/${loggedInUser()}`} as={Link} className={location.pathname === `/rankings/${loggedInUser()}` ? 'active navbar-link border-bottom' : 'navbar-link'}>Rankings</Nav.Link>
                 <Nav.Link to="/" as={Link} onClick={handleLogout}>Logout</Nav.Link>
               </Nav>

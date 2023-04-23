@@ -6,6 +6,8 @@ import { Button } from 'react-bootstrap'
 import PlayerSelectModal from './PlayerSelectModal'
 import SelectedPlayers from './SelectedPlayers'
 import { isAuthenticated, authenticated, loggedInUser, cannotEnterTeamSelection } from '../../helpers/auth'
+import Error from '../common/Error'
+import Spinner from '../common/Spinner'
 
 const TeamSelection = ({ getUserInfo }) => {
 
@@ -15,8 +17,8 @@ const TeamSelection = ({ getUserInfo }) => {
   const positions = ['GK', 'DF', 'MF', 'FW']
 
   // ! State
-  const [info, setInfo] = useState([])
-  const [players, setPlayers] = useState([])
+  const [info, setInfo] = useState(null)
+  const [players, setPlayers] = useState(null)
   const [selectedPlayers, setSelectedPlayers] = useState([])
   const [infoError, setInfoError] = useState('')
   const [playersError, setPlayersError] = useState('')
@@ -29,8 +31,8 @@ const TeamSelection = ({ getUserInfo }) => {
       setSelectedPlayers(data.selected_players)
       console.log(data.selected_players)
     } catch (err) {
-      console.log(err)
-      setInfoError(err.responseText)
+      console.log(err.message)
+      setInfoError(err.message)
     }
   }, [userId])
 
@@ -61,23 +63,35 @@ const TeamSelection = ({ getUserInfo }) => {
   }
 
   return (
-    <main className='team-selection'>
-      <h1>Select Your Team</h1>
-      <div className='how-to-play'>
-        <h4>How To Play</h4>
-        <ul>
-          <li>You are allowed to select 11 players: 1 GK, max 5 DFs, max 5 MFs, and max 3 FWs within the budget.</li>
-          <li>No more than 3 players are allowed to be in the same team.</li>
-          <li>If you want to undo a selection, remove a player first by clicking on the player in the player list pop-up, then add a new player to your team.</li>
-          <li>You cannot change your team after submittion, so please think it through!</li>
-        </ul>
-      </div>
-      <div className='container'>
-        <PlayerSelectModal positions={positions} info={info} setInfo={setInfo} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} getUserInfo={getUserInfo} infoError={infoError} setInfoError={setInfoError} players={players} playersError={playersError} />
-        <SelectedPlayers info={info} selectedPlayers={selectedPlayers} positions={positions} infoError={infoError} />
-      </div>
-      <Button className='submit-button' onClick={handleSubmit}>Submit your team to play!</Button>
-    </main>
+    <>
+      {info ?
+        <main className='team-selection'>
+          <h1>Select Your Team</h1>
+          <div className='how-to-play'>
+            <h4>How To Play</h4>
+            <ul>
+              <li>You are allowed to select 11 players: 1 GK, max 5 DFs, max 5 MFs, and max 3 FWs within the budget.</li>
+              <li>No more than 3 players are allowed to be in the same team.</li>
+              <li>If you want to undo a selection, remove a player first by clicking on the player in the player list pop-up, then add a new player to your team.</li>
+              <li>You cannot change your team after submittion, so please think it through!</li>
+            </ul>
+          </div>
+          <div className='container'>
+            <PlayerSelectModal positions={positions} info={info} setInfo={setInfo} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} getUserInfo={getUserInfo} infoError={infoError} setInfoError={setInfoError} players={players} playersError={playersError} />
+            <SelectedPlayers info={info} selectedPlayers={selectedPlayers} positions={positions} infoError={infoError} />
+          </div>
+          <Button className='submit-button' onClick={handleSubmit}>Submit your team to play!</Button>
+        </main>
+        :
+        <>
+          {infoError ?
+            <Error error={infoError} />
+            :
+            <Spinner />
+          }
+        </>
+      }
+    </>
   )
 }
 

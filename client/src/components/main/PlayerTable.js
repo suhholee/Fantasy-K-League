@@ -10,7 +10,6 @@ const PlayerTable = ({ players, setInfo, selectedPlayers, setSelectedPlayers, ge
   const [sortOrder, setSortOrder] = useState(1)
   const [sortField, setSortField] = useState('price')
 
-
   // ! Executions
   const selectPlayer = async (player) => {
     try {

@@ -21,7 +21,7 @@ const Login = () => {
     password: '',
   })
   const [loginError, setLoginError] = useState('')
-  const [teams, setTeams] = useState([])
+  const [teams, setTeams] = useState(null)
   const [teamsError, setTeamsError] = useState('')
 
   // ! On Mount
@@ -32,8 +32,8 @@ const Login = () => {
         setTeams(data)
         console.log(data)
       } catch (err) {
-        console.log(err.response.statusText)
-        setTeamsError(err.response.statusText)
+        console.log(err.message)
+        setTeamsError(err.message)
       }
     }
     getTeams()

@@ -16,8 +16,8 @@ const Rankings = ({ getUserInfo }) => {
   const { userId } = useParams()
 
   // ! State
-  const [allInfo, setAllInfo] = useState([])
-  const [allInfoError, setAllInfoError] = useState([])
+  const [allInfo, setAllInfo] = useState(null)
+  const [allInfoError, setAllInfoError] = useState('')
   const [selectedUser, setSelectedUser] = useState('')
   const [selectedUserData, setSelectedUserData] = useState([{
     gw_points: 0,
