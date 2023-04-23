@@ -43,6 +43,7 @@ const PlayerSelectModal = ({ positions, info, setInfo, selectedPlayers, setSelec
                   <span className='almost-no-budget'>{info.budget}m</span>
                   : <span className='no-budget'>{info.budget}m</span>}</p>
               {infoError && <p className='error'>{infoError}: You have selected 3 players of the same team or reached the limit for each position.</p>}
+              <PlayerTable players={players} setInfo={setInfo} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} getUserInfo={getUserInfo} setShowModal={setShowModal} setInfoError={setInfoError} selectedPosition={selectedPosition} />
             </>
             :
             <>
@@ -53,7 +54,6 @@ const PlayerSelectModal = ({ positions, info, setInfo, selectedPlayers, setSelec
               }
             </>
           }
-          <PlayerTable players={players} setInfo={setInfo} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} getUserInfo={getUserInfo} setShowModal={setShowModal} setInfoError={setInfoError} selectedPosition={selectedPosition} />
         </Modal.Body>
       </Modal>
     </div>
