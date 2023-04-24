@@ -56,7 +56,7 @@ const PlayerTable = ({ players, setInfo, selectedPlayers, setSelectedPlayers, ge
           <th>Player</th>
           <th>Position</th>
           <th className='price' onClick={togglePrice}>Price<img className='toggle-arrow' src='https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681893221/shirts/toggle_arrow_v2ejm3.png' /></th>
-          <th className='points' onClick={togglePoints}>Total Points<img className='toggle-arrow' src='https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681893221/shirts/toggle_arrow_v2ejm3.png' /></th>
+          <th className='total-points' onClick={togglePoints}>Total Points<img className='toggle-arrow' src='https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681893221/shirts/toggle_arrow_v2ejm3.png' /></th>
           <th>Next Match</th>
         </tr>
       </thead>
