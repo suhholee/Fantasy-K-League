@@ -1,5 +1,4 @@
 import { Link, useLocation } from 'react-router-dom'
-
 import { removeToken, loggedInUser } from '../../helpers/auth'
 import { Nav, Navbar, Container } from 'react-bootstrap'
 
