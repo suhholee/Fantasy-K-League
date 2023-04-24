@@ -179,7 +179,8 @@
   }
 
   .price,
-  .points {
+  .gw-points,
+  .total-points {
     cursor: pointer;
 
     .toggle-arrow {
@@ -346,6 +347,17 @@
       }
     }
   }
+
+  .player-table {
+    font-size: 14px;
+    th {
+      font-size: 12px;
+    }
+    .price .toggle-arrow, .gw-points .toggle-arrow, .total-points .toggle-arrow {
+      margin-left: 2px;
+      width: 8px;
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -408,6 +420,13 @@
   }
   .player-table {
     font-size: 11px;
+    th {
+      font-size: 10px;
+    }
+    .price .toggle-arrow, .gw-points .toggle-arrow, .total-points .toggle-arrow {
+      margin-left: 2px;
+      width: 7px;
+    }
   }
 }
 
@@ -476,9 +495,12 @@
   }
   .player-table {
     font-size: 9px;
-    .price .toggle-arrow, .points .toggle-arrow {
-      margin-left: 5px;
-      width: 8px;
+    th {
+      font-size: 6px;
+    }
+    .price .toggle-arrow, .gw-points .toggle-arrow, .total-points .toggle-arrow {
+      margin-left: 2px;
+      width: 4px;
     }
     .logo {
       width: 10px;

@@ -37,34 +37,52 @@
   color: $red;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .navbar-home {
-    color: $blue;
-    font-weight: bold;
-    font-size: 32px;
+    font-size: 30px;
     .navbar-logo {
       height: 60px;
-      margin-bottom: 3px;
     }
   }
+  .navbar-text a {
+    font-size: 18px;
+  }
+}
 
+@media (max-width: 992px) {
+  .navbar-home {
+    font-size: 26px;
+    .navbar-logo {
+      height: 60px;
+    }
+  }
+}
+
+@media (max-width: 880px) {
+  .navbar-home {
+    font-size: 24px;
+    .navbar-logo {
+      height: 50px;
+    }
+  }
+  .navbar-text a {
+    font-size: 16px;
+  }
+  .navbar-link, .nav-item {
+    margin: 0 8px 0 0;
+  }
 }
 
 @media (max-width: 576px) {
   .navbar-home {
-    color: $blue;
-    font-weight: bold;
     font-size: 22px;
     .navbar-logo {
       height: 40px;
-      margin-bottom: 3px;
     }
   }
 
   .navbar-text a {
-    color: $blue;
     font-size: 18px;
-    font-weight: bold;
   }
 
   .navbar-toggler {

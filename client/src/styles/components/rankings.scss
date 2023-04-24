@@ -64,7 +64,7 @@
 }
 
 .team {
-  background-image: url('../../images/field.png');
+  background-image: url('../../images/field_mobile.png');
   @extend %background-center;
 
   .ranking-players {
@@ -165,6 +165,29 @@
 
     .rankings-table {
       font-size: 12px;
+    }
+  }
+
+  .team {
+    .ranking-players {
+      .player-single {
+        font-size: 10px;
+        .logo {
+          width: 30px;
+        }
+    
+        .name {
+          width: 80px;
+        }
+    
+        .gw-points {
+          width: 80px;
+        }
+    
+        .next-match {
+          width: 80px;
+        }
+      }
     }
   }
 }

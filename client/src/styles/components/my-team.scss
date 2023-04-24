@@ -15,7 +15,7 @@
       text-shadow: 0 0 5px $light-blue, 0 0 7px $light-blue, 0 0 9px $light-blue, 0 0 11px $light-blue;
       margin-bottom: 2%;
     }
-  
+
     .points {
       @extend %flex-center;
       width: 400px;
@@ -36,6 +36,11 @@
     }
   }
 
+  h4 {
+    color: $blue;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
 
   .selected-container {
     @extend %flex-center;
@@ -215,6 +220,10 @@
       }
     }
 
+    h4 {
+      font-size: 20px;
+    }
+
     .selected-container {
       .selected-player {
         height: 50vh;
@@ -247,12 +256,16 @@
   .my-team {
     .header {
       h1 {
-        font-size: 30px;
+        font-size: 25px;
+        margin: 20px;
       }
       .points {
         .points-section {
           width: 60px;
           font-size: 12px;
+          .point {
+            padding: 10px 20px;
+          }
           p {
             width: 100px;
             text-align: center;

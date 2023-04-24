@@ -35,7 +35,7 @@ const PlayerTable = ({ players, setInfo, selectedPlayers, setSelectedPlayers, ge
       setSortOrder(sortOrder * -1)
     } else {
       setSortField('price')
-      setSortOrder(-1)
+      setSortOrder(1)
     }
   }
 
@@ -44,7 +44,7 @@ const PlayerTable = ({ players, setInfo, selectedPlayers, setSelectedPlayers, ge
       setSortOrder(sortOrder * -1)
     } else {
       setSortField('total_points')
-      setSortOrder(-1)
+      setSortOrder(1)
     }
   }
 

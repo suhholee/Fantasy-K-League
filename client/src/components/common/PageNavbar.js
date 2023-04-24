@@ -25,6 +25,7 @@ const PageNavbar = () => {
               <Nav className='navbar-text'>
                 <Nav.Link to={`/myteam/${loggedInUser()}`} as={Link} className={location.pathname === `/myteam/${loggedInUser()}` ? 'active navbar-link border-bottom' : 'navbar-link'}>My Team</Nav.Link>
                 <Nav.Link to={`/rankings/${loggedInUser()}`} as={Link} className={location.pathname === `/rankings/${loggedInUser()}` ? 'active navbar-link border-bottom' : 'navbar-link'}>Rankings</Nav.Link>
+                <Nav.Link to={`/playerstats/${loggedInUser()}`} as={Link} className={location.pathname === `/playerstats/${loggedInUser()}` ? 'active navbar-link border-bottom' : 'navbar-link'}>Player Stats</Nav.Link>
                 <Nav.Link to="/" as={Link} onClick={handleLogout}>Logout</Nav.Link>
               </Nav>
             </Navbar.Collapse>
