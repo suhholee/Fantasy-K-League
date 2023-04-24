@@ -46,7 +46,7 @@ const TeamSelection = ({ getUserInfo }) => {
         console.log(data)
       } catch (err) {
         console.log(err)
-        setPlayersError(err.response.statusText)
+        setPlayersError(err.message)
       }
     }
     getInfo()

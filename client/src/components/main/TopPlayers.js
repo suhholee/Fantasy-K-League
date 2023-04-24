@@ -19,7 +19,7 @@ const TopPlayers = ({ mostExpensive, mostGwPoints, mostTotalPoints }) => {
                 <div className='player-single' key={id}>
                   <img className='logo' src={logo}></img>
                   <p>{name}</p>
-                  <p>{price}</p>
+                  <p>{price}m</p>
                 </div>
               )
             })}
@@ -34,7 +34,7 @@ const TopPlayers = ({ mostExpensive, mostGwPoints, mostTotalPoints }) => {
                 <div className='player-single' key={id}>
                   <img className='logo' src={logo}></img>
                   <p>{name}</p>
-                  <p>{gw_points}</p>
+                  <p>{gw_points} points</p>
                 </div>
               )
             })}
@@ -49,7 +49,7 @@ const TopPlayers = ({ mostExpensive, mostGwPoints, mostTotalPoints }) => {
                 <div className='player-single' key={id}>
                   <img className='logo' src={logo}></img>
                   <p>{name}</p>
-                  <p>{total_points}</p>
+                  <p>{total_points} points</p>
                 </div>
               )
             })}

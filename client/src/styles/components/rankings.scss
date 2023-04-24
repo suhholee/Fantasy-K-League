@@ -33,6 +33,10 @@
       color: white;
       --bs-table-hover-color: white;
     }
+    
+    td {
+      cursor: pointer;
+    }
   }
 
 }

@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap'
 
-const SelectedPlayers = ({ info, selectedPlayers, positions, infoError }) => {
+const SelectedPlayers = ({ info, selectedPlayers, positions }) => {
 
   return (
     <Container className='selected-container'>
