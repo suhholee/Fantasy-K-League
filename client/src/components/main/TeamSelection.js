@@ -54,7 +54,6 @@ const TeamSelection = ({ getUserInfo }) => {
   }, [userId])
 
   // ! Execution
-
   const handleSubmit = () => {
     if (selectedPlayers.length === 11) {
       navigate(`/myteam/${loggedInUser()}`)
