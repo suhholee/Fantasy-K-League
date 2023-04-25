@@ -30,13 +30,19 @@ const TopPlayers = ({ mostExpensive, mostGwPoints, mostTotalPoints }) => {
           <div className='players'>
             {mostGwPoints.map(player => {
               const { name, gw_points, team: { logo }, id } = player
-              return (
+              if (gw_points === 0) {
                 <div className='player-single' key={id}>
-                  <img className='logo' src={logo}></img>
-                  <p>{name}</p>
-                  <p>{gw_points} points</p>
+                  <p>None of the players have earned points this week.</p>
                 </div>
-              )
+              } else {
+                return (
+                  <div className='player-single' key={id}>
+                    <img className='logo' src={logo}></img>
+                    <p>{name}</p>
+                    <p>{gw_points} points</p>
+                  </div>
+                )
+              }
             })}
           </div>
         </div>
