@@ -11,11 +11,9 @@ def update_points():
     infos = Info.objects.all()
 
     for info in infos:
-        total_gw_points = sum(player.gw_points for player in info.selected_players.all())
-        info.gw_points = total_gw_points
-        info.total_points += total_gw_points
+        info.gw_points = sum(player.gw_points for player in info.selected_players.all())
         info.save()
 
 if __name__ == '__main__':
     update_points()
-    print("Points updated successfully.")
+    print("GW points updated successfully.")
