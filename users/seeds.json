@@ -250,5 +250,77 @@
     "content_type": 7,
     "codename": "view_info"
   }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add player",
+    "content_type": 8,
+    "codename": "add_player"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change player",
+    "content_type": 8,
+    "codename": "change_player"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete player",
+    "content_type": 8,
+    "codename": "delete_player"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view player",
+    "content_type": 8,
+    "codename": "view_player"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add team",
+    "content_type": 9,
+    "codename": "add_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change team",
+    "content_type": 9,
+    "codename": "change_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete team",
+    "content_type": 9,
+    "codename": "delete_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view team",
+    "content_type": 9,
+    "codename": "view_team"
+  }
 }
 ]
