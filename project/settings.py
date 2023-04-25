@@ -147,4 +147,9 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'client', "build", "static"),
 )
 
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'http://localhost:8000'
+]
+
 django_on_heroku.settings(locals())
