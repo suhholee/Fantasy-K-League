@@ -152,4 +152,6 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:8000'
 ]
 
+CSRF_TRUSTED_ORIGINS = ['fantasy-k-league.herokuapp.com']
+
 django_on_heroku.settings(locals())
