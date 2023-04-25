@@ -167,6 +167,38 @@
   }
 }
 
+@media (max-height: 900px) {
+  .my-team {
+
+    .selected-container {
+      .selected-player {
+        width: 100%;
+        font-size: 13px;
+        justify-content: space-around;
+
+        .position-players {
+          width: 60%;
+
+          .player-single {
+            margin: 5px 0;
+            font-size: 11px;
+
+            .logo {
+              max-width: 60px;
+            }
+
+            .name,
+            .gw-points,
+            .next-match {
+              width: 10vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .my-team {
     .header {
