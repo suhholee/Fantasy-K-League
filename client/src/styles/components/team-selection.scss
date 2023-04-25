@@ -393,10 +393,9 @@
     .container {
       .selected-container {
         .selected-player {
-          height: 60vh;
           justify-content: center;
           .position-players {
-            width: 556px;
+            width: 450px;
             .player-single {
               font-size: 10px;
               .logo {
@@ -450,10 +449,9 @@
     .container {
       .selected-container {
         .selected-player {
-          height: 50vh;
 
           .position-players {
-            width: 460px;
+            width: 400px;
             .player-single {
               font-size: 9px;
               .logo {
@@ -487,13 +485,42 @@
     font-size: 14px;
   }
   .player-table {
-    font-size: 11px;
+    font-size: 12px;
     th {
       font-size: 10px;
     }
     .price .toggle-arrow, .gw-points .toggle-arrow, .total-points .toggle-arrow {
       width: 7px;
     }
+  }
+}
+
+@media (max-height: 720px) {
+  .team-selection {
+
+    .container {
+
+      .selected-container {
+        .selected-player {
+  
+          .position-players {
+  
+            .player-single {
+  
+              .logo {
+              }
+  
+              .name,
+              .gw-points,
+              .next-match {
+
+              }
+            }
+          }
+        }
+      }
+    }
+
   }
 }
 
