@@ -28,7 +28,7 @@ const TopPlayers = ({ mostExpensive, mostGwPoints, mostTotalPoints, players }) =
         <div className='top-players-container'>
           <h4>Highest GW Points</h4>
           <div className='players'>
-            {mostGwPoints.gw_points === 0 ?
+            {mostGwPoints.length === 0 ?
               <>
                 <div className='player-single'>
                   <p>Players have not earned points yet</p>

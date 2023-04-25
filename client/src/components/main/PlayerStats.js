@@ -33,7 +33,7 @@ const PlayerStats = ({ getUserInfo }) => {
         setPlayers(data)
         console.log(data)
         const highestPrice = Math.max(...data.map(player => player.price))
-        const highestGwPoints = Math.max(...data.map(player => player.gw_points))
+        const highestGwPoints = Math.max(...data.filter(player => player.gw_points !== 0).map(player => player.gw_points))
         const highestTotalPoints = Math.max(...data.map(player => player.total_points))
         setMostExpensive(data.filter(player => player.price === highestPrice))
         setMostGwPoints(data.filter(player => player.gw_points === highestGwPoints))
@@ -52,7 +52,6 @@ const PlayerStats = ({ getUserInfo }) => {
   const handlePositionClick = (position) => {
     setSelectedPosition(position)
   }
-
 
   return (
     <>
