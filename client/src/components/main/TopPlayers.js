@@ -1,7 +1,7 @@
 // Custom Components
 import playerImage from '../../images/feb_march_players.png'
 
-const TopPlayers = ({ mostExpensive, mostGwPoints, mostTotalPoints }) => {
+const TopPlayers = ({ mostExpensive, mostGwPoints, mostTotalPoints, players }) => {
 
   return (
     <>
@@ -28,13 +28,15 @@ const TopPlayers = ({ mostExpensive, mostGwPoints, mostTotalPoints }) => {
         <div className='top-players-container'>
           <h4>Highest GW Points</h4>
           <div className='players'>
-            {mostGwPoints.map(player => {
-              const { name, gw_points, team: { logo }, id } = player
-              if (gw_points === 0) {
-                <div className='player-single' key={id}>
-                  <p>None of the players have earned points this week.</p>
+            {mostGwPoints.gw_points === 0 ?
+              <>
+                <div className='player-single'>
+                  <p>Players have not earned points yet</p>
                 </div>
-              } else {
+              </>
+              :
+              mostGwPoints.map(player => {
+                const { name, gw_points, team: { logo }, id } = player
                 return (
                   <div className='player-single' key={id}>
                     <img className='logo' src={logo}></img>
@@ -42,8 +44,8 @@ const TopPlayers = ({ mostExpensive, mostGwPoints, mostTotalPoints }) => {
                     <p>{gw_points} points</p>
                   </div>
                 )
-              }
-            })}
+              })
+            }
           </div>
         </div>
         <div className='top-players-container'>

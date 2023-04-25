@@ -58,7 +58,7 @@ const PlayerStats = ({ getUserInfo }) => {
     <>
       {players ?
         <div className='player-stats-container'>
-          <TopPlayers mostExpensive={mostExpensive} mostGwPoints={mostGwPoints} mostTotalPoints={mostTotalPoints} />
+          <TopPlayers mostExpensive={mostExpensive} mostGwPoints={mostGwPoints} mostTotalPoints={mostTotalPoints} players={players} />
           <div className='select-buttons'>
             {positions.map((position, i) => (
               <Button key={i} className={position} value={position} onClick={() => handlePositionClick(position)}>{position}</Button>
