@@ -225,7 +225,6 @@
 }
 
 // ! Media queries
-
 @media (max-width: 1440px) {
   .team-selection .container .selected-container .selected-player .player-single {
     font-size: 14px;
@@ -250,6 +249,77 @@
         }
       }
     }
+  }
+}
+
+@media (max-height: 900px) {
+  .team-selection {
+
+    .container {
+
+      .selected-container {
+        .selected-player {
+          width: 100%;
+          font-size: 15px;
+          justify-content: space-around;
+  
+          .position-players {
+            width: 75%;
+  
+            .player-single {
+              margin: 5px 0;
+  
+              .logo {
+                max-width: 60px;
+              }
+  
+              .name,
+              .gw-points,
+              .next-match {
+                width: 10vw;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-height: 720px) {
+  .team-selection {
+
+    .container {
+
+      .selected-container {
+        .selected-player {
+          width: 100%;
+          font-size: 15px;
+          justify-content: space-around;
+  
+          .position-players {
+            width: 600px;
+  
+            .player-single {
+              margin: 2px 0;
+              font-size: 12px;
+  
+              .logo {
+                width: 40px;
+              }
+  
+              .name,
+              .gw-points,
+              .next-match {
+                width: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+
   }
 }
 
@@ -467,7 +537,7 @@
           width: 95vw;
           background-image: url('../../images/field_mobile.png');
           .position-players {
-            width: 80vw;
+            width: 85vw;
             .player-single {
               margin: 3px 0;
               .logo {
