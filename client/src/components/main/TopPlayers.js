@@ -28,24 +28,16 @@ const TopPlayers = ({ mostExpensive, mostGwPoints, mostTotalPoints, players }) =
         <div className='top-players-container'>
           <h4>Highest GW Points</h4>
           <div className='players'>
-            {mostGwPoints.length === 0 ?
-              <>
-                <div className='player-single'>
-                  <p>Players have not earned points yet</p>
+            {mostGwPoints.map(player => {
+              const { name, gw_points, team: { logo }, id } = player
+              return (
+                <div className='player-single' key={id}>
+                  <img className='logo' src={logo}></img>
+                  <p>{name}</p>
+                  <p>{gw_points} points</p>
                 </div>
-              </>
-              :
-              mostGwPoints.map(player => {
-                const { name, gw_points, team: { logo }, id } = player
-                return (
-                  <div className='player-single' key={id}>
-                    <img className='logo' src={logo}></img>
-                    <p>{name}</p>
-                    <p>{gw_points} points</p>
-                  </div>
-                )
-              })
-            }
+              )
+            })}
           </div>
         </div>
         <div className='top-players-container'>
