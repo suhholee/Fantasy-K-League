@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28adaf51.css",
+    "main.js": "/static/js/main.42bfe650.js",
+    "static/media/feb_march_players.png": "/static/media/feb_march_players.04e85d5178b48a7644c6.png",
+    "static/media/trophy.png": "/static/media/trophy.8f98bf4ef5f686a04eda.png",
+    "static/media/field_mobile.png": "/static/media/field_mobile.1b7ef5ecaaa8e46b4980.png",
+    "static/media/field.png": "/static/media/field.8d26f32ac2eaa54e5677.png",
+    "static/media/spinner.gif": "/static/media/spinner.c7d9f0819b0870f9ad8e.gif",
+    "index.html": "/index.html",
+    "main.28adaf51.css.map": "/static/css/main.28adaf51.css.map",
+    "main.42bfe650.js.map": "/static/js/main.42bfe650.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28adaf51.css",
+    "static/js/main.42bfe650.js"
+  ]
+}
