@@ -11,6 +11,7 @@ import Rankings from './components/main/Rankings'
 import MyTeam from './components/main/MyTeam'
 import PlayerStats from './components/main/PlayerStats'
 import { authenticated, loggedInUser } from './helpers/auth'
+import icon from './images/favicon.png'
 
 const App = () => {
 
@@ -27,6 +28,11 @@ const App = () => {
       console.log(err)
       setUserError(err.message)
     }
+  }, [])
+
+  useEffect(() => {
+    const favicon = document.getElementById('favicon')
+    favicon.setAttribute('href', icon)
   }, [])
 
   return (
