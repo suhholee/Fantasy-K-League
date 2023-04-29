@@ -55,7 +55,7 @@ const MyTeam = ({ getUserInfo }) => {
               </div>
             </div>
           </div>
-          <h4>Previous Gameweek</h4>
+          <h4>Current Gameweek</h4>
           <MyTeamPlayers selectedPlayers={selectedPlayers} />
         </main>
         :
