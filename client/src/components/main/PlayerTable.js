@@ -16,7 +16,6 @@ const PlayerTable = ({ players, setInfo, selectedPlayers, setSelectedPlayers, ge
       const updatedInfo = {
         selected_players: [{ id: player.id }],
       }
-      console.log(player)
       const { data } = await authenticated.put(`/api/info/${loggedInUser()}/`, updatedInfo)
       setInfo(data)
       setInfoError('')

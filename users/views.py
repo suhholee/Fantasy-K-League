@@ -30,7 +30,7 @@ class RegisterView(APIView):
         info = Info(user=user, budget=65)
         info.save()
 
-        return Response({ 'data': user_to_add.data, 'token': token}, status.HTTP_201_CREATED)
+        return Response({ 'data': user_to_add.data, 'token': token }, status.HTTP_201_CREATED)
     
 
 class LoginView(APIView):
