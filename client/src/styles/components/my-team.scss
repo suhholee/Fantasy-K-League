@@ -53,10 +53,9 @@
       flex-wrap: wrap;
       justify-content: space-between;
       max-width: 95vw;
-      height: 100vh;
       background-image: url('../../images/field.png');
       @extend %background-center;
-      background-size: contain;
+      // background-size: contain;
       border-radius: 8px;
 
       .position-players {
@@ -167,7 +166,7 @@
   }
 }
 
-@media (max-height: 900px) {
+@media (max-height: 912px) {
   .my-team {
 
     .selected-container {
@@ -177,7 +176,7 @@
         justify-content: space-around;
 
         .position-players {
-          width: 60%;
+          width: 100%;
 
           .player-single {
             margin: 5px 0;
@@ -209,16 +208,42 @@
 
     .selected-container {
       .selected-player {
-        height: 60vh;
+        height: 75%;
+        width: 90vw;
 
         .position-players {
-          width: 556px;
+          width: 90vw;
 
           .player-single {
             font-size: 10px;
 
             .logo {
               max-width: 35px;
+            }
+
+            .name,
+            .gw-points,
+            .next-match {
+              width: 13.5vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .my-team {
+    .selected-container {
+      .selected-player {
+
+        .position-players {
+
+          .player-single {
+
+            .logo {
+              max-width: 30px;
             }
 
             .name,
@@ -256,18 +281,15 @@
 
     .selected-container {
       .selected-player {
-        height: 50vh;
-        background-image: url('../../images/field_mobile.png');
 
         .position-players {
-          width: 400px;
 
           .player-single {
             margin: 0;
             font-size: 8px;
 
             .logo {
-              max-width: 30px;
+              max-width: 25px;
             }
 
             .name,
@@ -308,7 +330,7 @@
     .selected-container {
 
       .selected-player {
-        height: 60vh;
+        height: 80%;
         width: 95vw;
 
         .position-players {
@@ -336,10 +358,31 @@
   }
 }
 
+@media (max-width: 450px) {
+  .my-team {
+    .selected-container {
+      .selected-player {
+        .position-players {
+          .player-single {
+            .logo {
+              max-width: 20px;
+            }
+
+          }
+
+        }
+      }
+
+    }
+
+  }
+}
+
 @media (max-width: 375px) {
   .my-team {
     .selected-container {
       .selected-player {
+        background-image: url('../../images/field_mobile.png');
         .position-players {
           .player-single {
             .logo {

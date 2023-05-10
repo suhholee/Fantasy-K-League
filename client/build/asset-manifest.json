@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf71f358.css",
+    "main.css": "/static/css/main.a542afaa.css",
     "main.js": "/static/js/main.836ccfa9.js",
     "static/media/feb_march_players.png": "/static/media/feb_march_players.04e85d5178b48a7644c6.png",
     "static/media/trophy.png": "/static/media/trophy.8f98bf4ef5f686a04eda.png",
@@ -9,11 +9,11 @@
     "static/media/favicon.png": "/static/media/favicon.26eb4f283a2ee2c7f355.png",
     "static/media/spinner.gif": "/static/media/spinner.c7d9f0819b0870f9ad8e.gif",
     "index.html": "/index.html",
-    "main.cf71f358.css.map": "/static/css/main.cf71f358.css.map",
+    "main.a542afaa.css.map": "/static/css/main.a542afaa.css.map",
     "main.836ccfa9.js.map": "/static/js/main.836ccfa9.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf71f358.css",
+    "static/css/main.a542afaa.css",
     "static/js/main.836ccfa9.js"
   ]
 }
