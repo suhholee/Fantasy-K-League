@@ -11,7 +11,7 @@ def update_points():
     infos = Info.objects.all()
 
     for info in infos:
-        info.total_points += info.gw_points
+        info.total_points -= info.gw_points
         info.save()
 
 if __name__ == '__main__':
