@@ -1,3650 +1,1218 @@
 [
-  {
-    "model": "players.Player",
-    "pk": 1,
-    "fields": {
-      "name": "Cesinha",
-      "position": "FW",
-      "team": 1,
-      "price": 6.8,
-      "gw_points": 0,
-      "total_points": 25
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 2,
-    "fields": {
-      "name": "Edgar",
-      "position": "FW",
-      "team": 1,
-      "price": 5.6,
-      "gw_points": 1,
-      "total_points": 28
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 3,
-    "fields": {
-      "name": "Go Jaehyeon",
-      "position": "FW",
-      "team": 1,
-      "price": 6.5,
-      "gw_points": 1,
-      "total_points": 30
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 4,
-    "fields": {
-      "name": "Lee Keun-ho",
-      "position": "FW",
-      "team": 1,
-      "price": 4.8,
-      "gw_points": 4,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 5,
-    "fields": {
-      "name": "Lucas Barcellos",
-      "position": "FW",
-      "team": 1,
-      "price": 5.4,
-      "gw_points": 0,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 6,
-    "fields": {
-      "name": "Park Yonghui",
-      "position": "FW",
-      "team": 1,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 7,
-    "fields": {
-      "name": "Hwang Jaewon",
-      "position": "DF",
-      "team": 1,
-      "price": 5.5,
-      "gw_points": 2,
-      "total_points": 33
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 8,
-    "fields": {
-      "name": "Jang Seong-won",
-      "position": "MF",
-      "team": 1,
-      "price": 5.3,
-      "gw_points": 1,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 9,
-    "fields": {
-      "name": "Keita Suzuki",
-      "position": "MF",
-      "team": 1,
-      "price": 5.1,
-      "gw_points": 7,
-      "total_points": 28
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 10,
-    "fields": {
-      "name": "Kim Youngjun",
-      "position": "MF",
-      "team": 1,
-      "price": 5,
-      "gw_points": 1,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 11,
-    "fields": {
-      "name": "Lee Jinyong",
-      "position": "MF",
-      "team": 1,
-      "price": 5.4,
-      "gw_points": 1,
-      "total_points": 18
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 12,
-    "fields": {
-      "name": "Lee Yongrae",
-      "position": "MF",
-      "team": 1,
-      "price": 5.1,
-      "gw_points": 1,
-      "total_points": 19
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 13,
-    "fields": {
-      "name": "Marcos Serrato",
-      "position": "MF",
-      "team": 1,
-      "price": 6.5,
-      "gw_points": 1,
-      "total_points": 9
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 14,
-    "fields": {
-      "name": "Park Sejin",
-      "position": "MF",
-      "team": 1,
-      "price": 5,
-      "gw_points": 1,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 15,
-    "fields": {
-      "name": "Hong Chul",
-      "position": "DF",
-      "team": 1,
-      "price": 5.2,
-      "gw_points": 2,
-      "total_points": 9
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 16,
-    "fields": {
-      "name": "Hong Jeongun",
-      "position": "DF",
-      "team": 1,
-      "price": 5.5,
-      "gw_points": 2,
-      "total_points": 37
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 17,
-    "fields": {
-      "name": "Jo Jinwoo",
-      "position": "DF",
-      "team": 1,
-      "price": 5.3,
-      "gw_points": 2,
-      "total_points": 27
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 18,
-    "fields": {
-      "name": "Kim Gangsan",
-      "position": "DF",
-      "team": 1,
-      "price": 4.3,
-      "gw_points": 0,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 19,
-    "fields": {
-      "name": "Kim Jin-hyuk",
-      "position": "DF",
-      "team": 1,
-      "price": 5.6,
-      "gw_points": 2,
-      "total_points": 41
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 20,
-    "fields": {
-      "name": "Oh Seung-hoon",
-      "position": "GK",
-      "team": 1,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 21
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 21,
-    "fields": {
-      "name": "Choi Young-woon",
-      "position": "GK",
-      "team": 1,
-      "price": 4.1,
-      "gw_points": 2,
-      "total_points": 18
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 22,
-    "fields": {
-      "name": "Bae Junho",
-      "position": "FW",
-      "team": 2,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 10
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 23,
-    "fields": {
-      "name": "Gong Min-hyun",
-      "position": "FW",
-      "team": 2,
-      "price": 4.5,
-      "gw_points": 1,
-      "total_points": 8
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 24,
-    "fields": {
-      "name": "Jeon Byungkwan",
-      "position": "FW",
-      "team": 2,
-      "price": 4.5,
-      "gw_points": 6,
-      "total_points": 16
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 25,
-    "fields": {
-      "name": "Kim Ingyun",
-      "position": "MF",
-      "team": 2,
-      "price": 6.2,
-      "gw_points": 0,
-      "total_points": 20
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 26,
-    "fields": {
-      "name": "Leandro",
-      "position": "FW",
-      "team": 2,
-      "price": 5.8,
-      "gw_points": 0,
-      "total_points": 21
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 27,
-    "fields": {
-      "name": "Masatoshi Ishida",
-      "position": "FW",
-      "team": 2,
-      "price": 5.4,
-      "gw_points": 6,
-      "total_points": 15
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 28,
-    "fields": {
-      "name": "Shin Sangun",
-      "position": "MF",
-      "team": 2,
-      "price": 5.1,
-      "gw_points": 1,
-      "total_points": 6
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 29,
-    "fields": {
-      "name": "Tiago Orobó",
-      "position": "FW",
-      "team": 2,
-      "price": 6.4,
-      "gw_points": 2,
-      "total_points": 40
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 30,
-    "fields": {
-      "name": "Yu Kanghyun",
-      "position": "FW",
-      "team": 2,
-      "price": 5.2,
-      "gw_points": 0,
-      "total_points": 7
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 31,
-    "fields": {
-      "name": "Ju Sejong",
-      "position": "MF",
-      "team": 2,
-      "price": 5.8,
-      "gw_points": 5,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 32,
-    "fields": {
-      "name": "Kim Younguk",
-      "position": "MF",
-      "team": 2,
-      "price": 5.1,
-      "gw_points": 1,
-      "total_points": 6
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 33,
-    "fields": {
-      "name": "Lee Hyunsik",
-      "position": "MF",
-      "team": 2,
-      "price": 5.4,
-      "gw_points": 1,
-      "total_points": 29
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 34,
-    "fields": {
-      "name": "Lee Jin-hyun",
-      "position": "MF",
-      "team": 2,
-      "price": 6.9,
-      "gw_points": 1,
-      "total_points": 54
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 35,
-    "fields": {
-      "name": "Lim Dugkeun",
-      "position": "DF",
-      "team": 2,
-      "price": 5.3,
-      "gw_points": 2,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 36,
-    "fields": {
-      "name": "Lim Yooseok",
-      "position": "MF",
-      "team": 2,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 37,
-    "fields": {
-      "name": "Anton Krivotsyuk",
-      "position": "DF",
-      "team": 2,
-      "price": 5.4,
-      "gw_points": 2,
-      "total_points": 32
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 38,
-    "fields": {
-      "name": "Byeon Junsoo",
-      "position": "DF",
-      "team": 2,
-      "price": 4.1,
-      "gw_points": 0,
-      "total_points": 8
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 39,
-    "fields": {
-      "name": "Cho Yumin",
-      "position": "DF",
-      "team": 2,
-      "price": 5.8,
-      "gw_points": 0,
-      "total_points": 18
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 40,
-    "fields": {
-      "name": "Kim Hyunwoo",
-      "position": "DF",
-      "team": 2,
-      "price": 4.2,
-      "gw_points": 1,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 41,
-    "fields": {
-      "name": "Kim Minduk",
-      "position": "DF",
-      "team": 2,
-      "price": 5.2,
-      "gw_points": 2,
-      "total_points": 33
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 42,
-    "fields": {
-      "name": "Oh Jae-suk",
-      "position": "DF",
-      "team": 2,
-      "price": 4.5,
-      "gw_points": 1,
-      "total_points": 20
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 43,
-    "fields": {
-      "name": "Seo Youngjae",
-      "position": "DF",
-      "team": 2,
-      "price": 5.2,
-      "gw_points": 2,
-      "total_points": 22
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 44,
-    "fields": {
-      "name": "Lee Chang-keun",
-      "position": "GK",
-      "team": 2,
-      "price": 4.6,
-      "gw_points": 3,
-      "total_points": 44
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 45,
-    "fields": {
-      "name": "Lim Eunsoo",
-      "position": "DF",
-      "team": 2,
-      "price": 4.2,
-      "gw_points": 0,
-      "total_points": 8
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 46,
-    "fields": {
-      "name": "Kim Jihun",
-      "position": "DF",
-      "team": 2,
-      "price": 4.2,
-      "gw_points": 0,
-      "total_points": 5
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 47,
-    "fields": {
-      "name": "Hwang Ui-jo",
-      "position": "FW",
-      "team": 3,
-      "price": 6.8,
-      "gw_points": 5,
-      "total_points": 34
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 48,
-    "fields": {
-      "name": "Kim Shinjin",
-      "position": "FW",
-      "team": 3,
-      "price": 4.7,
-      "gw_points": 1,
-      "total_points": 11
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 49,
-    "fields": {
-      "name": "Park Dong-jin",
-      "position": "FW",
-      "team": 3,
-      "price": 5.2,
-      "gw_points": 5,
-      "total_points": 23
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 50,
-    "fields": {
-      "name": "Stanislav Iljutcenko",
-      "position": "FW",
-      "team": 3,
-      "price": 6.2,
-      "gw_points": 1,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 51,
-    "fields": {
-      "name": "Paločević",
-      "position": "MF",
-      "team": 3,
-      "price": 6.8,
-      "gw_points": 2,
-      "total_points": 35
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 52,
-    "fields": {
-      "name": "Han Chan-hee",
-      "position": "MF",
-      "team": 3,
-      "price": 5.3,
-      "gw_points": 0,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 53,
-    "fields": {
-      "name": "Kang Seongjin",
-      "position": "MF",
-      "team": 3,
-      "price": 5.5,
-      "gw_points": 0,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 54,
-    "fields": {
-      "name": "Ki Sung-yueng",
-      "position": "MF",
-      "team": 3,
-      "price": 6,
-      "gw_points": 1,
-      "total_points": 26
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 55,
-    "fields": {
-      "name": "Lee Siyoung",
-      "position": "MF",
-      "team": 3,
-      "price": 5.1,
-      "gw_points": 0,
-      "total_points": 3
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 56,
-    "fields": {
-      "name": "Lim Sang-hyub",
-      "position": "MF",
-      "team": 3,
-      "price": 6.7,
-      "gw_points": 2,
-      "total_points": 38
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 57,
-    "fields": {
-      "name": "Na Sang-ho",
-      "position": "MF",
-      "team": 3,
-      "price": 7.2,
-      "gw_points": 6,
-      "total_points": 68
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 58,
-    "fields": {
-      "name": "Park Sooil",
-      "position": "MF",
-      "team": 3,
-      "price": 6,
-      "gw_points": 1,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 59,
-    "fields": {
-      "name": "Willyan",
-      "position": "MF",
-      "team": 3,
-      "price": 6.5,
-      "gw_points": 6,
-      "total_points": 14
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 60,
-    "fields": {
-      "name": "Gwon Wan-gyu",
-      "position": "DF",
-      "team": 3,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 61,
-    "fields": {
-      "name": "Han Seung-gyu",
-      "position": "DF",
-      "team": 3,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 7
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 62,
-    "fields": {
-      "name": "Hwang Hyun-soo",
-      "position": "DF",
-      "team": 3,
-      "price": 4.2,
-      "gw_points": 0,
-      "total_points": 10
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 63,
-    "fields": {
-      "name": "Kim Jin-ya",
-      "position": "DF",
-      "team": 3,
-      "price": 5.4,
-      "gw_points": 2,
-      "total_points": 35
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 64,
-    "fields": {
-      "name": "Kim Jusung",
-      "position": "DF",
-      "team": 3,
-      "price": 4.6,
-      "gw_points": 2,
-      "total_points": 40
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 65,
-    "fields": {
-      "name": "Lee Taeseok",
-      "position": "DF",
-      "team": 3,
-      "price": 4.7,
-      "gw_points": 2,
-      "total_points": 32
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 66,
-    "fields": {
-      "name": "Osmar",
-      "position": "DF",
-      "team": 3,
-      "price": 5.5,
-      "gw_points": 2,
-      "total_points": 29
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 67,
-    "fields": {
-      "name": "Baek Jongbum",
-      "position": "GK",
-      "team": 3,
-      "price": 4.3,
-      "gw_points": 2,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 68,
-    "fields": {
-      "name": "Choe Cheolwon",
-      "position": "GK",
-      "team": 3,
-      "price": 4.4,
-      "gw_points": 0,
-      "total_points": 16
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 69,
-    "fields": {
-      "name": "Lee Hanbeom",
-      "position": "DF",
-      "team": 3,
-      "price": 4.5,
-      "gw_points": 2,
-      "total_points": 11
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 70,
-    "fields": {
-      "name": "Cho Jinhyuk",
-      "position": "FW",
-      "team": 4,
-      "price": 4.6,
-      "gw_points": 1,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 71,
-    "fields": {
-      "name": "Dino Islamović",
-      "position": "FW",
-      "team": 4,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 10
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 72,
-    "fields": {
-      "name": "Jefferson Galego",
-      "position": "FW",
-      "team": 4,
-      "price": 5.5,
-      "gw_points": 1,
-      "total_points": 16
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 73,
-    "fields": {
-      "name": "Kang Jihoon",
-      "position": "FW",
-      "team": 4,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 74,
-    "fields": {
-      "name": "Lee Jeong-hyeop",
-      "position": "FW",
-      "team": 4,
-      "price": 5.7,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 75,
-    "fields": {
-      "name": "Park Sanghyeok",
-      "position": "FW",
-      "team": 4,
-      "price": 4.8,
-      "gw_points": 1,
-      "total_points": 15
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 76,
-    "fields": {
-      "name": "Han Kook-young",
-      "position": "MF",
-      "team": 4,
-      "price": 5.2,
-      "gw_points": 2,
-      "total_points": 25
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 77,
-    "fields": {
-      "name": "Ikrom Alibayev",
-      "position": "MF",
-      "team": 4,
-      "price": 6,
-      "gw_points": 1,
-      "total_points": 9
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 78,
-    "fields": {
-      "name": "Kim Daewon",
-      "position": "MF",
-      "team": 4,
-      "price": 7.1,
-      "gw_points": 1,
-      "total_points": 20
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 79,
-    "fields": {
-      "name": "Yang Hyunjun",
-      "position": "MF",
-      "team": 4,
-      "price": 6.9,
-      "gw_points": 2,
-      "total_points": 29
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 80,
-    "fields": {
-      "name": "Yu In-soo",
-      "position": "MF",
-      "team": 4,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 18
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 81,
-    "fields": {
-      "name": "Hwang Mun-ki",
-      "position": "MF",
-      "team": 4,
-      "price": 5.4,
-      "gw_points": 1,
-      "total_points": 6
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 82,
-    "fields": {
-      "name": "Jung Seung-yong",
-      "position": "DF",
-      "team": 4,
-      "price": 4.4,
-      "gw_points": 2,
-      "total_points": 34
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 83,
-    "fields": {
-      "name": "Kevin",
-      "position": "DF",
-      "team": 4,
-      "price": 5.5,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 84,
-    "fields": {
-      "name": "Kim Jinho",
-      "position": "DF",
-      "team": 4,
-      "price": 4.3,
-      "gw_points": 0,
-      "total_points": 15
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 85,
-    "fields": {
-      "name": "Kim Wooseok",
-      "position": "DF",
-      "team": 4,
-      "price": 4,
-      "gw_points": 0,
-      "total_points": 7
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 86,
-    "fields": {
-      "name": "Kim Young-bin",
-      "position": "DF",
-      "team": 4,
-      "price": 6.8,
-      "gw_points": 2,
-      "total_points": 26
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 87,
-    "fields": {
-      "name": "Rim Chang-woo",
-      "position": "DF",
-      "team": 4,
-      "price": 6,
-      "gw_points": 2,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 88,
-    "fields": {
-      "name": "Yun Suk-young",
-      "position": "DF",
-      "team": 4,
-      "price": 5.5,
-      "gw_points": 2,
-      "total_points": 26
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 89,
-    "fields": {
-      "name": "Yu Sang-hun",
-      "position": "GK",
-      "team": 4,
-      "price": 5.2,
-      "gw_points": 2,
-      "total_points": 20
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 90,
-    "fields": {
-      "name": "Seo Min-woo",
-      "position": "MF",
-      "team": 4,
-      "price": 5.3,
-      "gw_points": 2,
-      "total_points": 25
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 91,
-    "fields": {
-      "name": "Kim Daewoo",
-      "position": "MF",
-      "team": 4,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 6
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 92,
-    "fields": {
-      "name": "Lee Gwang-yeon",
-      "position": "GK",
-      "team": 4,
-      "price": 4.3,
-      "gw_points": 0,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 93,
-    "fields": {
-      "name": "Lee Woong-hee",
-      "position": "DF",
-      "team": 4,
-      "price": 4.2,
-      "gw_points": 2,
-      "total_points": 21
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 94,
-    "fields": {
-      "name": "Ha Seungun",
-      "position": "MF",
-      "team": 5,
-      "price": 5,
-      "gw_points": 1,
-      "total_points": 19
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 95,
-    "fields": {
-      "name": "Heo Yool",
-      "position": "FW",
-      "team": 5,
-      "price": 4.5,
-      "gw_points": 5,
-      "total_points": 19
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 96,
-    "fields": {
-      "name": "Sandro Lima",
-      "position": "FW",
-      "team": 5,
-      "price": 5.7,
-      "gw_points": 1,
-      "total_points": 25
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 97,
-    "fields": {
-      "name": "Thomas Jaguaribe",
-      "position": "FW",
-      "team": 5,
-      "price": 5.5,
-      "gw_points": 0,
-      "total_points": 6
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 98,
-    "fields": {
-      "name": "Eom Jisung",
-      "position": "MF",
-      "team": 5,
-      "price": 5.6,
-      "gw_points": 2,
-      "total_points": 15
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 99,
-    "fields": {
-      "name": "Jasir Asani",
-      "position": "MF",
-      "team": 5,
-      "price": 6.9,
-      "gw_points": 1,
-      "total_points": 43
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 100,
-    "fields": {
-      "name": "Jeong Hoyeon",
-      "position": "MF",
-      "team": 5,
-      "price": 5.3,
-      "gw_points": 1,
-      "total_points": 26
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 101,
-    "fields": {
-      "name": "Jeong Jihun",
-      "position": "MF",
-      "team": 5,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 4
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 102,
-    "fields": {
-      "name": "Ju Youngjae",
-      "position": "MF",
-      "team": 5,
-      "price": 4.9,
-      "gw_points": 1,
-      "total_points": 5
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 103,
-    "fields": {
-      "name": "Kim Hangil",
-      "position": "MF",
-      "team": 5,
-      "price": 5,
-      "gw_points": 2,
-      "total_points": 19
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 104,
-    "fields": {
-      "name": "Lee Huigyun",
-      "position": "FW",
-      "team": 5,
-      "price": 4.6,
-      "gw_points": 0,
-      "total_points": 22
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 105,
-    "fields": {
-      "name": "Lee Kanghyun",
-      "position": "MF",
-      "team": 5,
-      "price": 5,
-      "gw_points": 1,
-      "total_points": 14
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 106,
-    "fields": {
-      "name": "Lee Soonmin",
-      "position": "MF",
-      "team": 5,
-      "price": 5.6,
-      "gw_points": 1,
-      "total_points": 26
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 107,
-    "fields": {
-      "name": "Oh Huseong",
-      "position": "MF",
-      "team": 5,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 3
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 108,
-    "fields": {
-      "name": "Park Han-bin",
-      "position": "MF",
-      "team": 5,
-      "price": 5.4,
-      "gw_points": 0,
-      "total_points": 15
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 109,
-    "fields": {
-      "name": "Aaron Calver",
-      "position": "DF",
-      "team": 5,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 19
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 110,
-    "fields": {
-      "name": "Ahn Young-kyu",
-      "position": "DF",
-      "team": 5,
-      "price": 4.4,
-      "gw_points": 1,
-      "total_points": 31
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 111,
-    "fields": {
-      "name": "Doo Hyeonseok",
-      "position": "DF",
-      "team": 5,
-      "price": 4.8,
-      "gw_points": 1,
-      "total_points": 40
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 112,
-    "fields": {
-      "name": "Kim Kyungjae",
-      "position": "DF",
-      "team": 5,
-      "price": 4.1,
-      "gw_points": 0,
-      "total_points": 10
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 113,
-    "fields": {
-      "name": "Lee Min-ki",
-      "position": "DF",
-      "team": 5,
-      "price": 4.4,
-      "gw_points": 0,
-      "total_points": 33
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 114,
-    "fields": {
-      "name": "Lee Sang-ki",
-      "position": "DF",
-      "team": 5,
-      "price": 4,
-      "gw_points": 0,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 115,
-    "fields": {
-      "name": "Timo Letschert",
-      "position": "DF",
-      "team": 5,
-      "price": 5.3,
-      "gw_points": 1,
-      "total_points": 31
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 116,
-    "fields": {
-      "name": "Kim Kyeong-min",
-      "position": "GK",
-      "team": 5,
-      "price": 4.7,
-      "gw_points": 0,
-      "total_points": 49
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 117,
-    "fields": {
-      "name": "Lee Kun-hee",
-      "position": "FW",
-      "team": 5,
-      "price": 4.2,
-      "gw_points": 1,
-      "total_points": 5
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 118,
-    "fields": {
-      "name": "Shin Chang-moo",
-      "position": "MF",
-      "team": 5,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 119,
-    "fields": {
-      "name": "Lee Jun",
-      "position": "GK",
-      "team": 5,
-      "price": 4,
-      "gw_points": 2,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 120,
-    "fields": {
-      "name": "Gerso",
-      "position": "FW",
-      "team": 6,
-      "price": 6.6,
-      "gw_points": 2,
-      "total_points": 32
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 121,
-    "fields": {
-      "name": "Hernades",
-      "position": "FW",
-      "team": 6,
-      "price": 6,
-      "gw_points": 2,
-      "total_points": 29
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 122,
-    "fields": {
-      "name": "Kim Bosub",
-      "position": "FW",
-      "team": 6,
-      "price": 5.4,
-      "gw_points": 2,
-      "total_points": 20
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 123,
-    "fields": {
-      "name": "Kim Minsug",
-      "position": "FW",
-      "team": 6,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 5
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 124,
-    "fields": {
-      "name": "Park Seungho",
-      "position": "FW",
-      "team": 6,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 3
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 125,
-    "fields": {
-      "name": "Hong Siwoo",
-      "position": "FW",
-      "team": 6,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 5
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 126,
-    "fields": {
-      "name": "Jeong Dongyun",
-      "position": "MF",
-      "team": 6,
-      "price": 5.1,
-      "gw_points": 2,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 127,
-    "fields": {
-      "name": "Kim Dohyeok",
-      "position": "MF",
-      "team": 6,
-      "price": 5.4,
-      "gw_points": 2,
-      "total_points": 19
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 128,
-    "fields": {
-      "name": "Kim Jun-yeop",
-      "position": "MF",
-      "team": 6,
-      "price": 5.2,
-      "gw_points": 0,
-      "total_points": 16
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 129,
-    "fields": {
-      "name": "Lee Dong-soo",
-      "position": "MF",
-      "team": 6,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 7
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 130,
-    "fields": {
-      "name": "Lee Myungjoo",
-      "position": "MF",
-      "team": 6,
-      "price": 6.6,
-      "gw_points": 2,
-      "total_points": 16
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 131,
-    "fields": {
-      "name": "Min Kyeonghyeon",
-      "position": "MF",
-      "team": 6,
-      "price": 5.1,
-      "gw_points": 1,
-      "total_points": 18
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 132,
-    "fields": {
-      "name": "Mun Jiwhan",
-      "position": "MF",
-      "team": 6,
-      "price": 5,
-      "gw_points": 1,
-      "total_points": 20
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 133,
-    "fields": {
-      "name": "Shin Jinho",
-      "position": "MF",
-      "team": 6,
-      "price": 7,
-      "gw_points": 2,
-      "total_points": 22
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 134,
-    "fields": {
-      "name": "Song Siwoo",
-      "position": "MF",
-      "team": 6,
-      "price": 6.2,
-      "gw_points": 1,
-      "total_points": 10
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 135,
-    "fields": {
-      "name": "Yeo Reum",
-      "position": "MF",
-      "team": 6,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 3
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 136,
-    "fields": {
-      "name": "M'Poku",
-      "position": "MF",
-      "team": 6,
-      "price": 6.1,
-      "gw_points": 0,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 137,
-    "fields": {
-      "name": "Harrison Delbridge",
-      "position": "DF",
-      "team": 6,
-      "price": 5.5,
-      "gw_points": 1,
-      "total_points": 18
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 138,
-    "fields": {
-      "name": "Kim Dongmin",
-      "position": "DF",
-      "team": 6,
-      "price": 5.5,
-      "gw_points": 0,
-      "total_points": 21
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 139,
-    "fields": {
-      "name": "Kim Yeonsoo",
-      "position": "DF",
-      "team": 6,
-      "price": 4.3,
-      "gw_points": 0,
-      "total_points": 15
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 140,
-    "fields": {
-      "name": "Kweon Hanjin",
-      "position": "DF",
-      "team": 6,
-      "price": 4.1,
-      "gw_points": 1,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 141,
-    "fields": {
-      "name": "Oh Ban-suk",
-      "position": "DF",
-      "team": 6,
-      "price": 4.2,
-      "gw_points": 1,
-      "total_points": 27
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 142,
-    "fields": {
-      "name": "Kim Dongheon",
-      "position": "GK",
-      "team": 6,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 143,
-    "fields": {
-      "name": "Lee Taehui",
-      "position": "GK",
-      "team": 6,
-      "price": 4,
-      "gw_points": 2,
-      "total_points": 9
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 144,
-    "fields": {
-      "name": "Cheon Seong-hoon",
-      "position": "FW",
-      "team": 6,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 19
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 145,
-    "fields": {
-      "name": "Min Seong-jun",
-      "position": "GK",
-      "team": 6,
-      "price": 4,
-      "gw_points": 0,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 146,
-    "fields": {
-      "name": "Isnairo Reis",
-      "position": "FW",
-      "team": 7,
-      "price": 5.5,
-      "gw_points": 6,
-      "total_points": 37
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 147,
-    "fields": {
-      "name": "Ji Sangwook",
-      "position": "FW",
-      "team": 7,
-      "price": 4.6,
-      "gw_points": 0,
-      "total_points": 8
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 148,
-    "fields": {
-      "name": "Jin Seong-wook",
-      "position": "FW",
-      "team": 7,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 149,
-    "fields": {
-      "name": "Kim Daehwan",
-      "position": "FW",
-      "team": 7,
-      "price": 4.5,
-      "gw_points": 1,
-      "total_points": 7
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 150,
-    "fields": {
-      "name": "Kim Joogong",
-      "position": "FW",
-      "team": 7,
-      "price": 4.6,
-      "gw_points": 2,
-      "total_points": 18
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 151,
-    "fields": {
-      "name": "Yuri Jonathan",
-      "position": "FW",
-      "team": 7,
-      "price": 5.7,
-      "gw_points": 2,
-      "total_points": 30
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 152,
-    "fields": {
-      "name": "Ahn Hyeon-beom",
-      "position": "MF",
-      "team": 7,
-      "price": 5.3,
-      "gw_points": 8,
-      "total_points": 29
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 153,
-    "fields": {
-      "name": "Choi Young-jun",
-      "position": "MF",
-      "team": 7,
-      "price": 5.2,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 154,
-    "fields": {
-      "name": "Han Jongmu",
-      "position": "MF",
-      "team": 7,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 5
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 155,
-    "fields": {
-      "name": "Jeon Sungjin",
-      "position": "MF",
-      "team": 7,
-      "price": 5.1,
-      "gw_points": 0,
-      "total_points": 3
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 156,
-    "fields": {
-      "name": "Kim Bongsoo",
-      "position": "DF",
-      "team": 7,
-      "price": 5.1,
-      "gw_points": 1,
-      "total_points": 32
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 157,
-    "fields": {
-      "name": "Kim Seungsub",
-      "position": "MF",
-      "team": 7,
-      "price": 5.5,
-      "gw_points": 0,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 158,
-    "fields": {
-      "name": "Koo Ja-cheol",
-      "position": "MF",
-      "team": 7,
-      "price": 5.6,
-      "gw_points": 4,
-      "total_points": 22
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 159,
-    "fields": {
-      "name": "Lee Chang-min",
-      "position": "MF",
-      "team": 7,
-      "price": 6.2,
-      "gw_points": 3,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 160,
-    "fields": {
-      "name": "Lee Gihyuk",
-      "position": "MF",
-      "team": 7,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 161,
-    "fields": {
-      "name": "Lee Juyong",
-      "position": "MF",
-      "team": 7,
-      "price": 5,
-      "gw_points": 3,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 162,
-    "fields": {
-      "name": "Seo Jinsu",
-      "position": "MF",
-      "team": 7,
-      "price": 5.2,
-      "gw_points": 0,
-      "total_points": 30
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 163,
-    "fields": {
-      "name": "An Taehyun",
-      "position": "DF",
-      "team": 7,
-      "price": 4.1,
-      "gw_points": 4,
-      "total_points": 19
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 164,
-    "fields": {
-      "name": "Chung Woon",
-      "position": "DF",
-      "team": 7,
-      "price": 5.5,
-      "gw_points": 5,
-      "total_points": 30
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 165,
-    "fields": {
-      "name": "Kim Junsu",
-      "position": "DF",
-      "team": 7,
-      "price": 4.3,
-      "gw_points": 5,
-      "total_points": 26
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 166,
-    "fields": {
-      "name": "Kim Oh-gyu",
-      "position": "DF",
-      "team": 7,
-      "price": 5.5,
-      "gw_points": 6,
-      "total_points": 42
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 167,
-    "fields": {
-      "name": "Lim Chaemin",
-      "position": "DF",
-      "team": 7,
-      "price": 4.6,
-      "gw_points": 1,
-      "total_points": 10
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 168,
-    "fields": {
-      "name": "Lim Donghyuk",
-      "position": "DF",
-      "team": 7,
-      "price": 4,
-      "gw_points": 0,
-      "total_points": 6
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 169,
-    "fields": {
-      "name": "Song Ju-hun",
-      "position": "DF",
-      "team": 7,
-      "price": 4.2,
-      "gw_points": 0,
-      "total_points": 8
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 170,
-    "fields": {
-      "name": "Kim Dong-jun",
-      "position": "GK",
-      "team": 7,
-      "price": 4.6,
-      "gw_points": 7,
-      "total_points": 51
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 171,
-    "fields": {
-      "name": "Kwak Seungmin",
-      "position": "FW",
-      "team": 7,
-      "price": 4,
-      "gw_points": 1,
-      "total_points": 3
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 172,
-    "fields": {
-      "name": "Cho Guesung",
-      "position": "FW",
-      "team": 8,
-      "price": 6.7,
-      "gw_points": 0,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 173,
-    "fields": {
-      "name": "Gustavo",
-      "position": "FW",
-      "team": 8,
-      "price": 6.1,
-      "gw_points": 0,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 174,
-    "fields": {
-      "name": "Rafael Silva",
-      "position": "FW",
-      "team": 8,
-      "price": 6.3,
-      "gw_points": 5,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 175,
-    "fields": {
-      "name": "André Luis",
-      "position": "MF",
-      "team": 8,
-      "price": 7,
-      "gw_points": 3,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 176,
-    "fields": {
-      "name": "Han Kyowon",
-      "position": "MF",
-      "team": 8,
-      "price": 6.4,
-      "gw_points": 1,
-      "total_points": 16
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 177,
-    "fields": {
-      "name": "Jun Amano",
-      "position": "MF",
-      "team": 8,
-      "price": 6.8,
-      "gw_points": 0,
-      "total_points": 30
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 178,
-    "fields": {
-      "name": "Kang Sangyoon",
-      "position": "MF",
-      "team": 8,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 179,
-    "fields": {
-      "name": "Kim Kunwoong",
-      "position": "DF",
-      "team": 8,
-      "price": 5,
-      "gw_points": 1,
-      "total_points": 23
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 180,
-    "fields": {
-      "name": "Lee Dongjun",
-      "position": "MF",
-      "team": 8,
-      "price": 6.8,
-      "gw_points": 1,
-      "total_points": 7
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 181,
-    "fields": {
-      "name": "Lee Minhyeok",
-      "position": "MF",
-      "team": 8,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 6
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 182,
-    "fields": {
-      "name": "Lee Soobin",
-      "position": "MF",
-      "team": 8,
-      "price": 5,
-      "gw_points": 3,
-      "total_points": 9
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 183,
-    "fields": {
-      "name": "Maeng Seongung",
-      "position": "MF",
-      "team": 8,
-      "price": 5.3,
-      "gw_points": 3,
-      "total_points": 14
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 184,
-    "fields": {
-      "name": "Moon Seon-min",
-      "position": "MF",
-      "team": 8,
-      "price": 5.7,
-      "gw_points": 7,
-      "total_points": 18
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 185,
-    "fields": {
-      "name": "Paik Seungho",
-      "position": "MF",
-      "team": 8,
-      "price": 6,
-      "gw_points": 13,
-      "total_points": 30
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 186,
-    "fields": {
-      "name": "Ryu Jaemoon",
-      "position": "MF",
-      "team": 8,
-      "price": 5.4,
-      "gw_points": 1,
-      "total_points": 14
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 187,
-    "fields": {
-      "name": "Song Minkyu",
-      "position": "MF",
-      "team": 8,
-      "price": 7.2,
-      "gw_points": 0,
-      "total_points": 33
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 188,
-    "fields": {
-      "name": "Hong Jeong-ho",
-      "position": "DF",
-      "team": 8,
-      "price": 5.5,
-      "gw_points": 0,
-      "total_points": 15
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 189,
-    "fields": {
-      "name": "Jeong Taewook",
-      "position": "DF",
-      "team": 8,
-      "price": 6,
-      "gw_points": 6,
-      "total_points": 32
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 190,
-    "fields": {
-      "name": "Jeong Woo-jae",
-      "position": "DF",
-      "team": 8,
-      "price": 4.4,
-      "gw_points": 0,
-      "total_points": 22
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 191,
-    "fields": {
-      "name": "Kim Jin-su",
-      "position": "DF",
-      "team": 8,
-      "price": 6.5,
-      "gw_points": 0,
-      "total_points": 9
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 192,
-    "fields": {
-      "name": "Kim Moonhwan",
-      "position": "DF",
-      "team": 8,
-      "price": 6.2,
-      "gw_points": 0,
-      "total_points": 16
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 193,
-    "fields": {
-      "name": "Koo Ja-ryong",
-      "position": "DF",
-      "team": 8,
-      "price": 4.3,
-      "gw_points": 6,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 194,
-    "fields": {
-      "name": "Park Jinsub",
-      "position": "DF",
-      "team": 8,
-      "price": 6.5,
-      "gw_points": 3,
-      "total_points": 24
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 195,
-    "fields": {
-      "name": "Jeong Minki",
-      "position": "GK",
-      "team": 8,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 196,
-    "fields": {
-      "name": "Kim Jeonghoon",
-      "position": "GK",
-      "team": 8,
-      "price": 4.5,
-      "gw_points": 5,
-      "total_points": 32
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 197,
-    "fields": {
-      "name": "Park Changwoo",
-      "position": "DF",
-      "team": 8,
-      "price": 4.2,
-      "gw_points": 0,
-      "total_points": 9
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 198,
-    "fields": {
-      "name": "Choi Cheolsoon",
-      "position": "DF",
-      "team": 8,
-      "price": 4.2,
-      "gw_points": 1,
-      "total_points": 4
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 199,
-    "fields": {
-      "name": "Oh Jaehyuk",
-      "position": "MF",
-      "team": 8,
-      "price": 4.8,
-      "gw_points": 1,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 200,
-    "fields": {
-      "name": "Lee Hojae",
-      "position": "FW",
-      "team": 9,
-      "price": 5.1,
-      "gw_points": 1,
-      "total_points": 23
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 201,
-    "fields": {
-      "name": "Lee Seung-mo",
-      "position": "MF",
-      "team": 9,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 6
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 202,
-    "fields": {
-      "name": "Zeca",
-      "position": "FW",
-      "team": 9,
-      "price": 6.4,
-      "gw_points": 1,
-      "total_points": 32
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 203,
-    "fields": {
-      "name": "Baek Sung-dong",
-      "position": "MF",
-      "team": 9,
-      "price": 6.6,
-      "gw_points": 4,
-      "total_points": 41
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 204,
-    "fields": {
-      "name": "Cho Jaehun",
-      "position": "MF",
-      "team": 9,
-      "price": 5,
-      "gw_points": 1,
-      "total_points": 7
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 205,
-    "fields": {
-      "name": "Goh Youngjun",
-      "position": "MF",
-      "team": 9,
-      "price": 6.9,
-      "gw_points": 2,
-      "total_points": 43
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 206,
-    "fields": {
-      "name": "Jeong Jae-hee",
-      "position": "MF",
-      "team": 9,
-      "price": 6.7,
-      "gw_points": 0,
-      "total_points": 21
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 207,
-    "fields": {
-      "name": "Kim In-sung",
-      "position": "MF",
-      "team": 9,
-      "price": 5.3,
-      "gw_points": 0,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 208,
-    "fields": {
-      "name": "Kim Jongwoo",
-      "position": "MF",
-      "team": 9,
-      "price": 5.4,
-      "gw_points": 0,
-      "total_points": 20
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 209,
-    "fields": {
-      "name": "Kim Junho",
-      "position": "MF",
-      "team": 9,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 210,
-    "fields": {
-      "name": "Kim Seung-dae",
-      "position": "MF",
-      "team": 9,
-      "price": 6.1,
-      "gw_points": 2,
-      "total_points": 31
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 211,
-    "fields": {
-      "name": "Oberdan",
-      "position": "MF",
-      "team": 9,
-      "price": 6.3,
-      "gw_points": 2,
-      "total_points": 26
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 212,
-    "fields": {
-      "name": "Yoon Jaewoon",
-      "position": "MF",
-      "team": 9,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 4
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 213,
-    "fields": {
-      "name": "Alex Grant",
-      "position": "DF",
-      "team": 9,
-      "price": 6,
-      "gw_points": 8,
-      "total_points": 26
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 214,
-    "fields": {
-      "name": "Ha Chang-rae",
-      "position": "DF",
-      "team": 9,
-      "price": 4.7,
-      "gw_points": 0,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 215,
-    "fields": {
-      "name": "Kim Yong-hwan",
-      "position": "DF",
-      "team": 9,
-      "price": 4,
-      "gw_points": 2,
-      "total_points": 5
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 216,
-    "fields": {
-      "name": "Park Chan-yong",
-      "position": "DF",
-      "team": 9,
-      "price": 5.5,
-      "gw_points": 2,
-      "total_points": 14
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 217,
-    "fields": {
-      "name": "Park Geonwoo",
-      "position": "DF",
-      "team": 9,
-      "price": 4,
-      "gw_points": 0,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 218,
-    "fields": {
-      "name": "Park Seungwook",
-      "position": "DF",
-      "team": 9,
-      "price": 5.8,
-      "gw_points": 0,
-      "total_points": 26
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 219,
-    "fields": {
-      "name": "Shin Kwang-hoon",
-      "position": "DF",
-      "team": 9,
-      "price": 5.5,
-      "gw_points": 1,
-      "total_points": 15
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 220,
-    "fields": {
-      "name": "Sim Sang-min",
-      "position": "DF",
-      "team": 9,
-      "price": 5.4,
-      "gw_points": 2,
-      "total_points": 37
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 221,
-    "fields": {
-      "name": "Wanderson",
-      "position": "DF",
-      "team": 9,
-      "price": 5.5,
-      "gw_points": 1,
-      "total_points": 6
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 222,
-    "fields": {
-      "name": "Hwang Injae",
-      "position": "GK",
-      "team": 9,
-      "price": 4.5,
-      "gw_points": 2,
-      "total_points": 32
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 223,
-    "fields": {
-      "name": "Yoon Minho",
-      "position": "MF",
-      "team": 9,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 224,
-    "fields": {
-      "name": "An Byong-jun",
-      "position": "FW",
-      "team": 10,
-      "price": 5.4,
-      "gw_points": 1,
-      "total_points": 16
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 225,
-    "fields": {
-      "name": "Fejsal Mulić",
-      "position": "FW",
-      "team": 10,
-      "price": 5.5,
-      "gw_points": 1,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 226,
-    "fields": {
-      "name": "Jeon Jinwoo",
-      "position": "FW",
-      "team": 10,
-      "price": 5.5,
-      "gw_points": 0,
-      "total_points": 6
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 227,
-    "fields": {
-      "name": "Lee Sangmin",
-      "position": "FW",
-      "team": 10,
-      "price": 4.2,
-      "gw_points": 1,
-      "total_points": 8
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 228,
-    "fields": {
-      "name": "Park Heejun",
-      "position": "FW",
-      "team": 10,
-      "price": 4.2,
-      "gw_points": 0,
-      "total_points": 3
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 229,
-    "fields": {
-      "name": "Choi Sung-keun",
-      "position": "MF",
-      "team": 10,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 230,
-    "fields": {
-      "name": "Kim Bokyung",
-      "position": "MF",
-      "team": 10,
-      "price": 5.6,
-      "gw_points": 2,
-      "total_points": 28
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 231,
-    "fields": {
-      "name": "Kim Juchan",
-      "position": "MF",
-      "team": 10,
-      "price": 5.2,
-      "gw_points": 0,
-      "total_points": 8
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 232,
-    "fields": {
-      "name": "Kim Kyung-jung",
-      "position": "MF",
-      "team": 10,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 233,
-    "fields": {
-      "name": "Ko Seungbeom",
-      "position": "MF",
-      "team": 10,
-      "price": 5.7,
-      "gw_points": 0,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 234,
-    "fields": {
-      "name": "Lee Jongsung",
-      "position": "MF",
-      "team": 10,
-      "price": 5.4,
-      "gw_points": 2,
-      "total_points": 18
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 235,
-    "fields": {
-      "name": "Maxwell Acosty",
-      "position": "MF",
-      "team": 10,
-      "price": 6.6,
-      "gw_points": 0,
-      "total_points": 19
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 236,
-    "fields": {
-      "name": "Rodrigo Bassani",
-      "position": "MF",
-      "team": 10,
-      "price": 6.6,
-      "gw_points": 1,
-      "total_points": 25
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 237,
-    "fields": {
-      "name": "Yu Jeho",
-      "position": "MF",
-      "team": 10,
-      "price": 5.1,
-      "gw_points": 1,
-      "total_points": 16
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 238,
-    "fields": {
-      "name": "Dave Bulthuis",
-      "position": "DF",
-      "team": 10,
-      "price": 5.2,
-      "gw_points": -1,
-      "total_points": 15
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 239,
-    "fields": {
-      "name": "Go Myeongseok",
-      "position": "DF",
-      "team": 10,
-      "price": 5.3,
-      "gw_points": 1,
-      "total_points": 11
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 240,
-    "fields": {
-      "name": "Jang Hoik",
-      "position": "DF",
-      "team": 10,
-      "price": 4.5,
-      "gw_points": 1,
-      "total_points": 9
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 241,
-    "fields": {
-      "name": "Jeong Seungwon",
-      "position": "DF",
-      "team": 10,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 4
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 242,
-    "fields": {
-      "name": "Kim Taehwan",
-      "position": "DF",
-      "team": 10,
-      "price": 5.2,
-      "gw_points": 1,
-      "total_points": 15
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 243,
-    "fields": {
-      "name": "Lee Ki-je",
-      "position": "DF",
-      "team": 10,
-      "price": 7.4,
-      "gw_points": 1,
-      "total_points": 25
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 244,
-    "fields": {
-      "name": "Park Daewon",
-      "position": "DF",
-      "team": 10,
-      "price": 4.2,
-      "gw_points": 1,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 245,
-    "fields": {
-      "name": "Yang Hyungmo",
-      "position": "GK",
-      "team": 10,
-      "price": 4.6,
-      "gw_points": 2,
-      "total_points": 30
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 246,
-    "fields": {
-      "name": "Seo Dong-han",
-      "position": "MF",
-      "team": 10,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 247,
-    "fields": {
-      "name": "Ryu Seungwoo",
-      "position": "MF",
-      "team": 10,
-      "price": 5.9,
-      "gw_points": 1,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 248,
-    "fields": {
-      "name": "Han Hogang",
-      "position": "DF",
-      "team": 10,
-      "price": 4,
-      "gw_points": 0,
-      "total_points": 8
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 249,
-    "fields": {
-      "name": "Yeom Kihun",
-      "position": "MF",
-      "team": 10,
-      "price": 5.5,
-      "gw_points": 0,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 250,
-    "fields": {
-      "name": "Son Hojun",
-      "position": "DF",
-      "team": 10,
-      "price": 4,
-      "gw_points": 1,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 251,
-    "fields": {
-      "name": "Han Seokjong",
-      "position": "MF",
-      "team": 10,
-      "price": 5.5,
-      "gw_points": 0,
-      "total_points": 3
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 252,
-    "fields": {
-      "name": "Jeong Eunwoo",
-      "position": "FW",
-      "team": 11,
-      "price": 4.5,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 253,
-    "fields": {
-      "name": "Jung Jaeyun",
-      "position": "FW",
-      "team": 11,
-      "price": 4.5,
-      "gw_points": 1,
-      "total_points": 5
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 254,
-    "fields": {
-      "name": "Kim Hyun",
-      "position": "FW",
-      "team": 11,
-      "price": 5.2,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 255,
-    "fields": {
-      "name": "Lars Veldwijk",
-      "position": "FW",
-      "team": 11,
-      "price": 6.9,
-      "gw_points": 6,
-      "total_points": 54
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 256,
-    "fields": {
-      "name": "Lee Daegwang",
-      "position": "FW",
-      "team": 11,
-      "price": 4.4,
-      "gw_points": 0,
-      "total_points": 11
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 257,
-    "fields": {
-      "name": "Hwang Soonmin",
-      "position": "MF",
-      "team": 11,
-      "price": 4.4,
-      "gw_points": 0,
-      "total_points": 9
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 258,
-    "fields": {
-      "name": "Jang Jaewoong",
-      "position": "MF",
-      "team": 11,
-      "price": 4.4,
-      "gw_points": 1,
-      "total_points": 11
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 259,
-    "fields": {
-      "name": "Kim Gyuhyeong",
-      "position": "MF",
-      "team": 11,
-      "price": 5,
-      "gw_points": 1,
-      "total_points": 4
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 260,
-    "fields": {
-      "name": "Kim Sun-min",
-      "position": "MF",
-      "team": 11,
-      "price": 5,
-      "gw_points": 2,
-      "total_points": 10
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 261,
-    "fields": {
-      "name": "Lee Gwang-hyuk",
-      "position": "MF",
-      "team": 11,
-      "price": 5.6,
-      "gw_points": 0,
-      "total_points": 23
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 262,
-    "fields": {
-      "name": "Lee Seung-woo",
-      "position": "MF",
-      "team": 11,
-      "price": 7.4,
-      "gw_points": 2,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 263,
-    "fields": {
-      "name": "Murilo Henrique",
-      "position": "MF",
-      "team": 11,
-      "price": 6.8,
-      "gw_points": 2,
-      "total_points": 43
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 264,
-    "fields": {
-      "name": "Oh In-pyo",
-      "position": "MF",
-      "team": 11,
-      "price": 5.1,
-      "gw_points": 1,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 265,
-    "fields": {
-      "name": "Park Joo-ho",
-      "position": "MF",
-      "team": 11,
-      "price": 5.2,
-      "gw_points": 0,
-      "total_points": 10
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 266,
-    "fields": {
-      "name": "Yoon Bit-garam",
-      "position": "MF",
-      "team": 11,
-      "price": 5.8,
-      "gw_points": 2,
-      "total_points": 35
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 267,
-    "fields": {
-      "name": "Jeong Dong-ho",
-      "position": "DF",
-      "team": 11,
-      "price": 4.1,
-      "gw_points": 1,
-      "total_points": 19
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 268,
-    "fields": {
-      "name": "Kim Hyun-hun",
-      "position": "DF",
-      "team": 11,
-      "price": 4.2,
-      "gw_points": 0,
-      "total_points": 4
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 269,
-    "fields": {
-      "name": "Lachlan Jackson",
-      "position": "DF",
-      "team": 11,
-      "price": 5,
-      "gw_points": 1,
-      "total_points": 16
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 270,
-    "fields": {
-      "name": "Lee Jae-sung",
-      "position": "DF",
-      "team": 11,
-      "price": 4.4,
-      "gw_points": 0,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 271,
-    "fields": {
-      "name": "Lee Yong",
-      "position": "DF",
-      "team": 11,
-      "price": 5.2,
-      "gw_points": 0,
-      "total_points": 25
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 272,
-    "fields": {
-      "name": "Park Byunghyun",
-      "position": "DF",
-      "team": 11,
-      "price": 4.3,
-      "gw_points": 0,
-      "total_points": 9
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 273,
-    "fields": {
-      "name": "Park Cheolwoo",
-      "position": "DF",
-      "team": 11,
-      "price": 4.4,
-      "gw_points": 0,
-      "total_points": 10
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 274,
-    "fields": {
-      "name": "Shin Se-gye",
-      "position": "DF",
-      "team": 11,
-      "price": 4.5,
-      "gw_points": 1,
-      "total_points": 28
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 275,
-    "fields": {
-      "name": "Lee Bum-young",
-      "position": "GK",
-      "team": 11,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 15
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 276,
-    "fields": {
-      "name": "No Dong-geon",
-      "position": "GK",
-      "team": 11,
-      "price": 4.5,
-      "gw_points": 3,
-      "total_points": 31
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 277,
-    "fields": {
-      "name": "Kim Jooyeop",
-      "position": "FW",
-      "team": 11,
-      "price": 4.9,
-      "gw_points": 0,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 278,
-    "fields": {
-      "name": "Jeong Jaeyong",
-      "position": "MF",
-      "team": 11,
-      "price": 4.9,
-      "gw_points": 1,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 279,
-    "fields": {
-      "name": "Yang Donghyun",
-      "position": "FW",
-      "team": 11,
-      "price": 4.9,
-      "gw_points": 0,
-      "total_points": 1
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 280,
-    "fields": {
-      "name": "Luan Ferreira",
-      "position": "MF",
-      "team": 9,
-      "price": 5.5,
-      "gw_points": 4,
-      "total_points": 5
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 281,
-    "fields": {
-      "name": "Martin Ádám",
-      "position": "FW",
-      "team": 12,
-      "price": 6,
-      "gw_points": 0,
-      "total_points": 18
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 282,
-    "fields": {
-      "name": "Joo Minkyu",
-      "position": "FW",
-      "team": 12,
-      "price": 7,
-      "gw_points": 6,
-      "total_points": 43
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 283,
-    "fields": {
-      "name": "Ataru Esaka",
-      "position": "MF",
-      "team": 12,
-      "price": 6.4,
-      "gw_points": 0,
-      "total_points": 12
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 284,
-    "fields": {
-      "name": "Darijan Bojanić",
-      "position": "MF",
-      "team": 12,
-      "price": 5.5,
-      "gw_points": 0,
-      "total_points": 8
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 285,
-    "fields": {
-      "name": "Gustav Ludwigson",
-      "position": "MF",
-      "team": 12,
-      "price": 7.5,
-      "gw_points": 1,
-      "total_points": 45
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 286,
-    "fields": {
-      "name": "Jang Siyoung",
-      "position": "MF",
-      "team": 12,
-      "price": 5,
-      "gw_points": 0,
-      "total_points": 4
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 287,
-    "fields": {
-      "name": "Kang Yungu",
-      "position": "MF",
-      "team": 12,
-      "price": 5.2,
-      "gw_points": 0,
-      "total_points": 16
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 288,
-    "fields": {
-      "name": "Kim Min-hyeok",
-      "position": "MF",
-      "team": 12,
-      "price": 5.2,
-      "gw_points": 1,
-      "total_points": 22
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 289,
-    "fields": {
-      "name": "Lee Chung-yong",
-      "position": "MF",
-      "team": 12,
-      "price": 6.2,
-      "gw_points": 1,
-      "total_points": 17
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 290,
-    "fields": {
-      "name": "Lee Kyu-seong",
-      "position": "MF",
-      "team": 12,
-      "price": 5.5,
-      "gw_points": 3,
-      "total_points": 23
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 291,
-    "fields": {
-      "name": "Park Yong-woo",
-      "position": "MF",
-      "team": 12,
-      "price": 5.6,
-      "gw_points": 3,
-      "total_points": 32
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 292,
-    "fields": {
-      "name": "Um Wonsang",
-      "position": "MF",
-      "team": 12,
-      "price": 7.4,
-      "gw_points": 3,
-      "total_points": 41
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 293,
-    "fields": {
-      "name": "Vako",
-      "position": "MF",
-      "team": 12,
-      "price": 6.9,
-      "gw_points": 2,
-      "total_points": 37
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 294,
-    "fields": {
-      "name": "Cho Hyuntaek",
-      "position": "DF",
-      "team": 12,
-      "price": 4.5,
-      "gw_points": 1,
-      "total_points": 19
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 295,
-    "fields": {
-      "name": "Jung Seung-hyun",
-      "position": "DF",
-      "team": 12,
-      "price": 6.1,
-      "gw_points": 0,
-      "total_points": 24
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 296,
-    "fields": {
-      "name": "Kim Tae-hwan",
-      "position": "DF",
-      "team": 12,
-      "price": 6.4,
-      "gw_points": 6,
-      "total_points": 22
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 297,
-    "fields": {
-      "name": "Kim Young-gwon",
-      "position": "DF",
-      "team": 12,
-      "price": 6,
-      "gw_points": 6,
-      "total_points": 39
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 298,
-    "fields": {
-      "name": "Lee Myung-jae",
-      "position": "DF",
-      "team": 12,
-      "price": 5.1,
-      "gw_points": 6,
-      "total_points": 25
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 299,
-    "fields": {
-      "name": "Lim Jong-eun",
-      "position": "DF",
-      "team": 12,
-      "price": 4,
-      "gw_points": 0,
-      "total_points": 2
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 300,
-    "fields": {
-      "name": "Seol Youngwoo",
-      "position": "DF",
-      "team": 12,
-      "price": 6.2,
-      "gw_points": 0,
-      "total_points": 43
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 301,
-    "fields": {
-      "name": "Cho Hyun-woo",
-      "position": "GK",
-      "team": 12,
-      "price": 5.5,
-      "gw_points": 6,
-      "total_points": 55
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 302,
-    "fields": {
-      "name": "Jo Suhuk",
-      "position": "GK",
-      "team": 12,
-      "price": 4,
-      "gw_points": 0,
-      "total_points": 0
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 303,
-    "fields": {
-      "name": "Hwang Jaehwan",
-      "position": "MF",
-      "team": 12,
-      "price": 5,
-      "gw_points": 1,
-      "total_points": 13
-    }
-  },
-  {
-    "model": "players.Player",
-    "pk": 304,
-    "fields": {
-      "name": "Kim Keehee",
-      "position": "DF",
-      "team": 12,
-      "price": 4.5,
-      "gw_points": 6,
-      "total_points": 20
+  {"model": "players.Player", "pk": 1, "fields": {"name": "Martin Ádám", "position": "FW",
+      "team": 12,"price": 6,"gw_points": 0, "total_points": 18
+    }
+  },
+  {"model": "players.Player", "pk": 2, "fields": {"name": "An Byong-jun","position": "FW",
+      "team": 10,"price": 5.4,"gw_points": 1, "total_points": 16
+    }
+  },
+  {"model": "players.Player", "pk": 3, "fields": {"name": "Bae Junho","position": "FW",
+      "team": 2,"price": 4.5,"gw_points": 0, "total_points": 10
+    }
+  },
+  {"model": "players.Player", "pk": 4, "fields": {"name": "Cesinha","position": "FW",
+      "team": 1,"price": 6.8,"gw_points": 0, "total_points": 25
+    }
+  },
+  {"model": "players.Player", "pk": 5, "fields": {"name": "Cho Guesung","position": "FW",
+      "team": 8,"price": 6.7,"gw_points": 0, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 6, "fields": {"name": "Cho Jinhyuk","position": "FW",
+      "team": 4,"price": 4.6,"gw_points": 1, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 7, "fields": {"name": "Dino Islamović","position": "FW",
+      "team": 4,"price": 5,"gw_points": 0, "total_points": 10
+    }
+  },
+  {"model": "players.Player", "pk": 8, "fields": {"name": "Edgar","position": "FW",
+      "team": 1,"price": 5.6,"gw_points": 1, "total_points": 28
+    }
+  },
+  {"model": "players.Player", "pk": 9, "fields": {"name": "Fejsal Mulić","position": "FW",
+      "team": 10,"price": 5.5,"gw_points": 1, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 10, "fields": {"name": "Gerso","position": "FW",
+      "team": 6,"price": 6.6,"gw_points": 2, "total_points": 32
+    }
+  },
+  {"model": "players.Player", "pk": 11, "fields": {"name": "Go Jaehyeon","position": "FW",
+      "team": 1,"price": 6.5,"gw_points": 1, "total_points": 30
+    }
+  },
+  {"model": "players.Player", "pk": 12, "fields": {"name": "Gong Min-hyun","position": "FW",
+      "team": 2,"price": 4.5,"gw_points": 1, "total_points": 8
+    }
+  },
+  {"model": "players.Player", "pk": 13, "fields": {"name": "Gustavo","position": "FW",
+      "team": 8,"price": 6.1,"gw_points": 0, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 14, "fields": {"name": "Ha Seungun","position": "MF",
+      "team": 5,"price": 5,"gw_points": 1, "total_points": 19
+    }
+  },
+  {"model": "players.Player", "pk": 15, "fields": {"name": "Heo Yool","position": "FW",
+      "team": 5,"price": 4.5,"gw_points": 5, "total_points": 19
+    }
+  },
+  {"model": "players.Player", "pk": 16, "fields": {"name": "Hernades","position": "FW",
+      "team": 6,"price": 6,"gw_points": 2, "total_points": 29
+    }
+  },
+  {"model": "players.Player", "pk": 17, "fields": {"name": "Hwang Ui-jo","position": "FW",
+      "team": 3,"price": 6.8,"gw_points": 5, "total_points": 34
+    }
+  },
+  {"model": "players.Player", "pk": 18, "fields": {"name": "Isnairo Reis","position": "FW",
+      "team": 7,"price": 5.5,"gw_points": 6, "total_points": 37
+    }
+  },
+  {"model": "players.Player", "pk": 19, "fields": {"name": "Jefferson Galego","position": "FW",
+      "team": 4,"price": 5.5,"gw_points": 1, "total_points": 16
+    }
+  },
+  {"model": "players.Player", "pk": 20, "fields": {"name": "Jeon Byungkwan","position": "FW",
+      "team": 2,"price": 4.5,"gw_points": 6, "total_points": 16
+    }
+  },
+  {"model": "players.Player", "pk": 21, "fields": {"name": "Jeon Jinwoo","position": "FW",
+      "team": 10,"price": 5.5,"gw_points": 0, "total_points": 6
+    }
+  },
+  {"model": "players.Player", "pk": 22, "fields": {"name": "Jeong Eunwoo","position": "FW",
+      "team": 11,"price": 4.5,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 23, "fields": {"name": "Ji Sangwook","position": "FW",
+      "team": 7,"price": 4.6,"gw_points": 0, "total_points": 8
+    }
+  },
+  {"model": "players.Player", "pk": 24, "fields": {"name": "Jin Seong-wook","position": "FW",
+      "team": 7,"price": 4.5,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 25, "fields": {"name": "Joo Minkyu","position": "FW",
+      "team": 12,"price": 7,"gw_points": 6, "total_points": 43
+    }
+  },
+  {"model": "players.Player", "pk": 26, "fields": {"name": "Jung Jaeyun","position": "FW",
+      "team": 11,"price": 4.5,"gw_points": 1, "total_points": 5
+    }
+  },
+  {"model": "players.Player", "pk": 27, "fields": {"name": "Kang Jihoon","position": "FW",
+      "team": 4,"price": 4.5,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 28, "fields": {"name": "Kim Bosub","position": "FW",
+      "team": 6,"price": 5.4,"gw_points": 2, "total_points": 20
+    }
+  },
+  {"model": "players.Player", "pk": 29, "fields": {"name": "Kim Daehwan","position": "FW",
+      "team": 7,"price": 4.5,"gw_points": 1, "total_points": 7
+    }
+  },
+  {"model": "players.Player", "pk": 30, "fields": {"name": "Kim Hyun","position": "FW",
+      "team": 11,"price": 5.2,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 31, "fields": {"name": "Kim Ingyun","position": "MF",
+      "team": 2,"price": 6.2,"gw_points": 0, "total_points": 20
+    }
+  },
+  {"model": "players.Player", "pk": 32, "fields": {"name": "Kim Joogong","position": "FW",
+      "team": 7,"price": 4.6,"gw_points": 2, "total_points": 18
+    }
+  },
+  {"model": "players.Player", "pk": 33, "fields": {"name": "Kim Minsug","position": "FW",
+      "team": 6,"price": 4.5,"gw_points": 0, "total_points": 5
+    }
+  },
+  {"model": "players.Player", "pk": 34, "fields": {"name": "Kim Shinjin","position": "FW",
+      "team": 3,"price": 4.7,"gw_points": 1, "total_points": 11
+    }
+  },
+  {"model": "players.Player", "pk": 35, "fields": {"name": "Lars Veldwijk","position": "FW",
+      "team": 11,"price": 6.9,"gw_points": 6, "total_points": 54
+    }
+  },
+  {"model": "players.Player", "pk": 36, "fields": {"name": "Leandro","position": "FW",
+      "team": 2,"price": 5.8,"gw_points": 0, "total_points": 21
+    }
+  },
+  {"model": "players.Player", "pk": 37, "fields": {"name": "Lee Daegwang","position": "FW",
+      "team": 11,"price": 4.4,"gw_points": 0, "total_points": 11
+    }
+  },
+  {"model": "players.Player", "pk": 38, "fields": {"name": "Lee Hojae","position": "FW",
+      "team": 9,"price": 5.1,"gw_points": 1, "total_points": 23
+    }
+  },
+  {"model": "players.Player", "pk": 39, "fields": {"name": "Lee Jeong-hyeop","position": "FW",
+      "team": 4,"price": 5.7,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 40, "fields": {"name": "Lee Keun-ho","position": "FW",
+      "team": 1,"price": 4.8,"gw_points": 4, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 41, "fields": {"name": "Lee Sangmin","position": "FW",
+      "team": 10,"price": 4.2,"gw_points": 1, "total_points": 8
+    }
+  },
+  {"model": "players.Player", "pk": 42, "fields": {"name": "Lee Seung-mo","position": "MF",
+      "team": 9,"price": 5,"gw_points": 0, "total_points": 6
+    }
+  },
+  {"model": "players.Player", "pk": 43, "fields": {"name": "Lucas Barcellos","position": "FW",
+      "team": 1,"price": 5.4,"gw_points": 0, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 44, "fields": {"name": "Masatoshi Ishida","position": "FW",
+      "team": 2,"price": 5.4,"gw_points": 6, "total_points": 15
+    }
+  },
+  {"model": "players.Player", "pk": 45, "fields": {"name": "Park Dong-jin","position": "FW",
+      "team": 3,"price": 5.2,"gw_points": 5, "total_points": 23
+    }
+  },
+  {"model": "players.Player", "pk": 46, "fields": {"name": "Park Heejun","position": "FW",
+      "team": 10,"price": 4.2,"gw_points": 0, "total_points": 3
+    }
+  },
+  {"model": "players.Player", "pk": 47, "fields": {"name": "Park Sanghyeok","position": "FW",
+      "team": 4,"price": 4.8,"gw_points": 1, "total_points": 15
+    }
+  },
+  {"model": "players.Player", "pk": 48, "fields": {"name": "Park Seungho","position": "FW",
+      "team": 6,"price": 4.5,"gw_points": 0, "total_points": 3
+    }
+  },
+  {"model": "players.Player", "pk": 49, "fields": {"name": "Park Yonghui","position": "FW",
+      "team": 1,"price": 4.5,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 50, "fields": {"name": "Rafael Silva","position": "FW",
+      "team": 8,"price": 6.3,"gw_points": 5, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 51, "fields": {"name": "Sandro Lima","position": "FW",
+      "team": 5,"price": 5.7,"gw_points": 1, "total_points": 25
+    }
+  },
+  {"model": "players.Player", "pk": 52, "fields": {"name": "Shin Sangun","position": "MF",
+      "team": 2,"price": 5.1,"gw_points": 1, "total_points": 6
+    }
+  },
+  {"model": "players.Player", "pk": 53, "fields": {"name": "Hong Siwoo","position": "FW",
+      "team": 6,"price": 4.5,"gw_points": 0, "total_points": 5
+    }
+  },
+  {"model": "players.Player", "pk": 54, "fields": {"name": "Stanislav Iljutcenko","position": "FW",
+      "team": 3,"price": 6.2,"gw_points": 1, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 55, "fields": {"name": "Thomas Jaguaribe","position": "FW",
+      "team": 5,"price": 5.5,"gw_points": 0, "total_points": 6
+    }
+  },
+  {"model": "players.Player", "pk": 56, "fields": {"name": "Tiago Orobó","position": "FW",
+      "team": 2,"price": 6.4,"gw_points": 2, "total_points": 40
+    }
+  },
+  {"model": "players.Player", "pk": 57, "fields": {"name": "Yu Kanghyun","position": "FW",
+      "team": 2,"price": 5.2,"gw_points": 0, "total_points": 7
+    }
+  },
+  {"model": "players.Player", "pk": 58, "fields": {"name": "Yuri Jonathan","position": "FW",
+      "team": 7,"price": 5.7,"gw_points": 2, "total_points": 30
+    }
+  },
+  {"model": "players.Player", "pk": 59, "fields": {"name": "Zeca","position": "FW",
+      "team": 9,"price": 6.4,"gw_points": 1, "total_points": 32
+    }
+  },
+  {"model": "players.Player", "pk": 60, "fields": {"name": "Ahn Hyeon-beom","position": "MF",
+      "team": 7,"price": 5.3,"gw_points": 8, "total_points": 29
+    }
+  },
+  {"model": "players.Player", "pk": 61, "fields": {"name": "Paločević","position": "MF",
+      "team": 3,"price": 6.8,"gw_points": 2, "total_points": 35
+    }
+  },
+  {"model": "players.Player", "pk": 62, "fields": {"name": "André Luis","position": "MF",
+      "team": 8,"price": 7,"gw_points": 3, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 63, "fields": {"name": "Ataru Esaka","position": "MF",
+      "team": 12,"price": 6.4,"gw_points": 0, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 64, "fields": {"name": "Baek Sung-dong","position": "MF",
+      "team": 9,"price": 6.6,"gw_points": 4, "total_points": 41
+    }
+  },
+  {"model": "players.Player", "pk": 65, "fields": {"name": "Cho Jaehun","position": "MF",
+      "team": 9,"price": 5,"gw_points": 1, "total_points": 7
+    }
+  },
+  {"model": "players.Player", "pk": 66, "fields": {"name": "Choi Sung-keun","position": "MF",
+      "team": 10,"price": 5,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 67, "fields": {"name": "Choi Young-jun","position": "MF",
+      "team": 7,"price": 5.2,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 68, "fields": {"name": "Darijan Bojanić","position": "MF",
+      "team": 12,"price": 5.5,"gw_points": 0, "total_points": 8
+    }
+  },
+  {"model": "players.Player", "pk": 69, "fields": {"name": "Eom Jisung","position": "MF",
+      "team": 5,"price": 5.6,"gw_points": 2, "total_points": 15
+    }
+  },
+  {"model": "players.Player", "pk": 70, "fields": {"name": "Goh Youngjun","position": "MF",
+      "team": 9,"price": 6.9,"gw_points": 2, "total_points": 43
+    }
+  },
+  {"model": "players.Player", "pk": 71, "fields": {"name": "Gustav Ludwigson","position": "MF",
+      "team": 12,"price": 7.5,"gw_points": 1, "total_points": 45
+    }
+  },
+  {"model": "players.Player", "pk": 72, "fields": {"name": "Han Chan-hee","position": "MF",
+      "team": 3,"price": 5.3,"gw_points": 0, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 73, "fields": {"name": "Han Jongmu","position": "MF",
+      "team": 7,"price": 5,"gw_points": 0, "total_points": 5
+    }
+  },
+  {"model": "players.Player", "pk": 74, "fields": {"name": "Han Kook-young","position": "MF",
+      "team": 4,"price": 5.2,"gw_points": 2, "total_points": 25
+    }
+  },
+  {"model": "players.Player", "pk": 75, "fields": {"name": "Han Kyowon","position": "MF",
+      "team": 8,"price": 6.4,"gw_points": 1, "total_points": 16
+    }
+  },
+  {"model": "players.Player", "pk": 76, "fields": {"name": "Hwang Jaewon","position": "DF",
+      "team": 1,"price": 5.5,"gw_points": 2, "total_points": 33
+    }
+  },
+  {"model": "players.Player", "pk": 77, "fields": {"name": "Hwang Soonmin","position": "MF",
+      "team": 11,"price": 4.4,"gw_points": 0, "total_points": 9
+    }
+  },
+  {"model": "players.Player", "pk": 78, "fields": {"name": "Ikrom Alibayev","position": "MF",
+      "team": 4,"price": 6,"gw_points": 1, "total_points": 9
+    }
+  },
+  {"model": "players.Player", "pk": 79, "fields": {"name": "Jang Jaewoong","position": "MF",
+      "team": 11,"price": 4.4,"gw_points": 1, "total_points": 11
+    }
+  },
+  {"model": "players.Player", "pk": 80, "fields": {"name": "Jang Seong-won","position": "MF",
+      "team": 1,"price": 5.3,"gw_points": 1, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 81, "fields": {"name": "Jang Siyoung","position": "MF",
+      "team": 12,"price": 5,"gw_points": 0, "total_points": 4
+    }
+  },
+  {"model": "players.Player", "pk": 82, "fields": {"name": "Jasir Asani","position": "MF",
+      "team": 5,"price": 6.9,"gw_points": 1, "total_points": 43
+    }
+  },
+  {"model": "players.Player", "pk": 83, "fields": {"name": "Jeon Sungjin","position": "MF",
+      "team": 7,"price": 5.1,"gw_points": 0, "total_points": 3
+    }
+  },
+  {"model": "players.Player", "pk": 84, "fields": {"name": "Jeong Dongyun","position": "MF",
+      "team": 6,"price": 5.1,"gw_points": 2, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 85, "fields": {"name": "Jeong Hoyeon","position": "MF",
+      "team": 5,"price": 5.3,"gw_points": 1, "total_points": 26
+    }
+  },
+  {"model": "players.Player", "pk": 86, "fields": {"name": "Jeong Jae-hee","position": "MF",
+      "team": 9,"price": 6.7,"gw_points": 0, "total_points": 21
+    }
+  },
+  {"model": "players.Player", "pk": 87, "fields": {"name": "Jeong Jihun","position": "MF",
+      "team": 5,"price": 5,"gw_points": 0, "total_points": 4
+    }
+  },
+  {"model": "players.Player", "pk": 88, "fields": {"name": "Ju Sejong","position": "MF",
+      "team": 2,"price": 5.8,"gw_points": 5, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 89, "fields": {"name": "Ju Youngjae","position": "MF",
+      "team": 5,"price": 4.9,"gw_points": 1, "total_points": 5
+    }
+  },
+  {"model": "players.Player", "pk": 90, "fields": {"name": "Jun Amano","position": "MF",
+      "team": 8,"price": 6.8,"gw_points": 0, "total_points": 30
+    }
+  },
+  {"model": "players.Player", "pk": 91, "fields": {"name": "Kang Sangyoon","position": "MF",
+      "team": 8,"price": 5,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 92, "fields": {"name": "Kang Seongjin","position": "MF",
+      "team": 3,"price": 5.5,"gw_points": 0, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 93, "fields": {"name": "Kang Yungu","position": "MF",
+      "team": 12,"price": 5.2,"gw_points": 0, "total_points": 16
+    }
+  },
+  {"model": "players.Player", "pk": 94, "fields": {"name": "Keita Suzuki","position": "MF",
+      "team": 1,"price": 5.1,"gw_points": 7, "total_points": 28
+    }
+  },
+  {"model": "players.Player", "pk": 95, "fields": {"name": "Ki Sung-yueng","position": "MF",
+      "team": 3,"price": 6,"gw_points": 1, "total_points": 26
+    }
+  },
+  {"model": "players.Player", "pk": 96, "fields": {"name": "Kim Bokyung","position": "MF",
+      "team": 10,"price": 5.6,"gw_points": 2, "total_points": 28
+    }
+  },
+  {"model": "players.Player", "pk": 97, "fields": {"name": "Kim Bongsoo","position": "DF",
+      "team": 7,"price": 5.1,"gw_points": 1, "total_points": 32
+    }
+  },
+  {"model": "players.Player", "pk": 98, "fields": {"name": "Kim Daewon","position": "MF",
+      "team": 4,"price": 7.1,"gw_points": 1, "total_points": 20
+    }
+  },
+  {"model": "players.Player", "pk": 99, "fields": {"name": "Kim Dohyeok","position": "MF",
+      "team": 6,"price": 5.4,"gw_points": 2, "total_points": 19
+    }
+  },
+  {"model": "players.Player", "pk": 100, "fields": {"name": "Kim Gyuhyeong","position": "MF",
+      "team": 11,"price": 5,"gw_points": 1, "total_points": 4
+    }
+  },
+  {"model": "players.Player", "pk": 101, "fields": {"name": "Kim Hangil","position": "MF",
+      "team": 5,"price": 5,"gw_points": 2, "total_points": 19
+    }
+  },
+  {"model": "players.Player", "pk": 102, "fields": {"name": "Kim In-sung","position": "MF",
+      "team": 9,"price": 5.3,"gw_points": 0, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 103, "fields": {"name": "Kim Jongwoo","position": "MF",
+      "team": 9,"price": 5.4,"gw_points": 0, "total_points": 20
+    }
+  },
+  {"model": "players.Player", "pk": 104, "fields": {"name": "Kim Juchan","position": "MF",
+      "team": 10,"price": 5.2,"gw_points": 0, "total_points": 8
+    }
+  },
+  {"model": "players.Player", "pk": 105, "fields": {"name": "Kim Jun-yeop","position": "MF",
+      "team": 6,"price": 5.2,"gw_points": 0, "total_points": 16
+    }
+  },
+  {"model": "players.Player", "pk": 106, "fields": {"name": "Kim Junho","position": "MF",
+      "team": 9,"price": 5,"gw_points": 0, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 107, "fields": {"name": "Kim Kunwoong","position": "DF",
+      "team": 8,"price": 5,"gw_points": 1, "total_points": 23
+    }
+  },
+  {"model": "players.Player", "pk": 108, "fields": {"name": "Kim Kyung-jung","position": "MF",
+      "team": 10,"price": 5,"gw_points": 0, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 109, "fields": {"name": "Kim Min-hyeok","position": "MF",
+      "team": 12,"price": 5.2,"gw_points": 1, "total_points": 22
+    }
+  },
+  {"model": "players.Player", "pk": 110, "fields": {"name": "Kim Seung-dae","position": "MF",
+      "team": 9,"price": 6.1,"gw_points": 2, "total_points": 31
+    }
+  },
+  {"model": "players.Player", "pk": 111, "fields": {"name": "Kim Seungsub","position": "MF",
+      "team": 7,"price": 5.5,"gw_points": 0, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 112, "fields": {"name": "Kim Sun-min","position": "MF",
+      "team": 11,"price": 5,"gw_points": 2, "total_points": 10
+    }
+  },
+  {"model": "players.Player", "pk": 113, "fields": {"name": "Kim Younguk","position": "MF",
+      "team": 2,"price": 5.1,"gw_points": 1, "total_points": 6
+    }
+  },
+  {"model": "players.Player", "pk": 114, "fields": {"name": "Kim Youngjun","position": "MF",
+      "team": 1,"price": 5,"gw_points": 1, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 115, "fields": {"name": "Ko Seungbeom","position": "MF",
+      "team": 10,"price": 5.7,"gw_points": 0, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 116, "fields": {"name": "Koo Ja-cheol","position": "MF",
+      "team": 7,"price": 5.6,"gw_points": 4, "total_points": 22
+    }
+  },
+  {"model": "players.Player", "pk": 117, "fields": {"name": "Lee Chang-min","position": "MF",
+      "team": 7,"price": 6.2,"gw_points": 3, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 118, "fields": {"name": "Lee Chung-yong","position": "MF",
+      "team": 12,"price": 6.2,"gw_points": 1, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 119, "fields": {"name": "Lee Dong-soo","position": "MF",
+      "team": 6,"price": 5,"gw_points": 0, "total_points": 7
+    }
+  },
+  {"model": "players.Player", "pk": 120, "fields": {"name": "Lee Dongjun","position": "MF",
+      "team": 8,"price": 6.8,"gw_points": 1, "total_points": 7
+    }
+  },
+  {"model": "players.Player", "pk": 121, "fields": {"name": "Lee Gihyuk","position": "MF",
+      "team": 7,"price": 5,"gw_points": 0, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 122, "fields": {"name": "Lee Gwang-hyuk","position": "MF",
+      "team": 11,"price": 5.6,"gw_points": 0, "total_points": 23
+    }
+  },
+  {"model": "players.Player", "pk": 123, "fields": {"name": "Lee Huigyun","position": "FW",
+      "team": 5,"price": 4.6,"gw_points": 0, "total_points": 22
+    }
+  },
+  {"model": "players.Player", "pk": 124, "fields": {"name": "Lee Hyunsik","position": "MF",
+      "team": 2,"price": 5.4,"gw_points": 1, "total_points": 29
+    }
+  },
+  {"model": "players.Player", "pk": 125, "fields": {"name": "Lee Jin-hyun","position": "MF",
+      "team": 2,"price": 6.9,"gw_points": 1, "total_points": 54
+    }
+  },
+  {"model": "players.Player", "pk": 126, "fields": {"name": "Lee Jinyong","position": "MF",
+      "team": 1,"price": 5.4,"gw_points": 1, "total_points": 18
+    }
+  },
+  {"model": "players.Player", "pk": 127, "fields": {"name": "Lee Jongsung","position": "MF",
+      "team": 10,"price": 5.4,"gw_points": 2, "total_points": 18
+    }
+  },
+  {"model": "players.Player", "pk": 128, "fields": {"name": "Lee Juyong","position": "MF",
+      "team": 7,"price": 5,"gw_points": 3, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 129, "fields": {"name": "Lee Kanghyun","position": "MF",
+      "team": 5,"price": 5,"gw_points": 1, "total_points": 14
+    }
+  },
+  {"model": "players.Player", "pk": 130, "fields": {"name": "Lee Kyu-seong","position": "MF",
+      "team": 12,"price": 5.5,"gw_points": 3, "total_points": 23
+    }
+  },
+  {"model": "players.Player", "pk": 131, "fields": {"name": "Lee Minhyeok","position": "MF",
+      "team": 8,"price": 5,"gw_points": 0, "total_points": 6
+    }
+  },
+  {"model": "players.Player", "pk": 132, "fields": {"name": "Lee Myungjoo","position": "MF",
+      "team": 6,"price": 6.6,"gw_points": 2, "total_points": 16
+    }
+  },
+  {"model": "players.Player", "pk": 133, "fields": {"name": "Lee Seung-woo","position": "MF",
+      "team": 11,"price": 7.4,"gw_points": 2, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 134, "fields": {"name": "Lee Siyoung","position": "MF",
+      "team": 3,"price": 5.1,"gw_points": 0, "total_points": 3
+    }
+  },
+  {"model": "players.Player", "pk": 135, "fields": {"name": "Lee Soobin","position": "MF",
+      "team": 8,"price": 5,"gw_points": 3, "total_points": 9
+    }
+  },
+  {"model": "players.Player", "pk": 136, "fields": {"name": "Lee Soonmin","position": "MF",
+      "team": 5,"price": 5.6,"gw_points": 1, "total_points": 26
+    }
+  },
+  {"model": "players.Player", "pk": 137, "fields": {"name": "Lee Yongrae","position": "MF",
+      "team": 1,"price": 5.1,"gw_points": 1, "total_points": 19
+    }
+  },
+  {"model": "players.Player", "pk": 138, "fields": {"name": "Lim Dugkeun","position": "DF",
+      "team": 2,"price": 5.3,"gw_points": 2, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 139, "fields": {"name": "Lim Sang-hyub","position": "MF",
+      "team": 3,"price": 6.7,"gw_points": 2, "total_points": 38
+    }
+  },
+  {"model": "players.Player", "pk": 140, "fields": {"name": "Lim Yooseok","position": "MF",
+      "team": 2,"price": 5,"gw_points": 0, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 141, "fields": {"name": "Maeng Seongung","position": "MF",
+      "team": 8,"price": 5.3,"gw_points": 3, "total_points": 14
+    }
+  },
+  {"model": "players.Player", "pk": 142, "fields": {"name": "Marcos Serrato","position": "MF",
+      "team": 1,"price": 6.5,"gw_points": 1, "total_points": 9
+    }
+  },
+  {"model": "players.Player", "pk": 143, "fields": {"name": "Maxwell Acosty","position": "MF",
+      "team": 10,"price": 6.6,"gw_points": 0, "total_points": 19
+    }
+  },
+  {"model": "players.Player", "pk": 144, "fields": {"name": "Min Kyeonghyeon","position": "MF",
+      "team": 6,"price": 5.1,"gw_points": 1, "total_points": 18
+    }
+  },
+  {"model": "players.Player", "pk": 145, "fields": {"name": "Moon Seon-min","position": "MF",
+      "team": 8,"price": 5.7,"gw_points": 7, "total_points": 18
+    }
+  },
+  {"model": "players.Player", "pk": 146, "fields": {"name": "Mun Jiwhan","position": "MF",
+      "team": 6,"price": 5,"gw_points": 1, "total_points": 20
+    }
+  },
+  {"model": "players.Player", "pk": 147, "fields": {"name": "Murilo Henrique","position": "MF",
+      "team": 11,"price": 6.8,"gw_points": 2, "total_points": 43
+    }
+  },
+  {"model": "players.Player", "pk": 148, "fields": {"name": "Na Sang-ho","position": "MF",
+      "team": 3,"price": 7.2,"gw_points": 6, "total_points": 68
+    }
+  },
+  {"model": "players.Player", "pk": 149, "fields": {"name": "Oberdan","position": "MF",
+      "team": 9,"price": 6.3,"gw_points": 2, "total_points": 26
+    }
+  },
+  {"model": "players.Player", "pk": 150, "fields": {"name": "Oh Huseong","position": "MF",
+      "team": 5,"price": 5,"gw_points": 0, "total_points": 3
+    }
+  },
+  {"model": "players.Player", "pk": 151, "fields": {"name": "Oh In-pyo","position": "MF",
+      "team": 11,"price": 5.1,"gw_points": 1, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 152, "fields": {"name": "Paik Seungho","position": "MF",
+      "team": 8,"price": 6,"gw_points": 13, "total_points": 30
+    }
+  },
+  {"model": "players.Player", "pk": 153, "fields": {"name": "Park Han-bin","position": "MF",
+      "team": 5,"price": 5.4,"gw_points": 0, "total_points": 15
+    }
+  },
+  {"model": "players.Player", "pk": 154, "fields": {"name": "Park Joo-ho","position": "MF",
+      "team": 11,"price": 5.2,"gw_points": 0, "total_points": 10
+    }
+  },
+  {"model": "players.Player", "pk": 155, "fields": {"name": "Park Sejin","position": "MF",
+      "team": 1,"price": 5,"gw_points": 1, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 156, "fields": {"name": "Park Sooil","position": "MF",
+      "team": 3,"price": 6,"gw_points": 1, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 157, "fields": {"name": "Park Yong-woo","position": "MF",
+      "team": 12,"price": 5.6,"gw_points": 3, "total_points": 32
+    }
+  },
+  {"model": "players.Player", "pk": 158, "fields": {"name": "Rodrigo Bassani","position": "MF",
+      "team": 10,"price": 6.6,"gw_points": 1, "total_points": 25
+    }
+  },
+  {"model": "players.Player", "pk": 159, "fields": {"name": "Ryu Jaemoon","position": "MF",
+      "team": 8,"price": 5.4,"gw_points": 1, "total_points": 14
+    }
+  },
+  {"model": "players.Player", "pk": 160, "fields": {"name": "Seo Jinsu","position": "MF",
+      "team": 7,"price": 5.2,"gw_points": 0, "total_points": 30
+    }
+  },
+  {"model": "players.Player", "pk": 161, "fields": {"name": "Shin Jinho","position": "MF",
+      "team": 6,"price": 7,"gw_points": 2, "total_points": 22
+    }
+  },
+  {"model": "players.Player", "pk": 162, "fields": {"name": "Song Minkyu","position": "MF",
+      "team": 8,"price": 7.2,"gw_points": 0, "total_points": 33
+    }
+  },
+  {"model": "players.Player", "pk": 163, "fields": {"name": "Song Siwoo","position": "MF",
+      "team": 6,"price": 6.2,"gw_points": 1, "total_points": 10
+    }
+  },
+  {"model": "players.Player", "pk": 164, "fields": {"name": "Um Wonsang","position": "MF",
+      "team": 12,"price": 7.4,"gw_points": 3, "total_points": 41
+    }
+  },
+  {"model": "players.Player", "pk": 165, "fields": {"name": "Vako","position": "MF",
+      "team": 12,"price": 6.9,"gw_points": 2, "total_points": 37
+    }
+  },
+  {"model": "players.Player", "pk": 166, "fields": {"name": "Willyan","position": "MF",
+      "team": 3,"price": 6.5,"gw_points": 6, "total_points": 14
+    }
+  },
+  {"model": "players.Player", "pk": 167, "fields": {"name": "Yang Hyunjun","position": "MF",
+      "team": 4,"price": 6.9,"gw_points": 2, "total_points": 29
+    }
+  },
+  {"model": "players.Player", "pk": 168, "fields": {"name": "Yeo Reum","position": "MF",
+      "team": 6,"price": 5,"gw_points": 0, "total_points": 3
+    }
+  },
+  {"model": "players.Player", "pk": 169, "fields": {"name": "Yoon Bit-garam","position": "MF",
+      "team": 11,"price": 5.8,"gw_points": 2, "total_points": 35
+    }
+  },
+  {"model": "players.Player", "pk": 170, "fields": {"name": "Yoon Jaewoon","position": "MF",
+      "team": 9,"price": 5,"gw_points": 0, "total_points": 4
+    }
+  },
+  {"model": "players.Player", "pk": 171, "fields": {"name": "Yu In-soo","position": "MF",
+      "team": 4,"price": 5,"gw_points": 0, "total_points": 18
+    }
+  },
+  {"model": "players.Player", "pk": 172, "fields": {"name": "Yu Jeho","position": "MF",
+      "team": 10,"price": 5.1,"gw_points": 1, "total_points": 16
+    }
+  },
+  {"model": "players.Player", "pk": 173, "fields": {"name": "Hwang Mun-ki","position": "MF",
+      "team": 4,"price": 5.4,"gw_points": 1, "total_points": 6
+    }
+  },
+  {"model": "players.Player", "pk": 174, "fields": {"name": "M'Poku","position": "MF",
+      "team": 6,"price": 6.1,"gw_points": 0, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 175, "fields": {"name": "Aaron Calver","position": "DF",
+      "team": 5,"price": 5,"gw_points": 0, "total_points": 19
+    }
+  },
+  {"model": "players.Player", "pk": 176, "fields": {"name": "Ahn Young-kyu","position": "DF",
+      "team": 5,"price": 4.4,"gw_points": 1, "total_points": 31
+    }
+  },
+  {"model": "players.Player", "pk": 177, "fields": {"name": "Alex Grant","position": "DF",
+      "team": 9,"price": 6,"gw_points": 8, "total_points": 26
+    }
+  },
+  {"model": "players.Player", "pk": 178, "fields": {"name": "An Taehyun","position": "DF",
+      "team": 7,"price": 4.1,"gw_points": 4, "total_points": 19
+    }
+  },
+  {"model": "players.Player", "pk": 179, "fields": {"name": "Anton Krivotsyuk","position": "DF",
+      "team": 2,"price": 5.4,"gw_points": 2, "total_points": 32
+    }
+  },
+  {"model": "players.Player", "pk": 180, "fields": {"name": "Byeon Junsoo","position": "DF",
+      "team": 2,"price": 4.1,"gw_points": 0, "total_points": 8
+    }
+  },
+  {"model": "players.Player", "pk": 181, "fields": {"name": "Cho Hyuntaek","position": "DF",
+      "team": 12,"price": 4.5,"gw_points": 1, "total_points": 19
+    }
+  },
+  {"model": "players.Player", "pk": 182, "fields": {"name": "Cho Yumin","position": "DF",
+      "team": 2,"price": 5.8,"gw_points": 0, "total_points": 18
+    }
+  },
+  {"model": "players.Player", "pk": 183, "fields": {"name": "Chung Woon","position": "DF",
+      "team": 7,"price": 5.5,"gw_points": 5, "total_points": 30
+    }
+  },
+  {"model": "players.Player", "pk": 184, "fields": {"name": "Dave Bulthuis","position": "DF",
+      "team": 10,"price": 5.2,"gw_points": -1, "total_points": 15
+    }
+  },
+  {"model": "players.Player", "pk": 185, "fields": {"name": "Doo Hyeonseok","position": "DF",
+      "team": 5,"price": 4.8,"gw_points": 1, "total_points": 40
+    }
+  },
+  {"model": "players.Player", "pk": 186, "fields": {"name": "Go Myeongseok","position": "DF",
+      "team": 10,"price": 5.3,"gw_points": 1, "total_points": 11
+    }
+  },
+  {"model": "players.Player", "pk": 187, "fields": {"name": "Gwon Wan-gyu","position": "DF",
+      "team": 3,"price": 4.5,"gw_points": 0, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 188, "fields": {"name": "Ha Chang-rae","position": "DF",
+      "team": 9,"price": 4.7,"gw_points": 0, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 189, "fields": {"name": "Han Seung-gyu","position": "DF",
+      "team": 3,"price": 5,"gw_points": 0, "total_points": 7
+    }
+  },
+  {"model": "players.Player", "pk": 190, "fields": {"name": "Harrison Delbridge","position": "DF",
+      "team": 6,"price": 5.5,"gw_points": 1, "total_points": 18
+    }
+  },
+  {"model": "players.Player", "pk": 191, "fields": {"name": "Hong Chul","position": "DF",
+      "team": 1,"price": 5.2,"gw_points": 2, "total_points": 9
+    }
+  },
+  {"model": "players.Player", "pk": 192, "fields": {"name": "Hong Jeong-ho","position": "DF",
+      "team": 8,"price": 5.5,"gw_points": 0, "total_points": 15
+    }
+  },
+  {"model": "players.Player", "pk": 193, "fields": {"name": "Hong Jeongun","position": "DF",
+      "team": 1,"price": 5.5,"gw_points": 2, "total_points": 37
+    }
+  },
+  {"model": "players.Player", "pk": 194, "fields": {"name": "Hwang Hyun-soo","position": "DF",
+      "team": 3,"price": 4.2,"gw_points": 0, "total_points": 10
+    }
+  },
+  {"model": "players.Player", "pk": 195, "fields": {"name": "Jang Hoik","position": "DF",
+      "team": 10,"price": 4.5,"gw_points": 1, "total_points": 9
+    }
+  },
+  {"model": "players.Player", "pk": 196, "fields": {"name": "Jeong Dong-ho","position": "DF",
+      "team": 11,"price": 4.1,"gw_points": 1, "total_points": 19
+    }
+  },
+  {"model": "players.Player", "pk": 197, "fields": {"name": "Jeong Seungwon","position": "DF",
+      "team": 10,"price": 5,"gw_points": 0, "total_points": 4
+    }
+  },
+  {"model": "players.Player", "pk": 198, "fields": {"name": "Jeong Taewook","position": "DF",
+      "team": 8,"price": 6,"gw_points": 6, "total_points": 32
+    }
+  },
+  {"model": "players.Player", "pk": 199, "fields": {"name": "Jeong Woo-jae","position": "DF",
+      "team": 8,"price": 4.4,"gw_points": 0, "total_points": 22
+    }
+  },
+  {"model": "players.Player", "pk": 200, "fields": {"name": "Jo Jinwoo","position": "DF",
+      "team": 1,"price": 5.3,"gw_points": 2, "total_points": 27
+    }
+  },
+  {"model": "players.Player", "pk": 201, "fields": {"name": "Jung Seung-hyun","position": "DF",
+      "team": 12,"price": 6.1,"gw_points": 0, "total_points": 24
+    }
+  },
+  {"model": "players.Player", "pk": 202, "fields": {"name": "Jung Seung-yong","position": "DF",
+      "team": 4,"price": 4.4,"gw_points": 2, "total_points": 34
+    }
+  },
+  {"model": "players.Player", "pk": 203, "fields": {"name": "Kevin","position": "DF",
+      "team": 4,"price": 5.5,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 204, "fields": {"name": "Kim Dongmin","position": "DF",
+      "team": 6,"price": 5.5,"gw_points": 0, "total_points": 21
+    }
+  },
+  {"model": "players.Player", "pk": 205, "fields": {"name": "Kim Gangsan","position": "DF",
+      "team": 1,"price": 4.3,"gw_points": 0, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 206, "fields": {"name": "Kim Hyun-hun","position": "DF",
+      "team": 11,"price": 4.2,"gw_points": 0, "total_points": 4
+    }
+  },
+  {"model": "players.Player", "pk": 207, "fields": {"name": "Kim Hyunwoo","position": "DF",
+      "team": 2,"price": 4.2,"gw_points": 1, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 208, "fields": {"name": "Kim Jin-hyuk","position": "DF",
+      "team": 1,"price": 5.6,"gw_points": 2, "total_points": 41
+    }
+  },
+  {"model": "players.Player", "pk": 209, "fields": {"name": "Kim Jin-su","position": "DF",
+      "team": 8,"price": 6.5,"gw_points": 0, "total_points": 9
+    }
+  },
+  {"model": "players.Player", "pk": 210, "fields": {"name": "Kim Jin-ya","position": "DF",
+      "team": 3,"price": 5.4,"gw_points": 2, "total_points": 35
+    }
+  },
+  {"model": "players.Player", "pk": 211, "fields": {"name": "Kim Jinho","position": "DF",
+      "team": 4,"price": 4.3,"gw_points": 0, "total_points": 15
+    }
+  },
+  {"model": "players.Player", "pk": 212, "fields": {"name": "Kim Junsu","position": "DF",
+      "team": 7,"price": 4.3,"gw_points": 5, "total_points": 26
+    }
+  },
+  {"model": "players.Player", "pk": 213, "fields": {"name": "Kim Jusung","position": "DF",
+      "team": 3,"price": 4.6,"gw_points": 2, "total_points": 40
+    }
+  },
+  {"model": "players.Player", "pk": 214, "fields": {"name": "Kim Kyungjae","position": "DF",
+      "team": 5,"price": 4.1,"gw_points": 0, "total_points": 10
+    }
+  },
+  {"model": "players.Player", "pk": 215, "fields": {"name": "Kim Minduk","position": "DF",
+      "team": 2,"price": 5.2,"gw_points": 2, "total_points": 33
+    }
+  },
+  {"model": "players.Player", "pk": 216, "fields": {"name": "Kim Moonhwan","position": "DF",
+      "team": 8,"price": 6.2,"gw_points": 0, "total_points": 16
+    }
+  },
+  {"model": "players.Player", "pk": 217, "fields": {"name": "Kim Oh-gyu","position": "DF",
+      "team": 7,"price": 5.5,"gw_points": 6, "total_points": 42
+    }
+  },
+  {"model": "players.Player", "pk": 218, "fields": {"name": "Kim Tae-hwan","position": "DF",
+      "team": 12,"price": 6.4,"gw_points": 6, "total_points": 22
+    }
+  },
+  {"model": "players.Player", "pk": 219, "fields": {"name": "Kim Taehwan","position": "DF",
+      "team": 10,"price": 5.2,"gw_points": 1, "total_points": 15
+    }
+  },
+  {"model": "players.Player", "pk": 220, "fields": {"name": "Kim Wooseok","position": "DF",
+      "team": 4,"price": 4,"gw_points": 0, "total_points": 7
+    }
+  },
+  {"model": "players.Player", "pk": 221, "fields": {"name": "Kim Yeonsoo","position": "DF",
+      "team": 6,"price": 4.3,"gw_points": 0, "total_points": 15
+    }
+  },
+  {"model": "players.Player", "pk": 222, "fields": {"name": "Kim Yong-hwan","position": "DF",
+      "team": 9,"price": 4,"gw_points": 2, "total_points": 5
+    }
+  },
+  {"model": "players.Player", "pk": 223, "fields": {"name": "Kim Young-bin","position": "DF",
+      "team": 4,"price": 6.8,"gw_points": 2, "total_points": 26
+    }
+  },
+  {"model": "players.Player", "pk": 224, "fields": {"name": "Kim Young-gwon","position": "DF",
+      "team": 12,"price": 6,"gw_points": 6, "total_points": 39
+    }
+  },
+  {"model": "players.Player", "pk": 225, "fields": {"name": "Koo Ja-ryong","position": "DF",
+      "team": 8,"price": 4.3,"gw_points": 6, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 226, "fields": {"name": "Kweon Hanjin","position": "DF",
+      "team": 6,"price": 4.1,"gw_points": 1, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 227, "fields": {"name": "Lachlan Jackson","position": "DF",
+      "team": 11,"price": 5,"gw_points": 1, "total_points": 16
+    }
+  },
+  {"model": "players.Player", "pk": 228, "fields": {"name": "Lee Jae-sung","position": "DF",
+      "team": 11,"price": 4.4,"gw_points": 0, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 229, "fields": {"name": "Lee Ki-je","position": "DF",
+      "team": 10,"price": 7.4,"gw_points": 1, "total_points": 25
+    }
+  },
+  {"model": "players.Player", "pk": 230, "fields": {"name": "Lee Min-ki","position": "DF",
+      "team": 5,"price": 4.4,"gw_points": 0, "total_points": 33
+    }
+  },
+  {"model": "players.Player", "pk": 231, "fields": {"name": "Lee Myung-jae","position": "DF",
+      "team": 12,"price": 5.1,"gw_points": 6, "total_points": 25
+    }
+  },
+  {"model": "players.Player", "pk": 232, "fields": {"name": "Lee Sang-ki","position": "DF",
+      "team": 5,"price": 4,"gw_points": 0, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 233, "fields": {"name": "Lee Taeseok","position": "DF",
+      "team": 3,"price": 4.7,"gw_points": 2, "total_points": 32
+    }
+  },
+  {"model": "players.Player", "pk": 234, "fields": {"name": "Lee Yong","position": "DF",
+      "team": 11,"price": 5.2,"gw_points": 0, "total_points": 25
+    }
+  },
+  {"model": "players.Player", "pk": 235, "fields": {"name": "Lim Chaemin","position": "DF",
+      "team": 7,"price": 4.6,"gw_points": 1, "total_points": 10
+    }
+  },
+  {"model": "players.Player", "pk": 236, "fields": {"name": "Lim Donghyuk","position": "DF",
+      "team": 7,"price": 4,"gw_points": 0, "total_points": 6
+    }
+  },
+  {"model": "players.Player", "pk": 237, "fields": {"name": "Lim Jong-eun","position": "DF",
+      "team": 12,"price": 4,"gw_points": 0, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 238, "fields": {"name": "Oh Ban-suk","position": "DF",
+      "team": 6,"price": 4.2,"gw_points": 1, "total_points": 27
+    }
+  },
+  {"model": "players.Player", "pk": 239, "fields": {"name": "Oh Jae-suk","position": "DF",
+      "team": 2,"price": 4.5,"gw_points": 1, "total_points": 20
+    }
+  },
+  {"model": "players.Player", "pk": 240, "fields": {"name": "Osmar","position": "DF",
+      "team": 3,"price": 5.5,"gw_points": 2, "total_points": 29
+    }
+  },
+  {"model": "players.Player", "pk": 241, "fields": {"name": "Park Byunghyun","position": "DF",
+      "team": 11,"price": 4.3,"gw_points": 0, "total_points": 9
+    }
+  },
+  {"model": "players.Player", "pk": 242, "fields": {"name": "Park Chan-yong","position": "DF",
+      "team": 9,"price": 5.5,"gw_points": 2, "total_points": 14
+    }
+  },
+  {"model": "players.Player", "pk": 243, "fields": {"name": "Park Cheolwoo","position": "DF",
+      "team": 11,"price": 4.4,"gw_points": 0, "total_points": 10
+    }
+  },
+  {"model": "players.Player", "pk": 244, "fields": {"name": "Park Daewon","position": "DF",
+      "team": 10,"price": 4.2,"gw_points": 1, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 245, "fields": {"name": "Park Geonwoo","position": "DF",
+      "team": 9,"price": 4,"gw_points": 0, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 246, "fields": {"name": "Park Jinsub","position": "DF",
+      "team": 8,"price": 6.5,"gw_points": 3, "total_points": 24
+    }
+  },
+  {"model": "players.Player", "pk": 247, "fields": {"name": "Park Seungwook","position": "DF",
+      "team": 9,"price": 5.8,"gw_points": 0, "total_points": 26
+    }
+  },
+  {"model": "players.Player", "pk": 248, "fields": {"name": "Rim Chang-woo","position": "DF",
+      "team": 4,"price": 6,"gw_points": 2, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 249, "fields": {"name": "Seo Youngjae","position": "DF",
+      "team": 2,"price": 5.2,"gw_points": 2, "total_points": 22
+    }
+  },
+  {"model": "players.Player", "pk": 250, "fields": {"name": "Seol Youngwoo","position": "DF",
+      "team": 12,"price": 6.2,"gw_points": 0, "total_points": 43
+    }
+  },
+  {"model": "players.Player", "pk": 251, "fields": {"name": "Shin Kwang-hoon","position": "DF",
+      "team": 9,"price": 5.5,"gw_points": 1, "total_points": 15
+    }
+  },
+  {"model": "players.Player", "pk": 252, "fields": {"name": "Shin Se-gye","position": "DF",
+      "team": 11,"price": 4.5,"gw_points": 1, "total_points": 28
+    }
+  },
+  {"model": "players.Player", "pk": 253, "fields": {"name": "Sim Sang-min","position": "DF",
+      "team": 9,"price": 5.4,"gw_points": 2, "total_points": 37
+    }
+  },
+  {"model": "players.Player", "pk": 254, "fields": {"name": "Song Ju-hun","position": "DF",
+      "team": 7,"price": 4.2,"gw_points": 0, "total_points": 8
+    }
+  },
+  {"model": "players.Player", "pk": 255, "fields": {"name": "Timo Letschert","position": "DF",
+      "team": 5,"price": 5.3,"gw_points": 1, "total_points": 31
+    }
+  },
+  {"model": "players.Player", "pk": 256, "fields": {"name": "Wanderson","position": "DF",
+      "team": 9,"price": 5.5,"gw_points": 1, "total_points": 6
+    }
+  },
+  {"model": "players.Player", "pk": 257, "fields": {"name": "Yun Suk-young","position": "DF",
+      "team": 4,"price": 5.5,"gw_points": 2, "total_points": 26
+    }
+  },
+  {"model": "players.Player", "pk": 258, "fields": {"name": "Baek Jongbum","position": "GK",
+      "team": 3,"price": 4.3,"gw_points": 2, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 259, "fields": {"name": "Cho Hyun-woo","position": "GK",
+      "team": 12,"price": 5.5,"gw_points": 6, "total_points": 55
+    }
+  },
+  {"model": "players.Player", "pk": 260, "fields": {"name": "Choe Cheolwon","position": "GK",
+      "team": 3,"price": 4.4,"gw_points": 0, "total_points": 16
+    }
+  },
+  {"model": "players.Player", "pk": 261, "fields": {"name": "Hwang Injae","position": "GK",
+      "team": 9,"price": 4.5,"gw_points": 2, "total_points": 32
+    }
+  },
+  {"model": "players.Player", "pk": 262, "fields": {"name": "Jeong Minki","position": "GK",
+      "team": 8,"price": 4.5,"gw_points": 0, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 263, "fields": {"name": "Kim Dong-jun","position": "GK",
+      "team": 7,"price": 4.6,"gw_points": 7, "total_points": 51
+    }
+  },
+  {"model": "players.Player", "pk": 264, "fields": {"name": "Kim Dongheon","position": "GK",
+      "team": 6,"price": 5,"gw_points": 0, "total_points": 12
+    }
+  },
+  {"model": "players.Player", "pk": 265, "fields": {"name": "Kim Jeonghoon","position": "GK",
+      "team": 8,"price": 4.5,"gw_points": 5, "total_points": 32
+    }
+  },
+  {"model": "players.Player", "pk": 266, "fields": {"name": "Kim Kyeong-min","position": "GK",
+      "team": 5,"price": 4.7,"gw_points": 0, "total_points": 49
+    }
+  },
+  {"model": "players.Player", "pk": 267, "fields": {"name": "Lee Bum-young","position": "GK",
+      "team": 11,"price": 5,"gw_points": 0, "total_points": 15
+    }
+  },
+  {"model": "players.Player", "pk": 268, "fields": {"name": "Lee Chang-keun","position": "GK",
+      "team": 2,"price": 4.6,"gw_points": 3, "total_points": 44
+    }
+  },
+  {"model": "players.Player", "pk": 269, "fields": {"name": "Lee Taehui","position": "GK",
+      "team": 6,"price": 4,"gw_points": 2, "total_points": 9
+    }
+  },
+  {"model": "players.Player", "pk": 270, "fields": {"name": "No Dong-geon","position": "GK",
+      "team": 11,"price": 4.5,"gw_points": 3, "total_points": 31
+    }
+  },
+  {"model": "players.Player", "pk": 271, "fields": {"name": "Oh Seung-hoon","position": "GK",
+      "team": 1,"price": 5,"gw_points": 0, "total_points": 21
+    }
+  },
+  {"model": "players.Player", "pk": 272, "fields": {"name": "Yang Hyungmo","position": "GK",
+      "team": 10,"price": 4.6,"gw_points": 2, "total_points": 30
+    }
+  },
+  {"model": "players.Player", "pk": 273, "fields": {"name": "Yu Sang-hun","position": "GK",
+      "team": 4,"price": 5.2,"gw_points": 2, "total_points": 20
+    }
+  },
+  {"model": "players.Player", "pk": 274, "fields": {"name": "Jo Suhuk","position": "GK",
+      "team": 12,"price": 4,"gw_points": 0, "total_points": 0
+    }
+  },
+  {"model": "players.Player", "pk": 275, "fields": {"name": "Seo Min-woo","position": "MF",
+      "team": 4,"price": 5.3,"gw_points": 2, "total_points": 25
+    }
+  },
+  {"model": "players.Player", "pk": 276, "fields": {"name": "Seo Dong-han","position": "MF",
+      "team": 10,"price": 5,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 277, "fields": {"name": "Ryu Seungwoo","position": "MF",
+      "team": 10,"price": 5.9,"gw_points": 1, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 278, "fields": {"name": "Cheon Seong-hoon","position": "FW",
+      "team": 6,"price": 4.5,"gw_points": 0, "total_points": 19
+    }
+  },
+  {"model": "players.Player", "pk": 279, "fields": {"name": "Min Seong-jun","position": "GK",
+      "team": 6,"price": 4,"gw_points": 0, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 280, "fields": {"name": "Choi Young-woon","position": "GK",
+      "team": 1,"price": 4.1,"gw_points": 2, "total_points": 18
+    }
+  },
+  {"model": "players.Player", "pk": 281, "fields": {"name": "Lee Kun-hee","position": "FW",
+      "team": 5,"price": 4.2,"gw_points": 1, "total_points": 5
+    }
+  },
+  {"model": "players.Player", "pk": 282, "fields": {"name": "Shin Chang-moo","position": "MF",
+      "team": 5,"price": 4.5,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 283, "fields": {"name": "Han Hogang","position": "DF",
+      "team": 10,"price": 4,"gw_points": 0, "total_points": 8
+    }
+  },
+  {"model": "players.Player", "pk": 284, "fields": {"name": "Hwang Jaehwan","position": "MF",
+      "team": 12,"price": 5,"gw_points": 1, "total_points": 13
+    }
+  },
+  {"model": "players.Player", "pk": 285, "fields": {"name": "Kim Daewoo","position": "MF",
+      "team": 4,"price": 4.5,"gw_points": 0, "total_points": 6
+    }
+  },
+  {"model": "players.Player", "pk": 286, "fields": {"name": "Lee Gwang-yeon","position": "GK",
+      "team": 4,"price": 4.3,"gw_points": 0, "total_points": 17
+    }
+  },
+  {"model": "players.Player", "pk": 287, "fields": {"name": "Lee Woong-hee","position": "DF",
+      "team": 4,"price": 4.2,"gw_points": 2, "total_points": 21
+    }
+  },
+  {"model": "players.Player", "pk": 288, "fields": {"name": "Park Changwoo","position": "DF",
+      "team": 8,"price": 4.2,"gw_points": 0, "total_points": 9
+    }
+  },
+  {"model": "players.Player", "pk": 289, "fields": {"name": "Choi Cheolsoon","position": "DF",
+      "team": 8,"price": 4.2,"gw_points": 1, "total_points": 4
+    }
+  },
+  {"model": "players.Player", "pk": 290, "fields": {"name": "Kim Keehee","position": "DF",
+      "team": 12,"price": 4.5,"gw_points": 6, "total_points": 20
+    }
+  },
+  {"model": "players.Player", "pk": 291, "fields": {"name": "Lee Hanbeom","position": "DF",
+      "team": 3,"price": 4.5,"gw_points": 2, "total_points": 11
+    }
+  },
+  {"model": "players.Player", "pk": 292, "fields": {"name": "Lim Eunsoo","position": "DF",
+      "team": 2,"price": 4.2,"gw_points": 0, "total_points": 8
+    }
+  },
+  {"model": "players.Player", "pk": 293, "fields": {"name": "Kim Jihun","position": "DF",
+      "team": 2,"price": 4.2,"gw_points": 0, "total_points": 5
+    }
+  },
+  {"model": "players.Player", "pk": 294, "fields": {"name": "Kim Jooyeop","position": "FW",
+      "team": 11,"price": 4.9,"gw_points": 0, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 295, "fields": {"name": "Jeong Jaeyong","position": "MF",
+      "team": 11,"price": 4.9,"gw_points": 1, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 296, "fields": {"name": "Yang Donghyun","position": "FW",
+      "team": 11,"price": 4.9,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 297, "fields": {"name": "Kwak Seungmin","position": "FW",
+      "team": 7,"price": 4,"gw_points": 1, "total_points": 3
+    }
+  },
+  {"model": "players.Player", "pk": 298, "fields": {"name": "Yeom Kihun","position": "MF",
+      "team": 10,"price": 5.5,"gw_points": 0, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 299, "fields": {"name": "Son Hojun","position": "DF",
+      "team": 10,"price": 4,"gw_points": 1, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 300, "fields": {"name": "Oh Jaehyuk","position": "MF",
+      "team": 8,"price": 4.8,"gw_points": 1, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 301, "fields": {"name": "Han Seokjong","position": "MF",
+      "team": 10,"price": 5.5,"gw_points": 0, "total_points": 3
+    }
+  },
+  {"model": "players.Player", "pk": 302, "fields": {"name": "Lee Jun","position": "GK",
+      "team": 5,"price": 4,"gw_points": 2, "total_points": 2
+    }
+  },
+  {"model": "players.Player", "pk": 303, "fields": {"name": "Yoon Minho","position": "MF",
+      "team": 9,"price": 4.5,"gw_points": 0, "total_points": 1
+    }
+  },
+  {"model": "players.Player", "pk": 304, "fields": {"name": "Luan Ferreira","position": "MF",
+      "team": 9,"price": 5.5,"gw_points": 4, "total_points": 5
     }
   }
 ]
