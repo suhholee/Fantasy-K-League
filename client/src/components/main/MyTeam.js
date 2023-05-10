@@ -21,7 +21,10 @@ const MyTeam = ({ getUserInfo }) => {
 
   // ! On Mount
   useEffect(() => {
-    !isAuthenticated() && navigate('/')
+    if (!isAuthenticated()) {
+      navigate('/')
+      return
+    }
     const getInfo = async () => {
       try {
         const { data } = await authenticated.get(`/api/info/${loggedInUser()}/`)
