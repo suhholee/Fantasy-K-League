@@ -40,7 +40,7 @@ const App = () => {
       <BrowserRouter>
         <PageNavbar />
         <Routes>
-          <Route path="/" element={isAuthenticated() ? <Navigate to={`/myteam/${loggedInUser()}`} /> : <Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/teamselection/:id" element={<TeamSelection getUserInfo={getUserInfo} />} />
           <Route path="/myteam/:id" element={<MyTeam getUserInfo={getUserInfo} />} />

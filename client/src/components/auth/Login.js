@@ -8,7 +8,7 @@ import { Col, Button } from 'react-bootstrap'
 // Custom components
 import Error from '../common/Error'
 import Spinner from '../common/Spinner'
-import { loggedInUser } from '../../helpers/auth'
+import { loggedInUser, isAuthenticated } from '../../helpers/auth'
 
 const Login = () => {
 
@@ -26,6 +26,9 @@ const Login = () => {
 
   // ! On Mount
   useEffect(() => {
+    if (isAuthenticated()) {
+      navigate(`/myteam/${loggedInUser()}`, { replace: true })
+    }
     const getTeams = async () => {
       try {
         const { data } = await axios.get('/api/teams/')
