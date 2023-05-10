@@ -64,9 +64,12 @@
     }
   }
 
+  .table {
+    --bs-table-hover-bg: transparent;
+  }
+
   .player-table {
     font-size: 15px;
-    --bs-table-hover-bg: transparent;
 
     td {
       cursor: auto;
