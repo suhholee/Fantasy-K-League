@@ -76,8 +76,8 @@ Please sign up to experience all of the functions.
 ### Database
 - I first created the database of K-league players that will be seeded as the base data. I used data from https://fbref.com/en/comps/55/K-League-1-Stats and input in a [Google spreadsheet](https://docs.google.com/spreadsheets/d/1JaM_qhFv-7PqMiVRZJDexSUy-Vri2SsP0F4jh0St5Qs/edit#gid=0) Within the spreadsheet, I altered the data so that it is in an object form that can be implemented within the seeds file in the back-end. Price and score data was input manually. I am continuously updating the points every week for realistic gameplay.
 
-### Back-end
-#### Exceptions
+### ***Back-end***
+### Exceptions
 - Before starting the back-end section, I have set an exceptions.py file that checked all of the possible errors that may occur during requests and used a wrapper to wrap around each request within the models’ view files. The final exceptions file is below.
 
   ```python
@@ -106,7 +106,7 @@ Please sign up to experience all of the functions.
    return wrapper
   ```
 
-#### Users
+### Users
 - After downloading the necessary files and setting up the project folder, I started with the basic users model and authentication. When creating the users model, I added the email field. 
 
   ```py
@@ -180,7 +180,7 @@ Please sign up to experience all of the functions.
         return (user, token)
   ```
 
-#### Info
+### Info
 - The info model is a model that needs to be created when a user is registered and instantly creates the relationship with the registered user, as player selection, the user’s points, and budget needs to be set before entering the player selection page. Therefore, after creating the info model that has the budget field (players and points fields will be added on later when the player model is created), I built a one-to-one relationship (a relationship where a record in one entity is associated with exactly one record in another entity) with the user model.
 
   ```py
@@ -247,7 +247,7 @@ Please sign up to experience all of the functions.
         return Response(serialized_info.data)
   ```
 
-#### Players
+### Players
 - The players model was set in the same way as the wireframe with name, position, price, gw_points, and total_points fields. 
 
   ```py
@@ -283,7 +283,7 @@ Please sign up to experience all of the functions.
 - Seeding of the data has been done through creating an object formatted column in the Google spreadsheet database and copying into the seeds file created.
   - Format: {'model': 'players.Player', 'pk': 1, 'fields': {'name': 'Martin Ádám', 'position': 'FW',"team": 12,'price': 7,'gw_points': 0, 'total_points': 6}},
 
-#### Teams
+### Teams
 - I have added an abb(abbreviation) field to the teams model as an abbreviation of the team seemed to be necessary in the My Team page to show who they are facing next.
 
   ```py
@@ -298,7 +298,7 @@ Please sign up to experience all of the functions.
       return f'{self.name} (vs {self.next_match})'
   ```
 
-#### Relationships
+### Relationships
 - After all the models were built, I linked the models with the necessary relationships.
 - **Team - Player One-to-Many relationship**
   - As each player has a team field that needs to be stated, I have added the models.ForeignKey to the Player model as shown below:
@@ -472,7 +472,7 @@ Please sign up to experience all of the functions.
   
   - All of the InfoSerializers in the views were replaced with PopulatedInfoSerializer.
 
-#### Points Update
+### Points Update
 - Updating the points was tricky because the weekly points of the players were updated manually through my Google Spreadsheet database. First I would update all of the players’ weekly points through the spreadsheet and get the player objects. Then, I would move this within the seeds.json in the players folder with the updated gameweek points. After this, all of the user (info) points needed to be updated whenever I needed them to. Therefore, I needed a Python script that could be run to manually update all of the user’s gameweek points and the total points at the end of each gameweek. At the end the players’ points needed to be reset to zero. Below is the code for this.
 
   ```py
@@ -494,10 +494,10 @@ Please sign up to experience all of the functions.
 
 - I later on divided this update function into three, because I wanted to first update the players gameweek points, update the total points, then remove the gw_points. This three step process would allow me to update the gameweek points during the actual gameweek without colliding with the total points update because if I continuously update the gameweek and total points using one python script, it will accumulate the total points on top of one another. I thought this would be best for user experience as they would want up-to-date information about the points their players have earned. 
 
-### Front-end
+### ***Front-end***
 First, I set up the necessary files for the front-end using the SEI React template. Along with this, I’ve added react-bootstrap to format and style elements of the front-end. After setting up the App.js (which has the browser routes compiled), I started with the Home page.
 
-#### Home
+### Home
 - I have set the wireframe of the home page to be linked directly to only the register and login pages. Therefore, two buttons were set to navigate to either the register or the login routes.
 
   ```js
@@ -518,7 +518,7 @@ First, I set up the necessary files for the front-end using the SEI React templa
   }
   ```
 
-#### Register
+### Register
 - The register page needed a useState to set the form fields, a handleChange function to set the form fields as the text input, and the handleSubmit function that makes the post request. A slight addition I made into the handleSubmit was setting the local storage with the token as the user needs to be authenticated as soon as they register. This authentication process was necessary as the select teams page, which the user will enter next, needs authentication through the token in the local storage. Therefore, I modified the back end so that registering also passes down a token.
 
   ```py
@@ -558,7 +558,7 @@ First, I set up the necessary files for the front-end using the SEI React templa
   }
   ```
 
-#### Login
+### Login
 - Login also has a form field as a useState that will save the input email and password and pass it down to the post request when submitted. Here, however, the user will be directed straight to the My Team page (/myteam/${loggedInUser}). The user id will be called through the helper function loggedInUser, which gets the payload and returns the sub. The helper function can be found in helpers.auth.js.
 
   ```js
@@ -569,7 +569,7 @@ First, I set up the necessary files for the front-end using the SEI React templa
   }
   ```
 
-#### Team Selection
+### Team Selection
 - After the user is registered, they first need to choose their team to begin playing fantasy football. Within this page, there are two major sections. The player selector that allows the user to select players and the selected players display which shows which players they have selected. Therefore, two main requests need to be made first: get players and info (which has the user’s data). 
 - GET info was done within a useCallback so that the hook caches the value and does not recompute it every time. Also, the selected players data was saved within the selectedPlayers useState.
 
@@ -768,7 +768,7 @@ First, I set up the necessary files for the front-end using the SEI React templa
   })
   ```
 
-#### My Team
+### My Team
 - The My Team page was very similar to, or almost identical to the selected players of the team selection page, using the single info GET route to get the information and display it.
 
 - An addition I made that was different from the team selection page’s selected players section was the Gameweek Points and Total Points at the top. I thought it would be useful to display the username, the current gameweek’s points, and their total points.
@@ -799,7 +799,7 @@ First, I set up the necessary files for the front-end using the SEI React templa
 
 - Finally, I restructured the players section into a separate component for better read of the code.
 
-#### Rankings
+### Rankings
 - The next page I worked on was the rankings page. This page used the GET all info route and ranked the entire players that were registered to the game.
 - Like the select players modal, I have used a bootstrap table to create the rankings table. I have used the sort method to sort the players using their total_points key from the highest to lowest. Within the map, I have added an extra variable, rank, which is the index of the map of the array. Therefore, I used this variable and added 1 to it to create the players’ ranks.
 
@@ -902,10 +902,10 @@ First, I set up the necessary files for the front-end using the SEI React templa
   }
   ```
 
-#### Navbar
+### Navbar
 - The navbar was setted up in a similar format as my other projects. As the login, register, and team selection pages do not need a navbar, I created an array of routes(noNav) that does not need a navbar and wrapped the navbar. Within the return statement, I created a conditional that only allows the navbar to display if the location.pathname is not included within the “noNav” array of routes. Also, all of the routes ended with the logged in user’s id in order to differentiate the different pages in regards to the user who is playing the game.
 
-#### Player Stats
+### Player Stats
 - Although I did not plan this page within the wireframe, I decided it would be best to add all the players’ statistics within a separate page so that the users can use that information. This page would be more useful when functions such as transfers are implemented.
 - After setting the useEffect in calling the players using the GET players request, I have created a table that displays all of the players. I thought it would be good to have a button for each position, so I created a positions array like in the Team Selection page. However, here I had an ‘All’ variable which targets all of the players. This was also set as the default value within the useEffect.
 
@@ -1018,7 +1018,7 @@ First, I set up the necessary files for the front-end using the SEI React templa
   )
   ```
 
-#### Styling
+### Styling
 The main focus of styling was achieving a responsive app. The mobile version was a necessity for this app because users of fantasy football usually play the game using their phones. Therefore, I made media queries for 1440px, 1200px, 992px, 768px, 576px, 375px, and necessary view widths/heights in between. This responsive view covered most of the devices to be viewed comfortably by the user.
 
 ## Challenges
