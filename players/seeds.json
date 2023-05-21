@@ -7,8 +7,8 @@
       "position": "FW",
       "team": 12,
       "price": 6,
-      "gw_points": 0,
-      "total_points": 24
+      "gw_points": 4,
+      "total_points": 28
     }
   },
   {
@@ -19,8 +19,8 @@
       "position": "FW",
       "team": 10,
       "price": 5.4,
-      "gw_points": 0,
-      "total_points": 22
+      "gw_points": 6,
+      "total_points": 28
     }
   },
   {
@@ -55,8 +55,8 @@
       "position": "FW",
       "team": 8,
       "price": 6.7,
-      "gw_points": 0,
-      "total_points": 12
+      "gw_points": 2,
+      "total_points": 14
     }
   },
   {
@@ -151,8 +151,8 @@
       "position": "FW",
       "team": 8,
       "price": 6.1,
-      "gw_points": 0,
-      "total_points": 13
+      "gw_points": 1,
+      "total_points": 14
     }
   },
   {
@@ -223,8 +223,8 @@
       "position": "FW",
       "team": 4,
       "price": 5.5,
-      "gw_points": 0,
-      "total_points": 17
+      "gw_points": 1,
+      "total_points": 18
     }
   },
   {
@@ -295,8 +295,8 @@
       "position": "FW",
       "team": 12,
       "price": 7,
-      "gw_points": 0,
-      "total_points": 44
+      "gw_points": 2,
+      "total_points": 46
     }
   },
   {
@@ -307,8 +307,8 @@
       "position": "FW",
       "team": 11,
       "price": 4.5,
-      "gw_points": 0,
-      "total_points": 6
+      "gw_points": 1,
+      "total_points": 7
     }
   },
   {
@@ -415,8 +415,8 @@
       "position": "FW",
       "team": 11,
       "price": 6.9,
-      "gw_points": 0,
-      "total_points": 56
+      "gw_points": 2,
+      "total_points": 58
     }
   },
   {
@@ -451,8 +451,8 @@
       "position": "FW",
       "team": 9,
       "price": 5.1,
-      "gw_points": 0,
-      "total_points": 27
+      "gw_points": 1,
+      "total_points": 28
     }
   },
   {
@@ -463,8 +463,8 @@
       "position": "FW",
       "team": 4,
       "price": 5.7,
-      "gw_points": 0,
-      "total_points": 1
+      "gw_points": 1,
+      "total_points": 2
     }
   },
   {
@@ -487,8 +487,8 @@
       "position": "FW",
       "team": 10,
       "price": 4.2,
-      "gw_points": 0,
-      "total_points": 9
+      "gw_points": 1,
+      "total_points": 10
     }
   },
   {
@@ -499,8 +499,8 @@
       "position": "MF",
       "team": 9,
       "price": 5,
-      "gw_points": 0,
-      "total_points": 7
+      "gw_points": 1,
+      "total_points": 8
     }
   },
   {
@@ -559,8 +559,8 @@
       "position": "FW",
       "team": 4,
       "price": 4.8,
-      "gw_points": 0,
-      "total_points": 16
+      "gw_points": 2,
+      "total_points": 18
     }
   },
   {
@@ -703,8 +703,8 @@
       "position": "FW",
       "team": 9,
       "price": 6.4,
-      "gw_points": 0,
-      "total_points": 37
+      "gw_points": 2,
+      "total_points": 39
     }
   },
   {
@@ -763,8 +763,8 @@
       "position": "MF",
       "team": 9,
       "price": 6.6,
-      "gw_points": 0,
-      "total_points": 48
+      "gw_points": 3,
+      "total_points": 51
     }
   },
   {
@@ -775,15 +775,15 @@
       "position": "MF",
       "team": 9,
       "price": 5,
-      "gw_points": 0,
-      "total_points": 8
+      "gw_points": 1,
+      "total_points": 9
     }
   },
   {
     "model": "players.Player",
     "pk": 66,
     "fields": {
-      "name": "Choi Sung-keun",
+      "name": "Choi Sungkeun",
       "position": "MF",
       "team": 10,
       "price": 5,
@@ -835,8 +835,8 @@
       "position": "MF",
       "team": 9,
       "price": 6.9,
-      "gw_points": 0,
-      "total_points": 53
+      "gw_points": 3,
+      "total_points": 56
     }
   },
   {
@@ -847,8 +847,8 @@
       "position": "MF",
       "team": 12,
       "price": 7.3,
-      "gw_points": 0,
-      "total_points": 45
+      "gw_points": 7,
+      "total_points": 52
     }
   },
   {
@@ -883,8 +883,8 @@
       "position": "MF",
       "team": 4,
       "price": 5.2,
-      "gw_points": 0,
-      "total_points": 27
+      "gw_points": 3,
+      "total_points": 30
     }
   },
   {
@@ -895,8 +895,8 @@
       "position": "MF",
       "team": 8,
       "price": 6.4,
-      "gw_points": 0,
-      "total_points": 16
+      "gw_points": 1,
+      "total_points": 17
     }
   },
   {
@@ -943,8 +943,8 @@
       "position": "MF",
       "team": 11,
       "price": 4.4,
-      "gw_points": 0,
-      "total_points": 12
+      "gw_points": 1,
+      "total_points": 13
     }
   },
   {
@@ -1171,8 +1171,8 @@
       "position": "MF",
       "team": 4,
       "price": 7.1,
-      "gw_points": 0,
-      "total_points": 22
+      "gw_points": 1,
+      "total_points": 23
     }
   },
   {
@@ -1219,8 +1219,8 @@
       "position": "MF",
       "team": 9,
       "price": 5.3,
-      "gw_points": 0,
-      "total_points": 14
+      "gw_points": 1,
+      "total_points": 15
     }
   },
   {
@@ -1267,8 +1267,8 @@
       "position": "MF",
       "team": 9,
       "price": 5,
-      "gw_points": 0,
-      "total_points": 2
+      "gw_points": 1,
+      "total_points": 3
     }
   },
   {
@@ -1303,8 +1303,8 @@
       "position": "MF",
       "team": 12,
       "price": 5.2,
-      "gw_points": 0,
-      "total_points": 24
+      "gw_points": 1,
+      "total_points": 25
     }
   },
   {
@@ -1339,8 +1339,8 @@
       "position": "MF",
       "team": 11,
       "price": 5,
-      "gw_points": 0,
-      "total_points": 11
+      "gw_points": 1,
+      "total_points": 12
     }
   },
   {
@@ -1375,8 +1375,8 @@
       "position": "MF",
       "team": 10,
       "price": 5.7,
-      "gw_points": 0,
-      "total_points": 15
+      "gw_points": 2,
+      "total_points": 17
     }
   },
   {
@@ -1411,8 +1411,8 @@
       "position": "MF",
       "team": 12,
       "price": 6.2,
-      "gw_points": 0,
-      "total_points": 18
+      "gw_points": 2,
+      "total_points": 20
     }
   },
   {
@@ -1435,8 +1435,8 @@
       "position": "MF",
       "team": 8,
       "price": 6.8,
-      "gw_points": 0,
-      "total_points": 8
+      "gw_points": 2,
+      "total_points": 10
     }
   },
   {
@@ -1459,8 +1459,8 @@
       "position": "MF",
       "team": 11,
       "price": 5.6,
-      "gw_points": 0,
-      "total_points": 23
+      "gw_points": 2,
+      "total_points": 25
     }
   },
   {
@@ -1555,8 +1555,8 @@
       "position": "MF",
       "team": 12,
       "price": 5.5,
-      "gw_points": 0,
-      "total_points": 28
+      "gw_points": 2,
+      "total_points": 30
     }
   },
   {
@@ -1587,12 +1587,12 @@
     "model": "players.Player",
     "pk": 133,
     "fields": {
-      "name": "Lee Seung-woo",
+      "name": "Lee Seungwoo",
       "position": "MF",
       "team": 11,
       "price": 7.2,
-      "gw_points": 0,
-      "total_points": 14
+      "gw_points": 7,
+      "total_points": 21
     }
   },
   {
@@ -1735,8 +1735,8 @@
       "position": "MF",
       "team": 8,
       "price": 5.7,
-      "gw_points": 0,
-      "total_points": 21
+      "gw_points": 4,
+      "total_points": 25
     }
   },
   {
@@ -1759,8 +1759,8 @@
       "position": "MF",
       "team": 11,
       "price": 6.8,
-      "gw_points": 0,
-      "total_points": 44
+      "gw_points": 1,
+      "total_points": 45
     }
   },
   {
@@ -1783,8 +1783,8 @@
       "position": "MF",
       "team": 9,
       "price": 6.3,
-      "gw_points": 0,
-      "total_points": 27
+      "gw_points": 2,
+      "total_points": 29
     }
   },
   {
@@ -1819,8 +1819,8 @@
       "position": "MF",
       "team": 8,
       "price": 6,
-      "gw_points": 0,
-      "total_points": 33
+      "gw_points": 6,
+      "total_points": 39
     }
   },
   {
@@ -1843,8 +1843,8 @@
       "position": "MF",
       "team": 11,
       "price": 5.2,
-      "gw_points": 0,
-      "total_points": 11
+      "gw_points": 2,
+      "total_points": 13
     }
   },
   {
@@ -1879,8 +1879,8 @@
       "position": "MF",
       "team": 12,
       "price": 5.6,
-      "gw_points": 0,
-      "total_points": 33
+      "gw_points": 2,
+      "total_points": 35
     }
   },
   {
@@ -1903,8 +1903,8 @@
       "position": "MF",
       "team": 8,
       "price": 5.4,
-      "gw_points": 0,
-      "total_points": 15
+      "gw_points": 1,
+      "total_points": 16
     }
   },
   {
@@ -1939,8 +1939,8 @@
       "position": "MF",
       "team": 8,
       "price": 7.2,
-      "gw_points": 0,
-      "total_points": 33
+      "gw_points": 6,
+      "total_points": 39
     }
   },
   {
@@ -1962,9 +1962,9 @@
       "name": "Um Wonsang",
       "position": "MF",
       "team": 12,
-      "price": 7.4,
-      "gw_points": 0,
-      "total_points": 43
+      "price": 7.2,
+      "gw_points": 1,
+      "total_points": 44
     }
   },
   {
@@ -1975,8 +1975,8 @@
       "position": "MF",
       "team": 12,
       "price": 6.9,
-      "gw_points": 0,
-      "total_points": 49
+      "gw_points": 2,
+      "total_points": 51
     }
   },
   {
@@ -1999,8 +1999,8 @@
       "position": "MF",
       "team": 4,
       "price": 6.9,
-      "gw_points": 0,
-      "total_points": 31
+      "gw_points": 3,
+      "total_points": 34
     }
   },
   {
@@ -2047,8 +2047,8 @@
       "position": "MF",
       "team": 4,
       "price": 5,
-      "gw_points": 0,
-      "total_points": 18
+      "gw_points": 3,
+      "total_points": 21
     }
   },
   {
@@ -2059,8 +2059,8 @@
       "position": "MF",
       "team": 10,
       "price": 5.1,
-      "gw_points": 0,
-      "total_points": 19
+      "gw_points": 1,
+      "total_points": 20
     }
   },
   {
@@ -2119,8 +2119,8 @@
       "position": "DF",
       "team": 9,
       "price": 6,
-      "gw_points": 0,
-      "total_points": 33
+      "gw_points": 6,
+      "total_points": 39
     }
   },
   {
@@ -2167,8 +2167,8 @@
       "position": "DF",
       "team": 12,
       "price": 4.5,
-      "gw_points": 0,
-      "total_points": 20
+      "gw_points": 1,
+      "total_points": 21
     }
   },
   {
@@ -2227,8 +2227,8 @@
       "position": "DF",
       "team": 10,
       "price": 5.3,
-      "gw_points": 0,
-      "total_points": 12
+      "gw_points": 1,
+      "total_points": 13
     }
   },
   {
@@ -2335,8 +2335,8 @@
       "position": "DF",
       "team": 10,
       "price": 4.5,
-      "gw_points": 0,
-      "total_points": 15
+      "gw_points": 1,
+      "total_points": 16
     }
   },
   {
@@ -2347,8 +2347,8 @@
       "position": "DF",
       "team": 11,
       "price": 4.1,
-      "gw_points": 0,
-      "total_points": 19
+      "gw_points": 1,
+      "total_points": 20
     }
   },
   {
@@ -2359,8 +2359,8 @@
       "position": "DF",
       "team": 10,
       "price": 5,
-      "gw_points": 0,
-      "total_points": 5
+      "gw_points": 1,
+      "total_points": 6
     }
   },
   {
@@ -2371,8 +2371,8 @@
       "position": "DF",
       "team": 8,
       "price": 6,
-      "gw_points": 0,
-      "total_points": 38
+      "gw_points": 2,
+      "total_points": 40
     }
   },
   {
@@ -2419,8 +2419,8 @@
       "position": "DF",
       "team": 4,
       "price": 4.4,
-      "gw_points": 0,
-      "total_points": 35
+      "gw_points": 6,
+      "total_points": 41
     }
   },
   {
@@ -2467,8 +2467,8 @@
       "position": "DF",
       "team": 11,
       "price": 4.2,
-      "gw_points": 0,
-      "total_points": 4
+      "gw_points": 1,
+      "total_points": 5
     }
   },
   {
@@ -2503,8 +2503,8 @@
       "position": "DF",
       "team": 8,
       "price": 6.5,
-      "gw_points": 0,
-      "total_points": 14
+      "gw_points": 2,
+      "total_points": 16
     }
   },
   {
@@ -2587,8 +2587,8 @@
       "position": "DF",
       "team": 8,
       "price": 6.2,
-      "gw_points": 0,
-      "total_points": 16
+      "gw_points": 5,
+      "total_points": 21
     }
   },
   {
@@ -2623,8 +2623,8 @@
       "position": "DF",
       "team": 10,
       "price": 5.2,
-      "gw_points": 0,
-      "total_points": 15
+      "gw_points": 1,
+      "total_points": 16
     }
   },
   {
@@ -2635,8 +2635,8 @@
       "position": "DF",
       "team": 4,
       "price": 4,
-      "gw_points": 0,
-      "total_points": 8
+      "gw_points": 6,
+      "total_points": 14
     }
   },
   {
@@ -2659,8 +2659,8 @@
       "position": "DF",
       "team": 9,
       "price": 4.1,
-      "gw_points": 0,
-      "total_points": 6
+      "gw_points": 1,
+      "total_points": 7
     }
   },
   {
@@ -2671,8 +2671,8 @@
       "position": "DF",
       "team": 4,
       "price": 6.8,
-      "gw_points": 0,
-      "total_points": 27
+      "gw_points": 6,
+      "total_points": 33
     }
   },
   {
@@ -2683,8 +2683,8 @@
       "position": "DF",
       "team": 12,
       "price": 6,
-      "gw_points": 0,
-      "total_points": 40
+      "gw_points": 7,
+      "total_points": 47
     }
   },
   {
@@ -2695,8 +2695,8 @@
       "position": "DF",
       "team": 8,
       "price": 4.3,
-      "gw_points": 0,
-      "total_points": 19
+      "gw_points": 2,
+      "total_points": 21
     }
   },
   {
@@ -2719,8 +2719,8 @@
       "position": "DF",
       "team": 11,
       "price": 5,
-      "gw_points": 0,
-      "total_points": 16
+      "gw_points": 1,
+      "total_points": 17
     }
   },
   {
@@ -2743,8 +2743,8 @@
       "position": "DF",
       "team": 10,
       "price": 7.4,
-      "gw_points": 0,
-      "total_points": 33
+      "gw_points": 10,
+      "total_points": 43
     }
   },
   {
@@ -2767,8 +2767,8 @@
       "position": "DF",
       "team": 12,
       "price": 5.1,
-      "gw_points": 0,
-      "total_points": 29
+      "gw_points": 1,
+      "total_points": 30
     }
   },
   {
@@ -2803,8 +2803,8 @@
       "position": "DF",
       "team": 11,
       "price": 5.2,
-      "gw_points": 0,
-      "total_points": 25
+      "gw_points": 1,
+      "total_points": 26
     }
   },
   {
@@ -2899,8 +2899,8 @@
       "position": "DF",
       "team": 9,
       "price": 5.5,
-      "gw_points": 0,
-      "total_points": 15
+      "gw_points": 6,
+      "total_points": 21
     }
   },
   {
@@ -2911,8 +2911,8 @@
       "position": "DF",
       "team": 11,
       "price": 4.4,
-      "gw_points": 0,
-      "total_points": 10
+      "gw_points": 1,
+      "total_points": 11
     }
   },
   {
@@ -2923,8 +2923,8 @@
       "position": "DF",
       "team": 10,
       "price": 4.2,
-      "gw_points": 0,
-      "total_points": 19
+      "gw_points": 1,
+      "total_points": 20
     }
   },
   {
@@ -2947,8 +2947,8 @@
       "position": "DF",
       "team": 8,
       "price": 6.5,
-      "gw_points": 0,
-      "total_points": 30
+      "gw_points": 8,
+      "total_points": 38
     }
   },
   {
@@ -2995,8 +2995,8 @@
       "position": "DF",
       "team": 12,
       "price": 6.2,
-      "gw_points": 0,
-      "total_points": 44
+      "gw_points": 4,
+      "total_points": 48
     }
   },
   {
@@ -3007,8 +3007,8 @@
       "position": "DF",
       "team": 9,
       "price": 5.5,
-      "gw_points": 0,
-      "total_points": 16
+      "gw_points": 5,
+      "total_points": 21
     }
   },
   {
@@ -3031,8 +3031,8 @@
       "position": "DF",
       "team": 9,
       "price": 5.4,
-      "gw_points": 0,
-      "total_points": 38
+      "gw_points": 6,
+      "total_points": 44
     }
   },
   {
@@ -3079,8 +3079,8 @@
       "position": "DF",
       "team": 4,
       "price": 5.5,
-      "gw_points": 0,
-      "total_points": 27
+      "gw_points": 6,
+      "total_points": 33
     }
   },
   {
@@ -3103,8 +3103,8 @@
       "position": "GK",
       "team": 12,
       "price": 5.5,
-      "gw_points": 0,
-      "total_points": 58
+      "gw_points": 1,
+      "total_points": 59
     }
   },
   {
@@ -3127,8 +3127,8 @@
       "position": "GK",
       "team": 9,
       "price": 4.5,
-      "gw_points": 0,
-      "total_points": 33
+      "gw_points": 6,
+      "total_points": 39
     }
   },
   {
@@ -3175,8 +3175,8 @@
       "position": "GK",
       "team": 8,
       "price": 4.5,
-      "gw_points": 0,
-      "total_points": 39
+      "gw_points": 2,
+      "total_points": 41
     }
   },
   {
@@ -3259,8 +3259,8 @@
       "position": "GK",
       "team": 10,
       "price": 4.6,
-      "gw_points": 0,
-      "total_points": 37
+      "gw_points": 2,
+      "total_points": 39
     }
   },
   {
@@ -3271,8 +3271,8 @@
       "position": "GK",
       "team": 4,
       "price": 5.2,
-      "gw_points": 0,
-      "total_points": 21
+      "gw_points": 7,
+      "total_points": 28
     }
   },
   {
@@ -3295,8 +3295,8 @@
       "position": "MF",
       "team": 4,
       "price": 5.3,
-      "gw_points": 0,
-      "total_points": 26
+      "gw_points": 3,
+      "total_points": 29
     }
   },
   {
@@ -3319,7 +3319,7 @@
       "position": "MF",
       "team": 10,
       "price": 5.9,
-      "gw_points": 0,
+      "gw_points": 1,
       "total_points": 1
     }
   },
@@ -3391,8 +3391,8 @@
       "position": "DF",
       "team": 10,
       "price": 4,
-      "gw_points": 0,
-      "total_points": 20
+      "gw_points": 1,
+      "total_points": 21
     }
   },
   {
@@ -3403,8 +3403,8 @@
       "position": "MF",
       "team": 12,
       "price": 5,
-      "gw_points": 0,
-      "total_points": 13
+      "gw_points": 1,
+      "total_points": 14
     }
   },
   {
@@ -3415,8 +3415,8 @@
       "position": "MF",
       "team": 4,
       "price": 4.5,
-      "gw_points": 0,
-      "total_points": 6
+      "gw_points": 3,
+      "total_points": 9
     }
   },
   {
@@ -3439,8 +3439,8 @@
       "position": "DF",
       "team": 4,
       "price": 4.2,
-      "gw_points": 0,
-      "total_points": 22
+      "gw_points": 1,
+      "total_points": 23
     }
   },
   {
@@ -3463,8 +3463,8 @@
       "position": "DF",
       "team": 8,
       "price": 4.2,
-      "gw_points": 0,
-      "total_points": 5
+      "gw_points": 1,
+      "total_points": 6
     }
   },
   {
@@ -3475,8 +3475,8 @@
       "position": "DF",
       "team": 12,
       "price": 4.5,
-      "gw_points": 0,
-      "total_points": 21
+      "gw_points": 1,
+      "total_points": 22
     }
   },
   {
@@ -3535,8 +3535,8 @@
       "position": "MF",
       "team": 11,
       "price": 4.9,
-      "gw_points": 0,
-      "total_points": 3
+      "gw_points": 1,
+      "total_points": 4
     }
   },
   {
@@ -3571,8 +3571,8 @@
       "position": "MF",
       "team": 10,
       "price": 5.5,
-      "gw_points": 0,
-      "total_points": 5
+      "gw_points": 1,
+      "total_points": 6
     }
   },
   {
@@ -3583,8 +3583,8 @@
       "position": "DF",
       "team": 10,
       "price": 4,
-      "gw_points": 0,
-      "total_points": 3
+      "gw_points": 1,
+      "total_points": 4
     }
   },
   {
@@ -3607,8 +3607,8 @@
       "position": "MF",
       "team": 10,
       "price": 5.5,
-      "gw_points": 0,
-      "total_points": 6
+      "gw_points": 2,
+      "total_points": 8
     }
   },
   {
@@ -3666,6 +3666,30 @@
       "name": "Kim Daejung",
       "position": "FW",
       "team": 6,
+      "price": 4,
+      "gw_points": 1,
+      "total_points": 1
+    }
+  },
+  {
+    "model": "players.Player",
+    "pk": 307,
+    "fields": {
+      "name": "Choi Bokyung",
+      "position": "DF",
+      "team": 11,
+      "price": 4,
+      "gw_points": 1,
+      "total_points": 1
+    }
+  },
+  {
+    "model": "players.Player",
+    "pk": 308,
+    "fields": {
+      "name": "Park Baejong",
+      "position": "GK",
+      "team": 11,
       "price": 4,
       "gw_points": 1,
       "total_points": 1
