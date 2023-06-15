@@ -1,5 +1,5 @@
 import { useEffect, useState, useCallback } from 'react'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // Components
 import PageNavbar from './components/common/PageNavbar'
@@ -10,7 +10,7 @@ import TeamSelection from './components/main/TeamSelection'
 import Rankings from './components/main/Rankings'
 import MyTeam from './components/main/MyTeam'
 import PlayerStats from './components/main/PlayerStats'
-import { authenticated, loggedInUser, isAuthenticated } from './helpers/auth'
+import { authenticated, loggedInUser } from './helpers/auth'
 import icon from './images/favicon.png'
 
 const App = () => {
