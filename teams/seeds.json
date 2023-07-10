@@ -5,8 +5,8 @@
     "fields": {
       "name": "Daegu FC",
       "abb": "DGU",
-      "logo": "https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681747974/shirts/daegu_fc_kpr1id.png",
-      "next_match": "JEJ (A)"
+      "logo": "https: //res.cloudinary.com/dtsgwp2x6/image/upload/v1681747974/shirts/daegu_fc_kpr1id.png",
+      "next_match": "GWF (H)"
     }
   },
   {
@@ -15,8 +15,8 @@
     "fields": {
       "name": "Daejeon Citizen FC",
       "abb": "DHC",
-      "logo": "https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681748029/shirts/daejon_citizen_eijv1e.png",
-      "next_match": "SWB (H)"
+      "logo": "https: //res.cloudinary.com/dtsgwp2x6/image/upload/v1681748029/shirts/daejon_citizen_eijv1e.png",
+      "next_match": "JHM (H)"
     }
   },
   {
@@ -25,8 +25,8 @@
     "fields": {
       "name": "FC Seoul",
       "abb": "FCS",
-      "logo": "https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681748065/shirts/fc_seoul_ckbsty.png",
-      "next_match": "JHM (A)"
+      "logo": "https: //res.cloudinary.com/dtsgwp2x6/image/upload/v1681748065/shirts/fc_seoul_ckbsty.png",
+      "next_match": "SUW (H)"
     }
   },
   {
@@ -35,8 +35,8 @@
     "fields": {
       "name": "Gangwon FC",
       "abb": "GWF",
-      "logo": "https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681748245/shirts/gangwon_fc_fmotil.png",
-      "next_match": "GJU (H)"
+      "logo": "https: //res.cloudinary.com/dtsgwp2x6/image/upload/v1681748245/shirts/gangwon_fc_fmotil.png",
+      "next_match": "DGU (A)"
     }
   },
   {
@@ -45,8 +45,8 @@
     "fields": {
       "name": "Gwangju FC",
       "abb": "GJU",
-      "logo": "https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681748246/shirts/gwangju_fc_oid392.svg",
-      "next_match": "GWF (A)"
+      "logo": "https: //res.cloudinary.com/dtsgwp2x6/image/upload/v1681748246/shirts/gwangju_fc_oid392.svg",
+      "next_match": "JEJ (A)"
     }
   },
   {
@@ -55,8 +55,8 @@
     "fields": {
       "name": "Incheon United",
       "abb": "ICU",
-      "logo": "https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681748410/shirts/incheon_united_wl8xkj.png",
-      "next_match": "SUW (A)"
+      "logo": "https: //res.cloudinary.com/dtsgwp2x6/image/upload/v1681748410/shirts/incheon_united_wl8xkj.png",
+      "next_match": "ULS (A)"
     }
   },
   {
@@ -65,8 +65,8 @@
     "fields": {
       "name": "Jeju United FC",
       "abb": "JEJ",
-      "logo": "https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681748410/shirts/jeju_united_vt3ah0.png",
-      "next_match": "DGU (H)"
+      "logo": "https: //res.cloudinary.com/dtsgwp2x6/image/upload/v1681748410/shirts/jeju_united_vt3ah0.png",
+      "next_match": "GJU (H)"
     }
   },
   {
@@ -75,8 +75,8 @@
     "fields": {
       "name": "Jeonbuk Hyundai",
       "abb": "JHM",
-      "logo": "https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681748411/shirts/jeonbuk_hyundai_ccyxub.png",
-      "next_match": "FCS (H)"
+      "logo": "https: //res.cloudinary.com/dtsgwp2x6/image/upload/v1681748411/shirts/jeonbuk_hyundai_ccyxub.png",
+      "next_match": "DHC (A)"
     }
   },
   {
@@ -85,8 +85,8 @@
     "fields": {
       "name": "Pohang Steelers",
       "abb": "PHS",
-      "logo": "https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681748411/shirts/pohang_steelers_zhawpj.png",
-      "next_match": "ULS (H)"
+      "logo": "https: //res.cloudinary.com/dtsgwp2x6/image/upload/v1681748411/shirts/pohang_steelers_zhawpj.png",
+      "next_match": "SWB (A)"
     }
   },
   {
@@ -95,8 +95,8 @@
     "fields": {
       "name": "Suwon Bluewings",
       "abb": "SWB",
-      "logo": "https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681748412/shirts/suwon_bluewings_rykcib.png",
-      "next_match": "DHC (A)"
+      "logo": "https: //res.cloudinary.com/dtsgwp2x6/image/upload/v1681748412/shirts/suwon_bluewings_rykcib.png",
+      "next_match": "PHS (H)"
     }
   },
   {
@@ -105,8 +105,8 @@
     "fields": {
       "name": "Suwon FC",
       "abb": "SUW",
-      "logo": "https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681748411/shirts/suwon_fc_u6t4fh.png",
-      "next_match": "ICU (H)"
+      "logo": "https: //res.cloudinary.com/dtsgwp2x6/image/upload/v1681748411/shirts/suwon_fc_u6t4fh.png",
+      "next_match": "FCS (A)"
     }
   },
   {
@@ -115,8 +115,8 @@
     "fields": {
       "name": "Ulsan Hyundai",
       "abb": "ULS",
-      "logo": "https://res.cloudinary.com/dtsgwp2x6/image/upload/v1681747721/shirts/ulsan_hyundai_kxsjtd.webp",
-      "next_match": "PHS (A)"
+      "logo": "https: //res.cloudinary.com/dtsgwp2x6/image/upload/v1681747721/shirts/ulsan_hyundai_kxsjtd.webp",
+      "next_match": "ICU (H)"
     }
   }
 ]
